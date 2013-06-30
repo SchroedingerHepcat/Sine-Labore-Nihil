@@ -1,6 +1,23 @@
+" Show line numbers
 set number
+
+" Set default window size
 set columns=80
 set lines=40
+
+" Set default font
 set guifont=Monospace\ 13
+
+" Set default colorscheme
 colorscheme elflord
+
+" Set up tabbing
 set smarttab
+set tabstop=3
+set expandtab
+
+" Set up copy, cut, and paste with ctrl-c, ctrl-x, ctrl-v respectively
+nmap <C-V> "+gP
+imap <C-V> <ESC><C-V>i
+vmap <C-C> "+y
+vmap <C-x> "+x
