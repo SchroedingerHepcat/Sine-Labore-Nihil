@@ -1,6 +1,0 @@
-set number
-set columns=80
-set lines=40
-set guifont=Monospace\ 13
-colorscheme elflord
-set smarttab
