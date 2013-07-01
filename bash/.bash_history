@@ -664,3 +664,21 @@ git push origin master
 ls
 ls scripts/
 git add scripts/*
+git commit -a -m 'scripts'
+git push origin master 
+cd vim/
+ls
+cd colors/
+wget https://github.com/Lokaltog/vim-distinguished/blob/develop/colors/distinguished.vim
+gvim /home/morainj/.bashrc 
+g distinguished.vim 
+rm distinguished.vim 
+wget https://github.com/Lokaltog/vim-distinguished/blob/develop/colors/distinguished.vim
+cat distinguished.vim 
+wget https://github.com/Lokaltog/vim-distinguished/blob/develop/colors/distinguished.vim
+cat distinguished.vim.1
+rm distinguished.vim*
+ls
+touch distinguished.vim
+g distinguished.vim 
+git add distinguished.vim
