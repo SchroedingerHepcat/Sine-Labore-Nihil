@@ -554,3 +554,113 @@ git add *
 git commit -m 'more updates'
 git commit -a -m 'more updates'
 git push origin master
+./scripts/keyboardRemaps.sh 
+g scrips/keyboardRemaps.sh 
+g scripts/keyboardRemaps.sh 
+xbindkeys
+killall xbindkeys
+xbindkeys
+xbindkeys &
+ps -ef | grep xbindkeys
+killall xbindkeys
+ps -ef | grep xbindkeys
+xbindkeys 
+xte ScrollLock
+xte key ScrollLock
+xte 'key ScrollLock'
+xte 'key Scroll_Lock'
+killall xbindkeys
+xbindkeys 
+xte 'keydown Control_L' 'key `' 'keyup Control_L'
+killall xbindkeys
+xbindkeys 
+xte 'keydown Control_L' 'key ~' 'keyup Control_L'
+killall xbindkeys
+xbindkeys 
+ls
+./scripts/keyboardRemaps.sh 
+ls .kde4/Autostart/
+rm .kde4/Autostart/keyboardRemaps.sh 
+wget http://repository.spotify.com/pool/non-free/s/spotify/spotify-client_0.8.4.103.g9cb177b.260-1_amd64.... -O /tmp/spotify/euda.deb
+mkdir /tmp/spotify
+wget http://repository.spotify.com/pool/non-free/s/spotify/spotify-client_0.8.4.103.g9cb177b.260-1_amd64.... -O /tmp/spotify/euda.deb
+wget http://repository.spotify.com/pool/non-free/s/spotify/spotify-client-qt_0.9.1.55.gbdd3b79.203-1_all.deb -O /tmp/spotify/euda.deb
+ls
+cd /tmp/spotify/
+ar x euda.deb 
+ls
+tar xvf data.tar.gz 
+ls
+sudo tar -xvf data.tar.gz -C /
+ls -r usr/
+ls -R usr/
+ls
+wget http://repository.spotify.com/pool/non-free/s/spotify/spotify-client_0.9.1.55.gbdd3b79.203-1_amd64.deb -O /tmp/spotify/euda.deb
+ar x euda.deb 
+ls
+tar xvf data.tar.gz -C / 
+sudo tar xvf data.tar.gz -C / 
+sudy zypper install libopenssl
+sudo zypper install libopenssl
+sudo zypper install libopenssl0_9_8
+sudo zypper install libpng12-9
+sudo zypper install libpng12-0
+sudo ln -s /usr/lib64/libssl3.so /usr/lib64/libssl.so.0.9.8 
+sudo ln -s /usr/lib64/libnss3.so /usr/lib64/libnss3.so.ld
+sudo ln -s /usr/lib64/libnssutil3.so /usr/lib64/libnssutil3.so.ld
+sudo ln -s /usr/lib64/libsmime3.so /usr/lib64/libsmime3.so.ld
+sudo ln -s /usr/lib64/libplc4.so /usr/lib64/libplc4.so.0d
+sudo ln -s /usr/lib64/libnssutil3.so /usr/lib64/libnssutil3.so.1d
+sudo ln -s /usr/lib64/libsmime3.so /usr/lib64/libsmime3.so.0d
+sudo ln -s /usr/lib64/libnssutil3.so /usr/lib64/libnssutil3.so.0d
+sudo ln -s /usr/lib64/libnss3.so /usr/lib64/libnss3.so.0d
+sudo ln -s /usr/lib64/libnspr4.so /usr/lib64/libnspr4.so.0d
+spotify
+mv /usr/lib64/libnss3.so.ld /usr/lib64/libnss3.so.1d
+sudomv /usr/lib64/libnss3.so.ld /usr/lib64/libnss3.so.1d
+sudo mv /usr/lib64/libnss3.so.ld /usr/lib64/libnss3.so.1d
+spotify
+sudo mv /usr/lib64/libsmime3.so.ld /usr/lib64/libnss3.so.1d
+spotify
+sudo mv /usr/lib64/libsmime3.so.ld /usr/lib64/libsmime3.so.1d
+sudo ln -s /usr/lib64/libsmime3.so /usr/lib64/libsmime3.so.1d
+sudo ln -s /usr/lib64/libnss3.so /usr/lib64/libnss3.so.1d
+rm /usr/lib64/libnss3.so.1d
+sudo rm /usr/lib64/libnss3.so.1d
+sudo ln -s /usr/lib64/libnss3.so /usr/lib64/libnss3.so.1d
+spotify 
+which spotify
+sudo zypper install xchat2
+sudo zypper install xchat
+sudo zypper install bash-completion
+cd ..
+rm -rf spotify/
+ls
+cd 
+cd code/Sine-Labore-Nihil/
+ls
+mkdir scripts
+cd scripts/
+ls
+mv ~/scripts/* ./
+ls
+cd ..
+ln -s code/Sine-Labore-Nihil/scripts ./
+rmdir scripts/
+ln -s code/Sine-Labore-Nihil/scripts ./
+cd scripts/
+ls
+cat keyboardRemaps.sh
+ls .kde4
+cd ..
+ls .kde4/
+ls .kde4/Autostart/
+ll .kde4/Autostart/
+la scripts
+cd code/Sine-Labore-Nihil/
+git commit -a -m 'scripts'
+exec bash
+git push origin master 
+ls
+ls scripts/
+git add scripts/*
