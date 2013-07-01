@@ -1,3 +1,6 @@
+" Source whatever system settings there are
+source /etc/vimrc
+
 " Show line numbers
 set number
 
@@ -12,8 +15,10 @@ set guifont=Monospace\ 13
 colorscheme elflord
 
 " Set up tabbing
-set smarttab
+set smartindent
 set tabstop=3
+set softtabstop=3
+set shiftwidth=3
 set expandtab
 
 " Set up copy, cut, and paste with ctrl-c, ctrl-x, ctrl-v respectively

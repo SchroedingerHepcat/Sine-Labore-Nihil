@@ -492,3 +492,59 @@ sudo gvim
 gvim
 sudo gvim
 sudo echo $HOME
+g .bashrc 
+cd code/Sine-Labore-Nihil/
+commit
+git commit
+git commit -m
+git add *
+git commit
+git commit -m 'Bashrc changes'
+ls bash/
+la bash/
+cd bash/
+git rm .bashrc.swp
+ls
+la
+git commit -m 'remove .swp file'
+cat /etc/bash_completion.d/git-prompt.sh
+ls
+g ~/.vimrc 
+cd ../vim
+git add vimrc
+git commit 'vimrc changes'
+git commit -m 'vimrc changes'
+git push origin master
+cd ../bash/
+g .bashrc 
+cat ../vim/vimrc
+g ../vim/vimrc 
+cat /etc/vimrc
+g ../vim/vimrc 
+exec bash
+g .bashrc 
+exec bash
+ls /etc/bash_completion.d/
+grep -ir have /etc/bash_completion.d/*
+echo ${__grub_script_check_program}
+have
+cnf have
+g /etc/bash_completion.d/grub 
+g /etc/bash.bashrc 
+exec bash
+have
+grep -ir have /etc
+grep -ir have() /etc
+grep -ir "have()" /etc
+grep -irs "have()" /etc
+exec bash
+ls /etc/bash_completion.d/scout.sh 
+cat /etc/bash_completion.d/scout.sh 
+scout python 
+ls
+g .bash_aliases 
+exec bash
+ls /usr/local/sbin/
+la
+git add *
+cd ..
