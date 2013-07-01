@@ -552,3 +552,5 @@ git add *
 cd vim/
 git add *
 git commit -m 'more updates'
+git commit -a -m 'more updates'
+git push origin master
