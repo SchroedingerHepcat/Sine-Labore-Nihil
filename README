@@ -1,0 +1,12 @@
+The SchroedingerHepcat's general purpose repository.
+
+Bash Configuration
+------------------
+To use, link each file in the bash directory to your home directory.
+
+
+Vim Configuration
+-----------------
+To use
+1) Link vimrc to ~/.vimrc
+2) Link vim to ~/.vim

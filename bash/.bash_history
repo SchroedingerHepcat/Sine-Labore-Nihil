@@ -548,3 +548,7 @@ ls /usr/local/sbin/
 la
 git add *
 cd ..
+git add *
+cd vim/
+git add *
+git commit -m 'more updates'
