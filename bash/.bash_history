@@ -682,3 +682,254 @@ ls
 touch distinguished.vim
 g distinguished.vim 
 git add distinguished.vim
+git commit -a -m 'add distinguished.vim'
+git push origin 
+git push origin master 
+smbtree
+sudo zypper install wine
+zypper ar http://download.opensuse.org/repositories/Emulators:/Wine/openSUSE_12.3/
+sudo zypper ar http://download.opensuse.org/repositories/Emulators:/Wine/openSUSE_12.3/
+sudo zypper ar http://download.opensuse.org/repositories/Emulators:/Wine/openSUSE_12.3/ Wine
+sudo zypper ref
+fglrxinfo
+psg xbind
+ps -ef | grep -i xbind
+killall xbindkeys && xbindkeys &
+cat .xbindkeysrc
+xev
+xte 'key  ~'
+top
+fglrxinfo
+ls
+cd Downloads/
+wine SonosDesktopController41.exe 
+xlsclients
+xlsclients | wc
+ls /proc/823/fd
+lsof -p `pidof X` | grep socket | wc -l
+lsof -p `pidof X11` | grep socket | wc -l
+lsof -p `pidof Xorg` | grep socket | wc -l
+exec bash
+xlsclients
+cd ..
+ls .inputrc 
+cat .inputrc 
+echo $INPUTRC
+exec bash
+xlsclients
+wine SonosDesktopController41.exe 
+cd ~/Downloads
+wine SonosDesktopController41.exe 
+echo $DISPLAY
+xlsclients
+sudo amdconfig --set-pcs-val=MCIL,DigitalHDTVDefaultUnderscan,0
+sudo amdcccle 
+sudo amdconfig --set-pcs-val=MCIL,DigitalHDTVDefaultUnderscan,0
+cat .xbindkeysrc
+g .xbindkeysrc 
+killall xbindkeys && xbindkeys &
+xev
+xdotool
+cnf xdotool
+sudo zypper install xdotool
+man xdotool
+xdotool send key ctrl+F9
+man xdotool
+xdotool key ctrl+F9
+xdotool key Ctrl+F9
+xdotool key Alt
+xdotool key Alt+F2
+g scripts/keyboardRemaps.sh 
+la
+ll
+./scripts/keyboardRemaps.sh 
+xmodmap -e "remove lock = Caps_Lock"
+xev
+sudo python -c "import sys; py3 = sys.version_info[0] > 2; u = __import__('urllib.request' if py3 else 'urllib', fromlist=1); exec(u.urlopen('http://status.calibre-ebook.com/linux_installer').read()); main()"
+git
+cnf git
+sudo zypper install git
+git config --global user.name "SchroedingerHepcat
+git config --global user.name "SchroedingerHepcat"
+git config --global user.email "SchroedingerHepcat@gmail.com"
+git config --global credential.helper cache
+ls
+mkdir code
+cd code/
+ls
+mkdir Sine-Labore-Nihil
+cd Sine-Labore-Nihil/
+ls
+git init
+toudh README
+touch README
+git add README 
+git commit -m 'first commit'
+git remote add origin https://github.com/SchroedingerHepcat/Sine-Labore-Nihil
+git remote add origin https://github.com/SchroedingerHepcat/Sine-Labore-Nihil.git
+ls
+la
+ls .git/
+git remote add origin https://github.com/SchroedingerHepcat/Sine-Labore-Nihil.git
+man git
+git remote remove origin https://github.com/SchroedingerHepcat/Sine-Labore-Nihil
+git remote remove origin
+git remote add origin https://github.com/SchroedingerHepcat/Sine-Labore-Nihil.git
+git push origin master
+ls
+ls .git/
+
+git push origin master
+git remote remove origin https://github.com/SchroedingerHepcat/Sine-Labore-Nihil
+git remote remove origin
+git remote add origin https://github.com/SchroedingerHepcat/Sine-Labore-Nihil.git
+git push origin master
+ls
+ls -R
+ls -R .git
+cat .git/config
+rm .git
+rm -rf .git
+git init
+git add README 
+git remote add origin https://github.com/SchroedingerHepcat/Sine-Labore-Nihil.git
+git commit -m 'first commit'
+git push origin master
+ls
+mkdir vim
+cd vim
+cd ..
+git add vim
+cd vim
+mv ~/.vimrc ./
+mv .vimrc vimrc
+ln vimrc ~/.vimrc
+la ~
+cp vimrc vimrc2
+rm ~/.vimrc 
+ls
+ln -s vimrc ~/.vimrc
+ll ~
+ln -s ./vimrc ~/.vimrc
+cd 
+ln -s code/Sine-Labore-Nihil/vim/vimrc .vimrc
+rm .vimrc
+ln -s code/Sine-Labore-Nihil/vim/vimrc .vimrc
+ll
+mv .vim/* code/Sine-Labore-Nihil/vim/
+ln -s code/Sine-Labore-Nihil/vim/ .vim
+la
+ll
+ls .vim
+ls
+rm -rf .vim
+ln -s code/Sine-Labore-Nihil/vim/ .vim
+ll
+cd .vim
+gvim
+ls
+git add *
+rm vimrc2
+git commit -m 'vim config files'
+cd ..
+ls
+cd -
+ls
+cd ..
+cd code/Sine-Labore-Nihil/
+ls
+git push origin master
+cd vim/
+ls
+git remove vimrc2
+git rm vimrc2
+git commit -m 'vim config files'
+git push origin master
+cd ..
+ls
+mkdir bash
+git add bash
+cd bash
+ls
+mv ~/.bash* ./
+la
+cat .bash_logout
+git add *
+la
+cd ~
+ln -s code/Sine-Labore-Nihil/bash/.* ./
+la .bash*
+ll .bash*
+cd code/Sine-Labore-Nihil/bash/
+ls
+git add *
+cd ..
+git commit -m 'bash config files'
+git push origin master
+g README 
+cd bash/
+ls
+mv ~/.inputrc 
+mv ~/.inputrc ./
+git add .inputrc 
+cd ..
+git commit -m 'bash inputrc file'
+git push origin master
+cd ~
+ln -s code/Sine-Labore-Nihil/bash/.inputrc ./
+la
+ll
+xlsclients
+wine SonosDesktopController41.exe 
+cp SonosDesktopController41.exe ~
+cd ~
+xlsclients | wc
+wine SonosDesktopController41.exe 
+ps -ef | grep wine
+killall wine
+ps -ef | grep wine
+kill 6370
+ps -ef | grep wine
+kill 6387
+ps -ef | grep wine
+xlsclients |grep kwin|  wc
+xlsclients
+xlsclients |grep plasma|  wc
+xwininfo 
+xwininfo -root -children
+xwininfo -root -children | wc -l
+ps -ef | grep wine
+ps -ef | grep ex
+ps -ef | grep exe
+kill -9 6382
+kill -9 6394
+kill -9 6402
+kill -9 6470
+ps -ef | grep exe
+ps -ef | grep C:
+sudo g /etc/fstab 
+sudo umount /data1
+sudo mount -a
+df
+ps -ef | grep exe
+sudo umount /data2
+sudo umount /data3
+sudo umount /win1
+sudo umount /win2
+sudo mount -a
+mount -l
+ps -ef | grep wine
+kill 6777
+kill 6787
+. ./scripts/keyboardRemaps.sh 
+ls
+ps -ef | grep wine
+ps -ef | grep exe
+kill 6783 6795 6802 6805
+top
+ls
+su
+git status
+cd  code/Sine-Labore-Nihil/
+git status
+git commit -a
