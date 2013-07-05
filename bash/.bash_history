@@ -933,3 +933,94 @@ git status
 cd  code/Sine-Labore-Nihil/
 git status
 git commit -a
+git commit -a -m "Updates"
+git push origin master
+cls
+which gstreamer
+gst-inspect --version
+gst-inspect-0.10 --version
+cd ~/Downloads
+ls
+mkdir ps3mediaserver
+cd ps3mediaserver/
+wget https://ps3mediaserver.googlecode.com/files/pms-generic-linux-unix-1.82.0.tgz
+~/scripts/keyboardRemaps.sh 
+tar xvf pms-generic-linux-unix-1.82.0.tgz 
+ls
+cd pms-1.82.0/
+ls
+cat README.md 
+ls
+cat INSTALL.txt 
+sudo zypper install ffmpeg mediainfo mencoder openjdk-7-jre
+sudo zypper install dcraw vlc
+zypper ll
+zypper packages 
+zypper packages  | grep java
+zypper packages  | grep jdk
+cat INSTALL.txt 
+ls
+sh ./PMS.sh 
+ls
+cat INSTALL.txt 
+sh ./PMS.sh 
+ls
+java --version
+java -version
+cat INSTALL.txt 
+gst-inspect-0.10 filesrc filename
+gst-inspect-0.10 filesrc
+gst-launch-0.10 filesrc
+gst-launch-0.10 filesrc location=~/Videos/Smallville/Season\ 7/smallville.s07e11.dvdrip.xvid-orpheus.avi ! decodebin2 name=2 ! queue ! ffmpegcolorspace ! autovideosink dec. ! queue ! audioconvert ! audioresample ! autoaudiosink
+gst-launch-0.10 filesrc location=~/Videos/Smallville/Season\ 7/smallville.s07e11.dvdrip.xvid-orpheus.avi ! decodebin2 name=2 ! queue ! ffmpegcolorspace ! autovideosink ! queue ! audioconvert ! audioresample ! autoaudiosink
+gst-launch-0.10 filesrc location=~/Videos/Smallville/Season\ 7/smallville.s07e11.dvdrip.xvid-orpheus.avi ! decodebin2 name=dec ! queue ! ffmpegcolorspace ! autovideosink dec. ! queue ! audioconvert ! audioresample ! autoaudiosink
+cat
+ls
+ll
+ll -h test.sink 
+gst-launch-0.10 filesrc location=~/test.sink ! xvideosink
+gst-inspect-0.10 | grep sink
+gst-launch-0.10 filesrc location=~/test.sink ! ximagesink
+gst-launch-0.10 filesrc location=~/test.sink ! xvideosink
+gst-inspect-0.10 | grep vidsink
+gst-inspect-0.10 | grep videosink
+gst-launch-0.10 filesrc location=~/Videos/Smallville/Season\ 7/smallville.s07e11.dvdrip.xvid-orpheus.avi ! decodebin2 name=dec ! queue ! ffmpegcolorspace ! filesink location=~/test.sink dec. ! queue ! audioconvert ! audioresample ! autoaudiosink
+gst-inspect-0.10 | grep xvimagesink
+gst-launch-0.10 filesrc location=~/test.sink ! xvimagesink
+la
+ll
+ll -h test.sink 
+gst-launch-0.10 filesrc location=~/test.mp4 ! xvideosink
+gst-launch-0.10 filesrc location=~/Videos/Smallville/Season\ 7/smallville.s07e11.dvdrip.xvid-orpheus.avi ! decodebin2 name=dec ! queue ! mp4muxname=mux ! filesink location=~/test.sink dec. ! mp3parse ! queue ! mux
+gst-launch-0.10 filesrc location=~/Videos/Smallville/Season\ 7/smallville.s07e11.dvdrip.xvid-orpheus.avi ! decodebin2 name=dec ! queue ! mp4mux name=mux ! filesink location=~/test.sink dec. ! mp3parse ! queue ! mux
+gst-launch-0.10 filesrc location=~/Videos/Smallville/Season\ 7/smallville.s07e11.dvdrip.xvid-orpheus.avi ! decodebin2 name=dec ! queue ! mp4mux name=mux ! filesink locationgst-launch-0.10 filesrc location=~/Videos/Smallville/Season\ 7/smallville.s07e11.dvdrip.xvid-orpheus.avi ! decodebin2 name=dec ! queue ! ffmpegcolorspace ! filesink location=~/test.sink dec. ! queue ! audioconvert ! audioresample ! autoaudiosink=~/test.sink dec. ! mp3parse ! queue ! muxm
+gst-launch-0.10 filesrc location=~/Videos/Smallville/Season\ 7/smallville.s07e11.dvdrip.xvid-orpheus.avi ! decodebin2 name=dec ! queue ! mp4mux name=mux ! filesink location=~/test.sink dec. ! mp3parse ! queue ! mux.
+gst-launch-0.10 filesrc location=~/Videos/Smallville/Season\ 7/smallville.s07e11.dvdrip.xvid-orpheus.avi ! decodebin2 name=dec ! queue ! ffmpegcolor ! mp4mux name=mux ! filesink location=~/test.sink dec. ! mp3parse ! queue ! mux.
+gst-inspect-0.10 | grep color
+gst-launch-0.10 filesrc location=~/Videos/Smallville/Season\ 7/smallville.s07e11.dvdrip.xvid-orpheus.avi ! decodebin2 name=dec ! queue ! ffmpegcolorspace ! mp4mux name=mux ! filesink location=~/test.sink dec. ! mp3parse ! queue ! mux.
+gst-launch-0.10 filesrc location=~/Videos/Smallville/Season\ 7/smallville.s07e11.dvdrip.xvid-orpheus.avi ! avidemux name=dec ! queue ! ffmpegcolorspace ! mp4mux name=mux ! filesink location=~/test.sink dec. ! mp3parse ! queue ! mux.
+gst-launch-0.10 filesrc location=~/test.mp4 ! xvideosink
+gst-launch-0.10 filesrc location=~/test.mp4 ! xvimagesink
+gst-launch-0.10 filesrc location=~/test.sink ! xvimagesink
+gst-launch-0.10 filesrc location=~/test.sink ! mp4demux ! xvimagesink
+gst-launch-0.10 filesrc location=~/test.sink ! decodebin2 ! xvimagesink
+gst-launch-0.10 filesrc location=~/test.sink ! decodebin2 ! ffmpegcolorspace ! xvimagesink
+gst-launch-0.10 filesrc location=~/Videos/Smallville/Season\ 7/smallville.s07e11.dvdrip.xvid-orpheus.avi ! avidemux name=dec ! queue ! mp4mux name=mux ! filesink location=~/test.sink dec. ! mp3parse ! queue ! mux.
+zypper install libxine2-codecs ffmpeg lame gstreamer-0_10-plugins-good gstreamer-0_10-plugins-bad gstreamer-0_10-plugins-ugly gstreamer-0_10-plugins-bad-orig-addon gstreamer-0_10-plugins-good-extra gstreamer-0_10-plugins-ugly-orig-addon gstreamer-0_10-plugins-ffmpeg libdvdcss2 flash-player dvdauthor07 gstreamer-plugins-base gstreamer-plugins-bad gstreamer-plugins-bad-orig-addon gstreamer-plugins-good gstreamer-plugins-ugly gstreamer-plugins-ugly-orig-addon gstreamer-plugins-good-extra gstreamer-0_10-plugins-fluendo_mpegdemux gstreamer-0_10-plugins-fluendo_mpegmux k3b-codecs gecko-mediaplayer vlc smplayer h264enc x264
+sudo zypper install libxine2-codecs ffmpeg lame gstreamer-0_10-plugins-good gstreamer-0_10-plugins-bad gstreamer-0_10-plugins-ugly gstreamer-0_10-plugins-bad-orig-addon gstreamer-0_10-plugins-good-extra gstreamer-0_10-plugins-ugly-orig-addon gstreamer-0_10-plugins-ffmpeg libdvdcss2 flash-player dvdauthor07 gstreamer-plugins-base gstreamer-plugins-bad gstreamer-plugins-bad-orig-addon gstreamer-plugins-good gstreamer-plugins-ugly gstreamer-plugins-ugly-orig-addon gstreamer-plugins-good-extra gstreamer-0_10-plugins-fluendo_mpegdemux gstreamer-0_10-plugins-fluendo_mpegmux k3b-codecs gecko-mediaplayer vlc smplayer h264enc x264
+sh ./PMS.sh 
+ls /usr/lib64/java-1.7.0/
+echo $JAVA_HOME 
+JAVA_HOME=/usr/lib64/java-1.7.0/ sh PMS.sh 
+export JAVA_HOME_OLD=$JAVA_HOME 
+echo $JAVA_HOME_OLD 
+which java
+java -version
+cat INSTALL.txt 
+export JAVA_HOME=/usr/lib64/jvm/java-1.7.0-openjdk-1.7.0/jre
+sh ./PMS.sh 
+export JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk-1.7.0/jre
+sh ./PMS.sh 
+gst-launch-0.10 filesrc location=~/Videos/Smallville/Season\ 7/smallville.s07e11.dvdrip.xvid-orpheus.avi ! decodebin2 name=dec ! queue ! ffmpegcolorspace ! autovideosink dec. ! queue ! audioconvert ! audioresample ! autoaudiosink
+gst-launch-0.10 filesrc location=~/Videos/Smallville/Season\ 7/smallville.s07e10.dvdrip.xvid-orpheus.avi ! decodebin2 name=dec ! queue ! ffmpegcolorspace ! autovideosink dec. ! queue ! audioconvert ! audioresample ! autoaudiosink
+cd code/Sine-Labore-Nihil/
