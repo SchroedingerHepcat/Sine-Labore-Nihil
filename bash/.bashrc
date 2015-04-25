@@ -5,10 +5,26 @@
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
 
+xhost +local:root > /dev/null 2>&1
+
+# Complete sudo with commands
+complete -cf sudo
+
+# Set shell options
+shopt -s cdspell
+shopt -s cmdhist
+shopt -s dotglob
+shopt -s expand_aliases
+shopt -s extglob
+shopt -s hostcomplete
+shopt -s nocaseglob
+
 # Include the system wide bashrc file
 if [ -f /etc/bash.bashrc ]; then
    . /etc/bash.bashrc
 fi
+
+
 
 
 ###########################################################################
@@ -23,7 +39,7 @@ shopt -s histappend
 
 # For setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=100000
-HISTFILESIZE=200000
+HISTFILESIZE=2000000
 
 # Save and reload the history after each command
 export PROMPT_COMMAND="history -a; history -c; history -r; $PROPMT_COMMAND"
@@ -89,13 +105,6 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-if [ -d /etc/bash_completion.d ]; then
-   for file in /etc/bash_completion.d/*
-   do
-      . $file
-   done
-fi
-
 # Use user-defined inputrc file
 export INPUTRC=~/.inputrc
 
@@ -103,6 +112,7 @@ export INPUTRC=~/.inputrc
 PS1='\[\033[0;33m\][ \[\033[0;94m\]\w \[\033[0;33m\]]\n\[\033[0;32m\]\t \[\033[0;96m\]\u\[\033[0;93m\]@\[\033[0;36m\]\h \[\033[0;91m\]\$ \[\033[0;0m\]'
 
 # Because opensuse tries to keep them out, add sbins to my path
+export PATH=$HOME/scripts:$PATH
+export PATH=$PATH:/bin
 export PATH=$PATH:/sbin
 export PATH=$PATH:/usr/sbin
-export PATH=$PATH:/usr/local/sbin
