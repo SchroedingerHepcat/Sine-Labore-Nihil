@@ -680,3 +680,131 @@ cd git/
 git clone https://github.com/SchroedingerHepcat/vim-distinguished.git
 pacman -S git
 sudo pacman -S git
+top
+cat /etc/X11/xorg.conf.d/90-mhwd.conf 
+g /etc/X11/xorg.conf.d/90-mhwd.conf
+xset -h
+xset +dpms
+xset dpms force standby
+xset q
+xset +dpms
+xset q
+xset +dpms
+xset q
+sudo g /etc/X11/xorg.conf.d/90-mhwd.conf
+xset q
+xset +dpms
+xset q
+xset +dpms
+xset q
+top
+ls
+cd git/
+ls
+git clone https://github.com/SchroedingerHepcat/vim-distinguished.git
+git clone https://github.com/SchroedingerHepcat/Sine-Labore-Nihil.git
+ls
+cd vim-distinguished/
+ls
+cd ..
+ls
+ls .vim
+mkdir .vim
+cd .vim
+ls
+mkdir colors
+cd colors/
+ls
+ln -s ~/git/vim-distinguished/colors/distinguished.vim ./
+ls
+cd ..
+g .vimrc 
+cd ..
+ls
+cd morainj/git/
+ls
+cd Sine-Labore-Nihil/
+ls
+ls vim/
+cat vim/vimrc 
+cp vim/vimrc ~/.vimrc
+g ~/.vimrc
+ls
+ls scripts/
+ls bash/
+la bash/
+rm ~/.vimrc 
+ln -s ~/git/Sine-Labore-Nihil/vim/vimrc ~/.vimrc
+ls
+cd ..
+ls
+cd ..
+ls
+ln -s ~/git/Sine-Labore-Nihil/scripts 
+ls
+ls scripts
+ls scripts/
+ln -s ~/git/Sine-Labore-Nihil/scripts scripts/
+ls
+rm scripts
+ln -s ~/git/Sine-Labore-Nihil/scripts scripts/
+ln -s ~/git/Sine-Labore-Nihil/scripts ./scripts/
+ln -s ~/git/Sine-Labore-Nihil/scripts ./scripts
+ls
+ls scripts
+ls scripts/
+rm scripts/scripts
+ls
+cat q
+rm q
+ls
+g git/Sine-Labore-Nihil/bash/.bashrc 
+g .vimrc 
+g git/Sine-Labore-Nihil/bash/.bashrc 
+echo $PATH 
+ls /sbin/
+ls
+echo $PATH 
+g ~/.bashrc 
+g git/Sine-Labore-Nihil/bash/.bash_aliases 
+mv .bashrc .bashrc.ManjaroOriginal
+ln -s ~/git/Sine-Labore-Nihil/bash/.bashrc ./
+ls
+la
+rm .bash_aliases
+ln -s ~/git/Sine-Labore-Nihil/bash/.bash_aliases ./
+ll
+la
+cat git/Sine-Labore-Nihil/bash/.bash_history .bash_history > git/Sine-Labore-Nihil/bash/.bash_history 
+cat git/Sine-Labore-Nihil/bash/.bash_history .bash_history > .bash_history2 
+mv .bash_history2 git/Sine-Labore-Nihil/bash/.bash_history 
+ls
+rm .bash_history
+ln -s git/Sine-Labore-Nihil/bash/.bash_history 
+la
+ls
+cat .bash_logout 
+g ~/scripts/keyboardRemaps.sh 
+cd git/
+ls
+cd Sine-Labore-Nihil/
+l
+ls
+git status
+git add bash/.bash_aliases bash/.bash_history bash/.bashrc vim/vimrc
+git commit -m "Manjaro install updates"
+git config --global --edit
+git commit -m "Manjaro install updates"
+git push
+git pull
+git config --global push.default matching
+cd ..
+cd vim-distinguished/
+git pull
+git push
+exec bash
+g ~/.bashrc
+cd ..
+cd Sine-Labore-Nihil/
+ls
+git status
