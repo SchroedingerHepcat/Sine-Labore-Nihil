@@ -1092,3 +1092,23 @@ git status
 git add
 git help add
 git add -a
+git add -A
+git commit -m "Add python startup file to bash."
+git push origin
+ls
+mkdir python
+cd python/
+cp ~/.pythonrc ./
+ls
+la
+git add .pythonrc 
+cd ..
+git add python/
+git status
+cd ..
+rm .pythonrc 
+ln -s git/Sine-Labore-Nihil/python/.pythonrc
+cat .pythonrc 
+cd git/Sine-Labore-Nihil/
+git pull
+git commit -m "Add pythonrc file."
