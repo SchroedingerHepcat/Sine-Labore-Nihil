@@ -2458,3 +2458,4 @@ git add -a
 git commit -a -m "Bash history commits." && git pull
 g bash/.bash_history 
 git commit -a -m "Bash history commits." && git pull
+git commit -a -m "Bash history commits." && git push
