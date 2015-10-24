@@ -2483,3 +2483,4 @@ g bash/.bash_history
 v
 vi v
 vi bash/.bash_history 
+git commit -a -m "Bash history commits." && git pull
