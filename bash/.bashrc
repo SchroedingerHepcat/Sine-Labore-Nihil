@@ -42,8 +42,6 @@ HISTFILESIZE=2000000
 export PROMPT_COMMAND="history -a; history -c; history -r; $PROPMT_COMMAND"
 
 ###########################################################################
-# End History Setup
-###########################################################################
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
@@ -56,14 +54,14 @@ shopt -s checkwinsize
 # make less more friendly for non-text input files, see lesspipe(1)
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
-# If this is an xterm set the title to user@host:dir
-case "$TERM" in
-xterm*|rxvt*)
-    PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"
-    ;;
-*)
-    ;;
-esac
+###########################################################################
+# Set up command prompt
+###########################################################################
+
+# Setup my prompt
+PS1='\n\[\033[0;33m\][ \[\033[0;94m\]\w \[\033[0;33m\]]\n\[\033[0;32m\]\t \[\033[0;96m\]\u\[\033[0;93m\]@\[\033[0;36m\]\h \[\033[0;91m\]\$ \[\033[0;0m\]'
+
+###########################################################################
 
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
@@ -105,11 +103,15 @@ fi
 # Use user-defined inputrc file
 export INPUTRC=~/.inputrc
 
-# Setup my prompt
-PS1='\n\[\033[0;33m\][ \[\033[0;94m\]\w \[\033[0;33m\]]\n\[\033[0;32m\]\t \[\033[0;96m\]\u\[\033[0;93m\]@\[\033[0;36m\]\h \[\033[0;91m\]\$ \[\033[0;0m\]'
 
 # Because opensuse tries to keep them out, add sbins to my path
 export PATH=$HOME/scripts:$PATH
 export PATH=$PATH:/bin
 export PATH=$PATH:/sbin
 export PATH=$PATH:/usr/sbin
+
+# Define terminal as 256 color xterm
+export TERM=xterm-256color
+
+# Define python startup file
+export PYTHONSTARTUP="$HOME/.pythonrc"

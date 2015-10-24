@@ -808,3 +808,287 @@ cd ..
 cd Sine-Labore-Nihil/
 ls
 git status
+yaourt -S google-chrome
+su
+pacman -S chrominum
+pacman -S chromium
+sudo pacman -S chromium
+sudo pacman -S gvim
+sudo pacman -S git
+sudo pacman -S synapse
+sudo pacman -S bc
+sudo pacman -S Devhelp
+sudo pacman -S gnome-dictionary
+sudo pacman -S Zeitgeist
+sudo pacman -S zeitgeist
+sudo pacman -S ConsoleKit
+chromium 
+pacman -S qt5
+sudo pacman -S qt5
+chromium
+pacman -Sy yaourt
+sudo pacman -Sy yaourt
+sudo pacman -Q yaourt
+ls
+ls manjaro
+ls Manjaro/
+chromium
+sudo pacman -S icu
+chromium
+pacman -S libpci
+sudo pacman -S libpci
+sudo pacman -S pci
+sudo pacman -S pcilib
+sudo pacman -S libpci-dev
+sudo pacman -S libxcb
+sudo pacman -S xcb-util xcb-util-image xcb-util-wm libxi
+chromium
+sudo pacman -S yaourt
+cat /etc/pacman.conf
+sudo gvim /etc/pacman.conf
+sudo pacman -S yaourt
+pacman-key --init
+sudo pacman-key --init
+sudo pacman-key --populate archliniux
+sudo pacman-key --populate archlinux
+sudo pacman -S yaourt
+sudo gvim /etc/pacman.conf
+sudo pacman -S yaourt
+sudo pacman -Syu
+sudo gvim /etc/pacman.d/gnupg/gpg.conf 
+sudo pacman -Syu
+pacman-key --init
+sudo pacman-key --init
+sudo pacman-key --populate archlinux
+pacman-key --refresh-keys
+sudo pacman-key --refresh-keys
+timedatectl
+chromium 
+midori 
+links
+lynx
+firefox
+pacman -S firefox
+sudo pacman -S firefox
+sudo pacman -S midori
+midori 
+chromium
+pacman -Syuu
+pacman -Syyuu
+sudo pacman -Syyuu
+sudo pacman -Syy
+sudo pacman -S manjaro-keyring
+sudo pacman -Suu
+sudo pacman-key --init
+sudo pacman-key --populate archlinux manjaro
+sudo pacman-key --refres-keys
+sudo pacman-key --refresh-keys
+sudo pacman -Suu
+sudo pacman -Sy archlinux-keyring
+sudo pacman -Suu
+python
+ls
+cd down
+cd Downloads/
+ls
+mv ideone_i5CYki.py portalFetcher.py
+ll
+python portalFetcher.py 
+python2 portalFetcher.py 
+yaourt -Syyuu google-chrome
+sudo pacman -S yaourt
+yaourt -Syyuu google-chrome
+yaourt -S google-chrome
+
+yaourt -S google-chrome
+google-chrome-stable 
+bg
+python
+sudo pacman -S python-requests
+python
+sudo pacman -Syyuu
+ls
+g .bashrc 
+mkdir git
+cd git/
+git clone https://github.com/SchroedingerHepcat/Sine-Labore-Nihil.git
+ls
+ls Sine-Labore-Nihil/
+ls Sine-Labore-Nihil/bash/
+la Sine-Labore-Nihil/bash/
+cat ~/.bashrc
+cd Sine-Labore-Nihil/bash/
+ls
+g .bashrc 
+gvim .bashrc 
+mv ~/.bashrc ~/.bashrc.manjaroOriginal
+cd ~
+ls
+ln -s git/Sine-Labore-Nihil/bash/.bashrc
+ln -s git/Sine-Labore-Nihil/bash/.bash_* ./
+cat git/Sine-Labore-Nihil/bash/.bash_logout 
+cat ~/.bash_logout 
+rm ~/.bash_logout 
+cat .bash_history >> git/Sine-Labore-Nihil/bash/.bash_history
+rm .bash_history 
+ln -s git/Sine-Labore-Nihil/bash/.bash_history
+ll
+la
+exec bash
+ls
+ls .vim
+ls .vimrc
+ln -s git/Sine-Labore-Nihil/vim .vim
+ln -s .vim/vimrc .vimrc
+g .vimrc
+ls .vim
+cd .vim
+ls
+ls colors/
+ls
+cd ..
+ls
+cd Manjaro/
+ls
+cd ..
+ls
+g .inputrc
+ls
+ll
+ls
+vim .vimrc 
+g .vim/colors/distinguished.vim 
+echo $TERM
+export TERM=xterm-256color
+vim .vimrc 
+g .bashrc
+pacman -h
+pacman -Q
+pacman -Q | grep vim
+pacman -Syyuu gvim-python3
+sudo pacman -Syyuu gvim-python3
+sudo pacman -Syyuu bash-completion
+exec bash
+ls
+ls git/
+g .vimrc 
+python
+ls
+la
+sudo pacman -S sshfs
+mkdir /mnt/godaddy
+sudo /mnt/godaddy
+sudo mkdir /mnt/godaddy
+sshfs morainj@morain.net:/ /mnt/godaddy/
+groups
+sudo chown users /mnt/godaddy
+sudo chgrg users /mnt/godaddy
+sudo chgrp users /mnt/godaddy
+ll /mnt
+sudo chmod g+w /mnt/godaddy/
+ll /mnt
+sshfs morainj@morain.net:/ /mnt/godaddy/
+ls /mnt/godaddy/
+ssh morain.net
+cat /usr/share/X11/xorg.conf.d/
+ls /usr/share/X11/xorg.conf.d/
+cat /usr/share/X11/xorg.conf.d/50-synaptics.conf 
+sudo g /usr/share/X11/xorg.conf.d/50-synaptics.conf
+sudo gvim /usr/share/X11/xorg.conf.d/50-synaptics.conf
+synclient --help
+synclient -l
+synclient PalmDetect=1
+synclient -l | grep Vert
+synclient -l | grep Horz
+synclient -l | grep Hor
+ls
+syndaemon -h
+syndaemon -k -d
+ls
+ls
+cd git/
+ls
+mkdir IngressIntel
+cd IngressIntel/
+ls
+cd ..
+rm IngressIntel/
+rmdir IngressIntel/
+cd ..
+mkdir code
+cd code/
+mkdir IngressIntel
+cd IngressIntel/
+ls
+touch ingress.py
+syndaemon -k -d
+cd code/IngressIntel/
+ls
+touch config.cfg
+g config.cfg 
+g ingress.py 
+./ingress.py
+la
+chmod +x ingress.py 
+./ingress.py 
+python2.7
+which python2
+./ingress.py 
+#866-425-4826 866-425-8809
+ls
+ll
+cat cookie 
+./ingress.py 
+cat cookie 
+python
+python2
+touch ~/.pythonrc
+g ~/.pythonrc
+g ~/.bashrc
+exec bash
+python2
+echo $PYTHONSTARTUP 
+exec bash
+echo $PYTHONSTARTUP 
+python2
+g ~/.pythonrc
+python
+python2
+cat cookie 
+date
+date -u
+./ingress.py 
+cat cookie
+ll
+./ingress.py 
+ll
+cat cookie 
+ls
+cat cookie 
+python2
+cat cookie 
+ssh linux-desktop
+ssh 192.168.0.2
+ping 192.168.0.2
+ssh 192.168.0.2
+ssh linux-desktop
+sudo pacman -S openssh
+sudo systemctl start opensshd
+sudo pacman -S opensshd
+sudo systemctl start sshd.service
+sudo systemctl enable sshd.service
+ip a
+ls
+cd code/IngressIntel/
+ls
+cd ..
+scp -r IngressIntel/ 192.169.0.2:~/
+scp -r IngressIntel/ 192.168.0.2:~/
+exit
+ls
+cat .pythonrc
+cd git/Sine-Labore-Nihil/
+git status
+git add
+git help add
+git add -a
