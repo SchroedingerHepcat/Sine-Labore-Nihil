@@ -2485,3 +2485,230 @@ vi v
 vi bash/.bash_history 
 git commit -a -m "Bash history commits." && git pull
 git commit -a -m "Bash history commits." && git push
+git commit -a -m "Bash history commits." && git pull
+git pull
+cd ..
+rm .pythonrc 
+ln -s git/Sine-Labore-Nihil/python/.pythonrc 
+cat .bashrc
+python2
+exec bash
+python2
+mv IngressIntel/ code
+cd code/
+ls
+cd ingress
+cd ..
+cd IngressIntel/
+python2
+g ingress.py
+synergyc 192.168.0.3
+kill synergyc
+psg synergyc
+kill 22082
+ssh 192.168.0.8
+pacman -S python-requests
+sudo pacman -S python-requests
+python2
+exec bash
+python
+python2
+pacman -S python2-requests
+sudo pacman -S python2-requests
+python2
+python2
+cd code/IngressIntel/
+ls
+cat cookie 
+g cookie
+python2
+cd ..
+cd git/
+ls
+git clone https://github.com/jonatkins/ingress-intel-total-conversion.git
+cd ingress-intel-total-conversion/
+ls
+grep -ir getPortalDetails
+cd code
+ls
+grep -ir postAjax
+cd ..
+grep -ir postAjax
+g code/send_request.js 
+python2
+synergyc -f --debug DEBUG1 192.168.0.3
+cd ..
+git clone https://gist.github.com/5186336.git
+ls
+cd 5186336/
+ls
+python2 ingress.py 
+g ingress.py 
+python2
+exec bash
+python2
+ls
+cp ingress.py ingress-broke2.py
+python2
+pacman -S python-beautifulsoup4
+sudo pacman -S python-beautifulsoup4
+sudo pacman -S python2-beautifulsoup4
+python
+exec bash
+cat ~/.pythonrc 
+cat ~/.bashrc
+python2
+g
+cd ../../code/IngressIntel/
+ls
+g ingress-broke2.py 
+synergyc -f --debug DEBUG1 192.168.0.3
+g config.cfg 
+touch gSession.py
+chmod +x gSession.py 
+g gSession.py
+xset +dpms
+xset q
+ls
+mv gSession.py GoogleSession.py
+ll
+mv GoogleSession.py GoogleLogin.py
+g GoogleLogin.py 
+g ingress-broke2.py 
+python
+pacman -Syyuu libreoffice-fresh
+sudo pacman -Syyuu libreoffice-fresh
+synergyc -f --debug DEBUG1 192.168.0.3
+free
+synergyc -f --debug DEBUG1 192.168.0.3
+synergyc -f --debug DEBUG2 192.168.0.3
+smbtree
+systemctl status samba.service 
+systemctl restart samba.service 
+sudo systemctl restart samba.service 
+smbtree
+cd 
+cd code/IngressIntel/
+ls
+python3
+cat GoogleLogin.py 
+python2
+cd code/IngressIntel/
+ls
+cat ingress
+cat ingress.py
+synergyc -f --debug DEBUG2 192.168.0.3
+python3
+cd
+ls
+cd ~
+ls
+cd \~
+ls
+cd HexReplace/
+ls
+g uinet.py
+synergyc -f --debug DEBUG2 192.168.0.3
+sudo pacman -Syyuu
+python
+synergyc -f --debug DEBUG2 192.168.0.3
+psg synergy
+kill 1407
+synergyc -f --debug DEBUG2 192.168.0.3
+sudo pacman -Syyuu synergy
+synergyc -f --debug DEBUG2 192.168.0.3
+cat /etc/synergy.conf.example
+ls .synergy/
+ls .synergy/plugins/
+ll .synergy/plugins/
+ls /etc/samba/smb.conf
+cat /etc/samba/smb.conf
+systemctl status smbd.service 
+ssh morain.net
+ping morain.net
+ssh morainj@morain.net
+g .ssh/config
+ssh morainj@morain.net
+cat .ssh/known_hosts 
+g .ssh/known_hosts
+ssh morainj@morain.net
+ssh jmorain@morain.net
+ssh morainj@morain.net
+ls /mnt/
+ssh morainj@morain.net
+synergyc -f --debug DEBUG2 192.168.0.3
+cat .ssh/known_hosts 
+g .ssh/known_hosts
+ssh morainj@morain.net
+ssh morain.net
+xset q
+xset +dpms
+xset q
+synergyc -f --debug DEBUG2 192.168.0.3
+pacman -S dropbox
+sudo pacman -S dropbox
+sudo pacman -S ufw-extras
+sudo pacman -S perl-file-mimeinfo
+cd /mnt/data/Dropbox
+ls
+cd ..
+ls
+rm Dropbox\ \(Old\)/
+rmdir Dropbox\ \(Old\)/
+ll
+ls
+cd Dropbox/Ingress/Possible\ fields/
+ls
+cd Roxborough-MorrisonRoad-Golden/
+ls
+g Bookmarks.txt
+ls
+synergyc -f --debug DEBUG2 192.168.0.3
+xset q
+xset +dpms
+xset q
+xset +dpms
+xset q
+synergyc -f --debug DEBUG2 192.168.0.3
+cd 
+g .config/openbox/rc.xml 
+openbox --reconfigure
+g .vimrc 
+g .config/openbox/rc.xml 
+ls
+cd git/Sine-Labore-Nihil/
+ls
+mkdir openbox
+cd openbox/
+~/.config/openbox/rc.xml ./
+ll ~/.config/openbox/
+mv ~/.config/openbox/* ./
+cd $1
+cd .config/openbox/
+ll
+ln -s ~/git/Sine-Labore-Nihil/openbox/*
+ln -s ~/git/Sine-Labore-Nihil/openbox/* .
+ll
+cd -
+cd git/Sine-Labore-Nihil/
+git push origin
+git config --list
+git remote set-url origin git@githup.com:SchroedingerHepcat/Sine-Labore-Nihil.git
+git pull
+git pull origin
+git push origin
+git remote set-url origin git@github.com:SchroedingerHepcat/Sine-Labore-Nihil.git
+git remote -v
+git pull
+la ~/.ssh/
+la
+la ~/.ssh/
+ssh morain.net
+ssh-keygen -t rsa -b 4096 -C "SchroedingerHepcat@gmail.com"
+ls
+ls ~/.ssh/
+g ~/.ssh/id_rsa.pub 
+git pull
+git status
+git add bash/.bash_history vim/vimrc openbox/
+git status

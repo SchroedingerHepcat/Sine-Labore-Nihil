@@ -5,7 +5,6 @@ source /etc/vimrc
 set number
 
 " Set default window size
-set columns=80
 set lines=40
 
 " Set default font
@@ -29,3 +28,6 @@ vmap <C-x> "+x
 
 filetype plugin indent on
 syntax on
+
+au BufRead * let &numberwidth = float2nr(log10(line("$"))) + 2
+          \| let &columns = &numberwidth + 80
