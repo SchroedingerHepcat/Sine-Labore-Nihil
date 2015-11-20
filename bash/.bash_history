@@ -2712,3 +2712,6 @@ git pull
 git status
 git add bash/.bash_history vim/vimrc openbox/
 git status
+git add bash/.bash_history
+git push
+git commit -m "Add openbox and update vim configs."
