@@ -2821,3 +2821,5 @@ git add bash/.inputrc
 git commit -m "Add slash to symlinked directories."
 git push
 git pull
+git add bash/.bash_history && git commit -m 'History update' && git pull
+git push
