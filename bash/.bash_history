@@ -2801,3 +2801,23 @@ git push
 git commit -m "Add openbox and update vim configs."
 git add bash/.bash_history && git commit -m 'History update' && git pull
 g bash/.bash_history 
+git add bash/.bash_history && git commit -m 'History update' && git pull
+git pull
+git push
+git pull
+cd..
+cd ..
+la
+cat .inputrc 
+syndaemon -k -d
+cat .inputrc 
+cat git/Sine-Labore-Nihil/bash/.inputrc 
+mv .inputrc .inputrc.bak
+ln -s git/Sine-Labore-Nihil/bash/.inputrc 
+g .inputrc
+cd git/Sine-Labore-Nihil/
+git status
+git add bash/.inputrc
+git commit -m "Add slash to symlinked directories."
+git push
+git pull
