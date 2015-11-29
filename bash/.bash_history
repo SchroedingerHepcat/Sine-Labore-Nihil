@@ -2715,3 +2715,109 @@ git status
 git add bash/.bash_history
 git push
 git commit -m "Add openbox and update vim configs."
+git commit -a -m "Bash history commits." && git pull
+git push
+cd 
+ls
+cd code/ingress
+ls
+cd ..
+ls
+cd Ingress
+cd ..
+cd IngressIntel/
+ls
+g ingress.py
+python
+g GoogleLogin.py 
+ssh morain.net
+synergyc -f --debug DEBUG2 192.168.0.3
+python
+ls
+touch ingressTools.py
+chmod +x ingressTools.py 
+mv ingressTools.py IngressTools.py
+g IngressTools.py 
+synergyc -f --debug DEBUG2 192.168.0.3
+python3
+ls
+touch SlackBot.py
+chmod +x SlackBot.py 
+g SlackBot.py 
+synergyc -f --debug DEBUG2 192.168.0.3
+python
+sqlite3
+cd code/IngressIntel/
+ls
+sqlite example.db 
+sqlite3 example.db 
+ssh morain.net
+g ~/.ssh/known_hosts 
+ssh morain.net
+python
+ls
+touch intelWatcher.py
+chmod +x intelWatcher.py 
+ll
+g intelWatcher.py 
+synergyc -f --debug DEBUG2 192.168.0.3
+python
+./intelWatcher.py
+ll
+./intelWatcher.py
+cd code/IngressIntel/
+ls
+./intelWatcher.py
+grep -ir 200 *
+./intelWatcher.py
+synergyc -f --debug DEBUG2 192.168.0.3
+./intelWatcher.py
+synergyc -f --debug DEBUG2 192.168.0.3
+top
+killall chrome
+top
+psg chrome
+free
+top
+./intelWatcher.py
+python
+sudo reboot
+top
+cd code/IngressIntel/
+./intelWatcher.py
+xset q
+xset +dpms
+xset q
+ls
+cd code/IngressIntel/
+ls
+g intelWatcher.py 
+ssh morain.net
+./intelWatcher.py
+python2 intelWatcher.py 
+python
+ls
+g IngressTools.py
+./intelWatcher.py
+python
+./intelWatcher.py
+cd code/IngressIntel/
+xset q
+xset +dpms
+xset q
+./intelWatcher.py 
+cd code/IngressIntel/
+g intelWatcher.py 
+synergyc -f --debug DEBUG2 192.168.0.3
+ls /dev/usb/
+ls /mnt/
+cd ..
+cp -R IngressIntel/ /mnt/data/Dropbox/
+./intelWatcher.py 
+ls
+mv IngressIntel IngressIntel.bak
+ln -s /mnt/data/Dropbox/IngressIntel ./
+ll
+cd ../git/Sine-Labore-Nihil/
+git pull
+g bash/.bash_history 
