@@ -2485,6 +2485,90 @@ vi v
 vi bash/.bash_history 
 git commit -a -m "Bash history commits." && git pull
 git commit -a -m "Bash history commits." && git push
+exit
+cd git/Sine-Labore-Nihil/
+git pull
+ping github.com
+ping google.com
+ethtool
+ethtool -h
+ping google.com
+traceroute google.com
+pacman -S traceroute
+sudo pacman -S traceroute
+dhcpcd --help
+ethtool
+ping google.com
+exit
+reboot
+ping google.com
+sudo pacman -Syyuu Dropbox
+ping google.com
+ls
+ethtool
+ip
+ping google.com
+pacman -Syyuu Dropbox
+sudo pacman -Syyuu Dropbox
+ping google.com
+sudo pacman -Syyuu dropbox
+ping google.com
+ping 192.168.0.1
+ping google.com
+ping 192.168.0.1
+ping google.com
+ping 192.168.0.1
+ls /etc/dhcpcd.conf 
+g /etc/dhcpcd.conf
+sudo g /etc/dhcpcd.conf
+sudo sysctl restart dhcpd
+sudo sysctl restart dhcpcd
+systemctl restart dhcp
+systemctl restart dhcpcd
+sudo pacman -Syyuu dropbox
+whois google.com
+nm-tool
+nslookup
+nstat
+host -t ns google.com
+sudo g /etc/resolv.conf 
+sudo g /etc/resolvconf.conf 
+sudo g /etc/resolv.conf.head
+resolvconf --help
+resolvconf -u
+sudo resolvconf -u
+cat /etc/resolv.conf
+ping 8.8.8.8
+ping google.com
+sudo reboot
+exit
+sudo pacman -Syyuu dropbox
+dropbox
+cd Dropbox/
+ls
+cd IngressIntel/
+ls
+python
+./intelWatcher.py
+pacman -Syyuu python-beautifulsoup4 
+sudo pacman -Syyuu python-beautifulsoup4 
+./intelWatcher.py
+ls
+g IngressTools.py
+top
+sudo pacman -Syyuu docky
+ping google
+ping google.com
+sudo pacman -Syyuu docky
+ping google.com
+reboot
+sudo pacman -Syyuu docky
+sudo pacman -S kile
+cd git/Sine-Labore-Nihil/
+git pull
+git add bash/.bash_history && git commit -m 'History update' && git pull
+git config --global user.email "SchroedingerHepcat@gmail.com"
+git config --global user.name "Joshua Morain"
 git commit -a -m "Bash history commits." && git pull
 git pull
 cd ..
@@ -2821,3 +2905,28 @@ ll
 cd ../git/Sine-Labore-Nihil/
 git pull
 g bash/.bash_history 
+git add bash/.bash_history && git commit -m 'History update' && git pull
+g bash/.bash_history 
+git add bash/.bash_history && git commit -m 'History update' && git pull
+git pull
+git push
+git pull
+cd..
+cd ..
+la
+cat .inputrc 
+syndaemon -k -d
+cat .inputrc 
+cat git/Sine-Labore-Nihil/bash/.inputrc 
+mv .inputrc .inputrc.bak
+ln -s git/Sine-Labore-Nihil/bash/.inputrc 
+g .inputrc
+cd git/Sine-Labore-Nihil/
+git status
+git add bash/.inputrc
+git commit -m "Add slash to symlinked directories."
+git push
+git pull
+git add bash/.bash_history && git commit -m 'History update' && git pull
+git push
+git add bash/.bash_history && git commit -m "History update." && git pull
