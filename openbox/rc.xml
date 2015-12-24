@@ -324,14 +324,41 @@
         </startupnotify>
         <command>lxterminal</command>
       </action>
+   </keybind>
+   <keybind key="W-Left">
+      <action name="UnmaximizeFull" />
+      <action name="MaximizeVert" />
+      <action name="MoveResizeTo">
+         <x>0</x>
+         <y>0</y>
+         <width>50%</width>
+      </action>
+   </keybind>
+   <keybind key="W-Right">
+      <action name="UnmaximizeFull" />
+      <action name="MaximizeVert" />
+      <action name="MoveResizeTo">
+         <x>50%</x>
+         <y>0</y>
+         <width>50%</width>
+      </action>
+   </keybind>
+    <keybind key="W-q">
+      <action name="Execute">
+         <startupnotify>
+          <enabled>true</enabled>
+          <name>WindowPicker</name>
+        </startupnotify>
+        <command>skippy-xd --activate-window-picker</command>
+      </action>
     </keybind>
     <keybind key="W-e">
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
-          <name>leafpad</name>
+          <name>gvim</name>
         </startupnotify>
-        <command>leafpad</command>
+        <command>gvim</command>
       </action>
     </keybind>
     <keybind key="W-f">
