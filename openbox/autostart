@@ -55,3 +55,12 @@ nitrogen --restore &
 
 ## Optionally disable touchpad
 #/usr/bin/synclient TouchpadOff=1 &
+
+## Start skippy-xd
+/usr/bin/skippy-xd --start-daemon &
+
+## Start synapse
+/usr/bin/synapse &
+
+## Start syndaemon for touchpad disabling while typing
+/usr/bin/syndaemon -k -d &

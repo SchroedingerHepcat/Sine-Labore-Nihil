@@ -260,6 +260,213 @@ git push
 git pull
 git add bash/.bash_history && git commit -m 'History update' && git pull
 git push
+git add bash/.bash_history && git commit -m 'History update' && git pull
+git push
+git pull
+cd ..
+exit
+cd code/IngressIntel/
+ls
+cd..
+cd ..
+ls Dropbox/
+cd code/
+ls
+rm -r IngressIntel/
+ln -s ~/Dropbox/Ingress
+ll
+cd Ingress/
+ls
+cd ..
+rm Ingress/
+rm Ingress
+ll
+ln -s ~/Dropbox/IngressIntel/
+ll IngressIntel/
+cd IngressIntel/
+g IngressTools.py
+reboot
+g .config/openbox/rc.xml 
+syndaemon -k -d
+ping google.com
+synclient --help
+synclient -l
+la /etc/X11/xorg.conf.d/
+g /etc/X11/xorg.conf.d/50-synaptics.conf
+cp 50-synaptics.conf /etc/X11/xorg.conf.d/50-synaptics.conf
+sudo mv 50-synaptics.conf /etc/X11/xorg.conf.d/50-synaptics.conf
+synclient -l
+synclient --help
+synclient "TapButton2=3"
+synclient "TapButton3=2"
+synclient "HorizTwoFingerScroll=1"
+synclient "VertScrollDelta=-111"
+synclient "HorizScrollDelta=-111"
+g ~/.config/openbox/autostart 
+cd code/IngressIntel/
+ls
+g IngressTools.py
+sudo pacman -S skippy-xd
+sudo pacman -S skippy-xd-git
+sudo yaourt -S skippy-xd
+sudo yaourt -S skippy-xd-git
+yaourt -S skippy-xd-git
+pacman -s strip
+pacman -S strip
+sudo pacman -S strip
+sudo pacman -S binutils
+sudo yaourt -S skippy-xd-git
+cat /tmp/yaourt-tmp-morainj/aur-skippy-xd-git/./PKGBUILD
+sudo pacman -S buildutils
+pacman -S make
+sudo pacman -S make
+sudo pacman -S base-devel
+sudo pacman -S base-devel devtools
+yaourt -S skippy-xd-git
+skippy-xd 
+skippy-xd --start-daemon
+g .config/openbox/autostart 
+pacman -S synapse
+sudo pacman -S synapse
+synapse
+which skippy-xd 
+which synapse
+pacman -S devhelp
+sudo pacman -S devhelp
+g .config/openbox/rc.xml 
+ls ~/git/Sine-Labore-Nihil/openbox/
+cd .config/
+ls
+la openbox/
+mv openbox openbox.bak
+ln -s ~/git/Sine-Labore-Nihil/openbox/ ./
+cd openbox
+g ../openbox.bak/autostart
+g ../openbox.bak/autostart ./autostart 
+ls
+ls ../openbox.bak/
+cd ..
+ls
+ls openbox.bak/
+ls
+cd openbox
+ls
+g rc.xml 
+openbox --reconfigure
+cd .config/
+diff openbox.bak/rc.xml openbox/rc.xml 
+cd ..
+cd Downloads/
+ls
+tar xvf 110837-Dark\ Star.tar.gz 
+cd ~/.config/
+ls
+diff openbox.bak/rc.xml openbox/rc.xml 
+g openbox/rc.xml 
+openbox --reconfigure
+cd code/IngressIntel/
+ls
+g intelWatcher.py 
+g IngressTools.py
+syndaemon -k -d
+./intelWatcher.py
+python
+./intelWatcher.py
+synclient "VertScrollDelta=-111"
+synclient "HorizScrollDelta=-111"
+swig
+pacman -S swig
+sudo pacman -S swig
+ls
+cd code
+ls
+mkdir swigDemo
+cd swigDemo/
+touch helloWorld.cpp
+mv helloWorld.cc
+ll
+mv helloWorld.cpp helloWorld.cc
+ls
+touch helloWorld.hh
+g helloWorld.hh 
+syndaemon -k -d
+g helloWorld.cc 
+sudo pacman -Syyuu
+mv {h,H}elloWorld.hh
+mv {h,H}elloWorld.cc
+ll
+g HelloWorld.*
+ls
+ls ~/.vim/colors/
+ls ~/.vim/plugin/colorsupport.vim 
+g ~/.vimrc 
+g++ --help
+man g++
+g++ -libc++ HelloWorld.cc HelloWorld.hh -o HelloWorld.o
+g++ -libc++ HelloWorld.cc HelloWorld.hh -o HelloWorld.a
+g++ HelloWorld.cc HelloWorld.hh -o HelloWorld.a
+man g++
+g++ -shared HelloWorld.cc HelloWorld.hh -o HelloWorld.a
+g++ -fPIC HelloWorld.cc HelloWorld.hh -o HelloWorld.a
+g++ -shared -fPIC HelloWorld.cc HelloWorld.hh -o HelloWorld.a
+ls
+la
+mv HelloWorld.{a,so}
+ls
+g test
+ls
+ssh 71.211.158.57
+ping google.com
+ssh 71.211.158.57
+ls /var/log/boot.log 
+cat /var/log/boot.log
+cat /var/log/thus-20141107-101021.log 
+ls
+ls /var/log/boot.log 
+ls /var/log/
+cat /var/log/lastlog 
+cat /var/log/wtmp 
+ls /var/log/
+cat /var/log/boot.log 
+exit
+systemd-analyze blame
+ls
+mhwd-kernel -l
+mhwd-kernel -li
+sudo mhwd-kernel -i linux44 rmc
+sudo pacman -Syyuu
+reboot
+cd .config/openbox
+ls
+cat autostart 
+syndaemon -k -d
+g autostart 
+which syndaemon 
+ll
+cd ..
+ll
+exit
+ping google.com
+ssh 71.211.158.57
+exit
+shutdown
+ssh 71.211.158.57
+ssh -Y 71.211.158.57
+ssh -X 71.211.158.57
+cd .config/openbox
+ls
+cd ..
+ll
+cd openbox
+ls
+g rc.xml 
+openbox --reconfigure
+git status
+git add autostart rc.xml
+git commit -m "Window tiling left and right."
+git push
+git pull
+git status
 git add bash/.bash_history && git commit -m "History update." && git pull
 git pull
 git push
@@ -540,3 +747,9 @@ tail -f IntelWatcher-1451684233.746712.log
 ls
 cd git/Sine-Labore-Nihil/
 git pull
+git add ~/git/Sine-Labore-Nihil/bash/.bash_history && git commit -m 'History update' && git pull
+g bash/.bash_history
+g ~.bash_history
+g ~/.bash_history
+git add bash/.bash_history && git commit -m "History update." && git pull
+g bash/.bash_history 
