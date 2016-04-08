@@ -21,7 +21,7 @@ set shiftwidth=3
 set expandtab
 
 " Set up copy, cut, and paste with ctrl-c, ctrl-x, ctrl-v respectively
-nmap <C-V> "+gP
+"nmap <C-V> "+gP
 imap <C-V> <ESC><C-V>i
 vmap <C-C> "+y
 vmap <C-x> "+x

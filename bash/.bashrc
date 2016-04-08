@@ -5,7 +5,18 @@
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
 
-xhost +local:root > /dev/null 2>&1
+if [ -n "$SSH_CLIENT" ] || [ -n "$SSH_TTY" ]; then
+  SESSION_TYPE=remote/ssh
+# many other tests omitted
+else
+  case $(ps -o comm= -p $PPID) in
+    sshd|*/sshd) SESSION_TYPE=remote/ssh;;
+  esac
+fi
+
+if [ "$SESSION_TYPE" != "remote/ssh" ]; then
+    host +local:root > /dev/null 2>&1
+fi
 
 # Complete sudo with commands
 complete -cf sudo
@@ -115,3 +126,6 @@ export TERM=xterm-256color
 
 # Define python startup file
 export PYTHONSTARTUP="$HOME/.pythonrc"
+
+# Define gvim as my editor
+export EDITOR="/usr/bin/gvim -f"

@@ -26,10 +26,7 @@ sed -i "s,_homedir_,${HOME}," ~/.config/obmenu-generator/config.pl
 xset -dpms; xset s off &
 
 # Set up dual monitors
-(sleep 1s && xrandr --output DFP6 --right-of DFP7) &
-
-# Start synergy
-(sleep 1s && synergyc 192.168.0.3) &
+(sleep 1s && ~/scripts/monitorSetup.sh) &
 
 # Stream audio from X11 to windows machine
 (sleep 1s && pax11publish -e -S 192.168.0.3) &
@@ -49,6 +46,9 @@ nitrogen --restore &
 
 ## Optionally enable file manager in daemon mode for automounting
 (sleep 1s && thunar --daemon) &
+
+# Start synergy
+(sleep 1s && synergyc 192.168.0.3) &
 
 ## Optionally enable screensaver
 #(sleep 1s && xautolock -time 15 -locker 'xlock -mode blank') &
