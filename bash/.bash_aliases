@@ -11,6 +11,9 @@ alias df='df -h'                          # human-readable sizes
 alias free='free -m'                      # show sizes in MB
 alias np='nano PKGBUILD'
 alias psg='ps -ef | grep -i'
+alias cd.='cd ..'
+alias cd..='cd ../..'
+alias cd...='cd ../../..'
 
 function gvim ()
 {

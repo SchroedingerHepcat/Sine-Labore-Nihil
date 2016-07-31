@@ -14,7 +14,9 @@ set guifont=Monospace\ 13
 colorscheme distinguished
 
 " Set up tabbing
-set smartindent
+set cindent
+set cinkeys-=0#
+set indentkeys-=0#
 set tabstop=3
 set softtabstop=3
 set shiftwidth=3

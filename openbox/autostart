@@ -29,10 +29,10 @@ xset -dpms; xset s off &
 (sleep 1s && ~/scripts/monitorSetup.sh) &
 
 # Stream audio from X11 to windows machine
-(sleep 1s && pax11publish -e -S 192.168.0.3) &
+#(sleep 1s && pax11publish -e -S 192.168.0.3) &
 
 ## Basic compositing effects
-compton -cCGbf &
+compton -CGb &
 
 ## Background
 nitrogen --restore &
@@ -45,7 +45,7 @@ nitrogen --restore &
 (sleep 3s && conky) &
 
 ## Optionally enable file manager in daemon mode for automounting
-(sleep 1s && thunar --daemon) &
+#(sleep 1s && thunar --daemon) &
 
 # Start synergy
 (sleep 1s && synergyc 192.168.0.3) &
@@ -63,4 +63,4 @@ nitrogen --restore &
 /usr/bin/synapse &
 
 ## Start syndaemon for touchpad disabling while typing
-/usr/bin/syndaemon -k -d &
+#/usr/bin/syndaemon -k -d &
