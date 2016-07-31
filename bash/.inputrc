@@ -2,5 +2,15 @@ $include /etc/inputrc
 set completion-ignore-case on
 set mark-symlinked-directories on
 
+set editing-mode vi
+set keymap vi-command
 "\e[B": history-search-forward
 "\e[A": history-search-backward
+"\e.": yank-last-arg
+"\e_": yank-last-arg
+
+set keymap vi-insert
+"\e[B": history-search-forward
+"\e[A": history-search-backward
+"\e.": yank-last-arg
+"\e_": yank-last-arg
