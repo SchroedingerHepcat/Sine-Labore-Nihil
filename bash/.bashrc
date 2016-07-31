@@ -22,7 +22,7 @@ if [ "$SESSION_TYPE" != "remote/ssh" ]; then
 fi
 
 # Complete sudo with commands
-complete -cf sudo
+#complete -cf sudo
 
 # Set shell options
 shopt -s cdspell
@@ -112,13 +112,6 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
-# enable programmable completion features (you don't need to enable
-# this, if it's already enabled in /etc/bash.bashrc and /etc/profile
-# sources /etc/bash.bashrc).
-if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
-    . /etc/bash_completion
-fi
-
 # Use user-defined inputrc file
 export INPUTRC=~/.inputrc
 
@@ -137,3 +130,14 @@ export PYTHONSTARTUP="$HOME/.pythonrc"
 
 # Define gvim as my editor
 export EDITOR="/usr/bin/gvim -f"
+
+# enable programmable completion features (you don't need to enable
+# this, if it's already enabled in /etc/bash.bashrc and /etc/profile
+# sources /etc/bash.bashrc).
+if ! shopt -oq posix; then
+  if [ -f /usr/share/bash-completion/bash_completion ]; then
+    . /usr/share/bash-completion/bash_completion
+  elif [ -f /etc/bash_completion ]; then
+    . /etc/bash_completion
+  fi
+fi
