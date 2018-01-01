@@ -1,5 +1,7 @@
 " Source whatever system settings there are
-source /etc/vimrc
+if filereadable("/etc/vimrc")
+   source /etc/vimrc
+endif
 
 " Show line numbers
 set number
