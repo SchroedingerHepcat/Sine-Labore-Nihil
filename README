@@ -1,12 +1,3 @@
-The SchroedingerHepcat's general purpose repository.
+The SchroedingerHepcat's general purpose repository.  It includes various environment files and other scripts.
 
-Bash Configuration
-------------------
-To use, link each file in the bash directory to your home directory.
-
-
-Vim Configuration
------------------
-To use
-1) Link vimrc to ~/.vimrc
-2) Link vim to ~/.vim
+In order to setup the environment, simply run the setup.sh, either before or after cloning.
