@@ -35,6 +35,9 @@ fi
 if [ -e $HOME/.pythonrc ]; then
    mv $HOME/.pythonrc $HOME/.pythonrc.bak-preSineLaboreNihil
 fi
+if [ -e $HOME/.tmux.conf ]; then
+   mv $HOME/.tmux.conf $HOME/.tmux.conf.bak-preSineLaboreNihil
+fi
 
 # Link environment
 ln -s $HOME/git/Sine-Labore-Nihil/bash/bashrc $HOME/.bashrc
@@ -46,3 +49,4 @@ ln -s $HOME/git/Sine-Labore-Nihil/vim $HOME/.vim
 ln -s $HOME/git/Sine-Labore-Nihil/vim/vimrc $HOME/.vimrc
 ln -s $HOME/git/Sine-Labore-Nihil/scripts $HOME/scripts
 ln -s $HOME/git/Sine-Labore-Nihil/python/pythonrc $HOME/.pythonrc
+ln -s $HOME/git/Sine-Labore-Nihil/tmux/tmux.conf $HOME/.tmux.conf
