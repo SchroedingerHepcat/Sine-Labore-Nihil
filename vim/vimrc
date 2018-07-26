@@ -309,7 +309,7 @@ set smartcase
 "augroup END
 
 " Center Screen on search next/prev
-noremap n nnz
+noremap n nzz
 noremap N Nzz
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

@@ -14,6 +14,12 @@ alias psg='ps -ef | grep -i'
 alias cd.='cd ..'
 alias cd..='cd ../..'
 alias cd...='cd ../../..'
+alias cd....='cd ../../../..'
+alias cd.....='cd ../../../../..'
+alias path='echo $PATH | tr ":" "\n"'
+alias ldpath='echo $LD_LIBRARY_PATH | tr ":" "\n"'
+alias pypath='echo $PYTHONPATH | tr ":" "\n"'
+alias ssh='ssh -Y'
 
 function gvim ()
 {
@@ -44,3 +50,43 @@ extract ()
   fi
 }
 
+alias psg &> /dev/null && unalias psg
+function psg()
+{
+    ps -ef | grep -i "$1" | grep -v "grep"
+}
+
+function getWorkspace()
+{
+    if which xprop 2>&1 > /dev/null; then
+        xprop -root -notype _NET_CURRENT_DESKTOP | cut -d" " -f 3
+    elif [[ "$DESKTOP_SESSION" == "kde" ]]; then
+        qdbus org.kde.kwin /kWin currentDesktop
+    elif [[ "$DESKTOP_SESSION" == "gnome" ]]; then
+        xprop -root -notype _NET_CURRENT_DESKTOP | sed -re 's/^.*= ([0-9]+)/\1/'
+    else
+        echo "unknown"
+    fi
+}
+
+function calc()
+{
+    bc -l <<<"scale=10; $1"
+}
+
+function parse_git_branch()
+{
+    git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'
+}
+
+function colors()
+{
+    for x in {0..8}; do
+        for i in {30..37}; do
+            for a in {40..47}; do
+                echo -ne "\e[$x;$i;$a""m\\\e[$x;$i;$a""m\e[0;37;40m "
+            done
+            echo
+        done
+    done
+}
