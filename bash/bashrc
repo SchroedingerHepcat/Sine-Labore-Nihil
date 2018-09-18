@@ -16,6 +16,12 @@ elif [[ ! -n "$STY" ]] && [[ -e /usr/bin/screen ]]; then
     exec /usr/bin/screen
 fi
 
+# Store the current X display as the latest display
+echo $DISPLAY > $HOME/.latest_X_display
+
+# Save and reload the history after each command
+export PROMPT_COMMAND='export DISPLAY=$(cat $HOME/.latest_X_display)'
+
 # Increase the umber of simultaneous processes allowed to run
 ulimit -u 8192
 
