@@ -14,9 +14,6 @@ fi
 if [ -e $HOME/.bash_aliases ]; then
    mv $HOME/.bash_aliases $HOME/.bash_aliases.bak-preSineLaboreNihil
 fi
-if [ -e $HOME/.bash_history ]; then
-   mv $HOME/.bash_history $HOME/.bash_history.bak-preSineLaboreNihil
-fi
 if [ -e $HOME/.bash_logout ]; then
    mv $HOME/.bash_logout $HOME/.bash_logout.bak-preSineLaboreNihil
 fi
@@ -35,14 +32,17 @@ fi
 if [ -e $HOME/.pythonrc ]; then
    mv $HOME/.pythonrc $HOME/.pythonrc.bak-preSineLaboreNihil
 fi
+if [ -e $HOME/.tmux.conf ]; then
+   mv $HOME/.tmux.conf $HOME/.tmux.conf.bak-preSineLaboreNihil
+fi
 
 # Link environment
 ln -s $HOME/git/Sine-Labore-Nihil/bash/bashrc $HOME/.bashrc
 ln -s $HOME/git/Sine-Labore-Nihil/bash/bash_aliases $HOME/.bash_aliases
-ln -s $HOME/git/Sine-Labore-Nihil/bash/bash_history $HOME/.bash_history
 ln -s $HOME/git/Sine-Labore-Nihil/bash/bash_logout $HOME/.bash_logout
 ln -s $HOME/git/Sine-Labore-Nihil/bash/inputrc $HOME/.inputrc
 ln -s $HOME/git/Sine-Labore-Nihil/vim $HOME/.vim
 ln -s $HOME/git/Sine-Labore-Nihil/vim/vimrc $HOME/.vimrc
 ln -s $HOME/git/Sine-Labore-Nihil/scripts $HOME/scripts
 ln -s $HOME/git/Sine-Labore-Nihil/python/pythonrc $HOME/.pythonrc
+ln -s $HOME/git/Sine-Labore-Nihil/tmux/tmux.conf $HOME/.tmux.conf
