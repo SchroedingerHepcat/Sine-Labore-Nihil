@@ -1,1986 +1,3 @@
-systemctl status samba.service 
-systemctl restart samba.service 
-sudo systemctl restart samba.service 
-smbtree
-cd 
-cd code/IngressIntel/
-ls
-python3
-cat GoogleLogin.py 
-python2
-cd code/IngressIntel/
-ls
-cat ingress
-cat ingress.py
-synergyc -f --debug DEBUG2 192.168.0.3
-python3
-cd
-ls
-cd ~
-ls
-cd \~
-ls
-cd HexReplace/
-ls
-g uinet.py
-synergyc -f --debug DEBUG2 192.168.0.3
-sudo pacman -Syyuu
-python
-synergyc -f --debug DEBUG2 192.168.0.3
-psg synergy
-kill 1407
-synergyc -f --debug DEBUG2 192.168.0.3
-sudo pacman -Syyuu synergy
-synergyc -f --debug DEBUG2 192.168.0.3
-cat /etc/synergy.conf.example
-ls .synergy/
-ls .synergy/plugins/
-ll .synergy/plugins/
-ls /etc/samba/smb.conf
-cat /etc/samba/smb.conf
-systemctl status smbd.service 
-ssh morain.net
-ping morain.net
-ssh morainj@morain.net
-g .ssh/config
-ssh morainj@morain.net
-cat .ssh/known_hosts 
-g .ssh/known_hosts
-ssh morainj@morain.net
-ssh jmorain@morain.net
-ssh morainj@morain.net
-ls /mnt/
-ssh morainj@morain.net
-synergyc -f --debug DEBUG2 192.168.0.3
-cat .ssh/known_hosts 
-g .ssh/known_hosts
-ssh morainj@morain.net
-ssh morain.net
-xset q
-xset +dpms
-xset q
-synergyc -f --debug DEBUG2 192.168.0.3
-pacman -S dropbox
-sudo pacman -S dropbox
-sudo pacman -S ufw-extras
-sudo pacman -S perl-file-mimeinfo
-cd /mnt/data/Dropbox
-ls
-cd ..
-ls
-rm Dropbox\ \(Old\)/
-rmdir Dropbox\ \(Old\)/
-ll
-ls
-cd Dropbox/Ingress/Possible\ fields/
-ls
-cd Roxborough-MorrisonRoad-Golden/
-ls
-g Bookmarks.txt
-ls
-synergyc -f --debug DEBUG2 192.168.0.3
-xset q
-xset +dpms
-xset q
-xset +dpms
-xset q
-synergyc -f --debug DEBUG2 192.168.0.3
-cd 
-g .config/openbox/rc.xml 
-openbox --reconfigure
-g .vimrc 
-g .config/openbox/rc.xml 
-ls
-cd git/Sine-Labore-Nihil/
-ls
-mkdir openbox
-cd openbox/
-~/.config/openbox/rc.xml ./
-ll ~/.config/openbox/
-mv ~/.config/openbox/* ./
-cd $1
-cd .config/openbox/
-ll
-ln -s ~/git/Sine-Labore-Nihil/openbox/*
-ln -s ~/git/Sine-Labore-Nihil/openbox/* .
-ll
-cd -
-cd git/Sine-Labore-Nihil/
-git push origin
-git config --list
-git remote set-url origin git@githup.com:SchroedingerHepcat/Sine-Labore-Nihil.git
-git pull
-git pull origin
-git push origin
-git remote set-url origin git@github.com:SchroedingerHepcat/Sine-Labore-Nihil.git
-git remote -v
-git pull
-la ~/.ssh/
-la
-la ~/.ssh/
-ssh morain.net
-ssh-keygen -t rsa -b 4096 -C "SchroedingerHepcat@gmail.com"
-ls
-ls ~/.ssh/
-g ~/.ssh/id_rsa.pub 
-git pull
-git status
-git add bash/.bash_history vim/vimrc openbox/
-git status
-git add bash/.bash_history
-git push
-git commit -m "Add openbox and update vim configs."
-git commit -a -m "Bash history commits." && git pull
-git push
-cd 
-ls
-cd code/ingress
-ls
-cd ..
-ls
-cd Ingress
-cd ..
-cd IngressIntel/
-ls
-g ingress.py
-python
-g GoogleLogin.py 
-ssh morain.net
-synergyc -f --debug DEBUG2 192.168.0.3
-python
-ls
-touch ingressTools.py
-chmod +x ingressTools.py 
-mv ingressTools.py IngressTools.py
-g IngressTools.py 
-synergyc -f --debug DEBUG2 192.168.0.3
-python3
-ls
-touch SlackBot.py
-chmod +x SlackBot.py 
-g SlackBot.py 
-synergyc -f --debug DEBUG2 192.168.0.3
-python
-sqlite3
-cd code/IngressIntel/
-ls
-sqlite example.db 
-sqlite3 example.db 
-ssh morain.net
-g ~/.ssh/known_hosts 
-ssh morain.net
-python
-ls
-touch intelWatcher.py
-chmod +x intelWatcher.py 
-ll
-g intelWatcher.py 
-synergyc -f --debug DEBUG2 192.168.0.3
-python
-./intelWatcher.py
-ll
-./intelWatcher.py
-cd code/IngressIntel/
-ls
-./intelWatcher.py
-grep -ir 200 *
-./intelWatcher.py
-synergyc -f --debug DEBUG2 192.168.0.3
-./intelWatcher.py
-synergyc -f --debug DEBUG2 192.168.0.3
-top
-killall chrome
-top
-psg chrome
-free
-top
-./intelWatcher.py
-python
-sudo reboot
-top
-cd code/IngressIntel/
-./intelWatcher.py
-xset q
-xset +dpms
-xset q
-ls
-cd code/IngressIntel/
-ls
-g intelWatcher.py 
-ssh morain.net
-./intelWatcher.py
-python2 intelWatcher.py 
-python
-ls
-g IngressTools.py
-./intelWatcher.py
-python
-./intelWatcher.py
-cd code/IngressIntel/
-xset q
-xset +dpms
-xset q
-./intelWatcher.py 
-cd code/IngressIntel/
-g intelWatcher.py 
-synergyc -f --debug DEBUG2 192.168.0.3
-ls /dev/usb/
-ls /mnt/
-cd ..
-cp -R IngressIntel/ /mnt/data/Dropbox/
-./intelWatcher.py 
-ls
-mv IngressIntel IngressIntel.bak
-ln -s /mnt/data/Dropbox/IngressIntel ./
-ll
-cd ../git/Sine-Labore-Nihil/
-git pull
-g bash/.bash_history 
-git add bash/.bash_history && git commit -m 'History update' && git pull
-g bash/.bash_history 
-git add bash/.bash_history && git commit -m 'History update' && git pull
-git pull
-git push
-git pull
-cd..
-cd ..
-la
-cat .inputrc 
-syndaemon -k -d
-cat .inputrc 
-cat git/Sine-Labore-Nihil/bash/.inputrc 
-mv .inputrc .inputrc.bak
-ln -s git/Sine-Labore-Nihil/bash/.inputrc 
-g .inputrc
-cd git/Sine-Labore-Nihil/
-git status
-git add bash/.inputrc
-git commit -m "Add slash to symlinked directories."
-git push
-git pull
-git add bash/.bash_history && git commit -m 'History update' && git pull
-git push
-git add bash/.bash_history && git commit -m 'History update' && git pull
-git push
-git pull
-cd ..
-exit
-cd code/IngressIntel/
-ls
-cd..
-cd ..
-ls Dropbox/
-cd code/
-ls
-rm -r IngressIntel/
-ln -s ~/Dropbox/Ingress
-ll
-cd Ingress/
-ls
-cd ..
-rm Ingress/
-rm Ingress
-ll
-ln -s ~/Dropbox/IngressIntel/
-ll IngressIntel/
-cd IngressIntel/
-g IngressTools.py
-reboot
-g .config/openbox/rc.xml 
-syndaemon -k -d
-ping google.com
-synclient --help
-synclient -l
-la /etc/X11/xorg.conf.d/
-g /etc/X11/xorg.conf.d/50-synaptics.conf
-cp 50-synaptics.conf /etc/X11/xorg.conf.d/50-synaptics.conf
-sudo mv 50-synaptics.conf /etc/X11/xorg.conf.d/50-synaptics.conf
-synclient -l
-synclient --help
-synclient "TapButton2=3"
-synclient "TapButton3=2"
-synclient "HorizTwoFingerScroll=1"
-synclient "VertScrollDelta=-111"
-synclient "HorizScrollDelta=-111"
-g ~/.config/openbox/autostart 
-cd code/IngressIntel/
-ls
-g IngressTools.py
-sudo pacman -S skippy-xd
-sudo pacman -S skippy-xd-git
-sudo yaourt -S skippy-xd
-sudo yaourt -S skippy-xd-git
-yaourt -S skippy-xd-git
-pacman -s strip
-pacman -S strip
-sudo pacman -S strip
-sudo pacman -S binutils
-sudo yaourt -S skippy-xd-git
-cat /tmp/yaourt-tmp-morainj/aur-skippy-xd-git/./PKGBUILD
-sudo pacman -S buildutils
-pacman -S make
-sudo pacman -S make
-sudo pacman -S base-devel
-sudo pacman -S base-devel devtools
-yaourt -S skippy-xd-git
-skippy-xd 
-skippy-xd --start-daemon
-g .config/openbox/autostart 
-pacman -S synapse
-sudo pacman -S synapse
-synapse
-which skippy-xd 
-which synapse
-pacman -S devhelp
-sudo pacman -S devhelp
-g .config/openbox/rc.xml 
-ls ~/git/Sine-Labore-Nihil/openbox/
-cd .config/
-ls
-la openbox/
-mv openbox openbox.bak
-ln -s ~/git/Sine-Labore-Nihil/openbox/ ./
-cd openbox
-g ../openbox.bak/autostart
-g ../openbox.bak/autostart ./autostart 
-ls
-ls ../openbox.bak/
-cd ..
-ls
-ls openbox.bak/
-ls
-cd openbox
-ls
-g rc.xml 
-openbox --reconfigure
-cd .config/
-diff openbox.bak/rc.xml openbox/rc.xml 
-cd ..
-cd Downloads/
-ls
-tar xvf 110837-Dark\ Star.tar.gz 
-cd ~/.config/
-ls
-diff openbox.bak/rc.xml openbox/rc.xml 
-g openbox/rc.xml 
-openbox --reconfigure
-cd code/IngressIntel/
-ls
-g intelWatcher.py 
-g IngressTools.py
-syndaemon -k -d
-./intelWatcher.py
-python
-./intelWatcher.py
-synclient "VertScrollDelta=-111"
-synclient "HorizScrollDelta=-111"
-swig
-pacman -S swig
-sudo pacman -S swig
-ls
-cd code
-ls
-mkdir swigDemo
-cd swigDemo/
-touch helloWorld.cpp
-mv helloWorld.cc
-ll
-mv helloWorld.cpp helloWorld.cc
-ls
-touch helloWorld.hh
-g helloWorld.hh 
-syndaemon -k -d
-g helloWorld.cc 
-sudo pacman -Syyuu
-mv {h,H}elloWorld.hh
-mv {h,H}elloWorld.cc
-ll
-g HelloWorld.*
-ls
-ls ~/.vim/colors/
-ls ~/.vim/plugin/colorsupport.vim 
-g ~/.vimrc 
-g++ --help
-man g++
-g++ -libc++ HelloWorld.cc HelloWorld.hh -o HelloWorld.o
-g++ -libc++ HelloWorld.cc HelloWorld.hh -o HelloWorld.a
-g++ HelloWorld.cc HelloWorld.hh -o HelloWorld.a
-man g++
-g++ -shared HelloWorld.cc HelloWorld.hh -o HelloWorld.a
-g++ -fPIC HelloWorld.cc HelloWorld.hh -o HelloWorld.a
-g++ -shared -fPIC HelloWorld.cc HelloWorld.hh -o HelloWorld.a
-ls
-la
-mv HelloWorld.{a,so}
-ls
-g test
-ls
-ssh 71.211.158.57
-ping google.com
-ssh 71.211.158.57
-ls /var/log/boot.log 
-cat /var/log/boot.log
-cat /var/log/thus-20141107-101021.log 
-ls
-ls /var/log/boot.log 
-ls /var/log/
-cat /var/log/lastlog 
-cat /var/log/wtmp 
-ls /var/log/
-cat /var/log/boot.log 
-exit
-systemd-analyze blame
-ls
-mhwd-kernel -l
-mhwd-kernel -li
-sudo mhwd-kernel -i linux44 rmc
-sudo pacman -Syyuu
-reboot
-cd .config/openbox
-ls
-cat autostart 
-syndaemon -k -d
-g autostart 
-which syndaemon 
-ll
-cd ..
-ll
-exit
-ping google.com
-ssh 71.211.158.57
-exit
-shutdown
-ssh 71.211.158.57
-ssh -Y 71.211.158.57
-ssh -X 71.211.158.57
-cd .config/openbox
-ls
-cd ..
-ll
-cd openbox
-ls
-g rc.xml 
-openbox --reconfigure
-git status
-git add autostart rc.xml
-git commit -m "Window tiling left and right."
-git push
-git pull
-git status
-git add bash/.bash_history && git commit -m "History update." && git pull
-git pull
-git push
-ls
-cat bash/.inputrc 
-synergyc -d
-synergyc 192.168.0.3
-cd ~/code
-cd IngressIntel
-ls
-g IngressTools.py
-g intelWatcher.py 
-ls
-./intelWatcher.py 
-g ~/.vimrc
-g intelWatcher.py 
-g IngressTools.py
-./intelWatcher.py 
-ll
-cd ..
-ll
-cd IngressIntel
-ls
-./intelWatcher.py 
-synergyc 192.168.0.3
-./intelWatcher.py 
-synergyc 192.168.0.3
-cd 
-ls
-cd /mnt/data/Dropbox/
-ls
-cd Ingress
-ls
-cd Possible\ fields/
-ls
-mkdir Golden-DinoRidge-6thAve
-cd Golden-DinoRidge-6thAve/
-ls
-touch Draw.txt
-g Draw.txt 
-synergyc 192.168.0.3
-./intelWatcher.py 
-curl -s http://checkip.dyndns.org
-curl -s http://checkip.dyndns.org | sed 's/[a-zA-Z/<> :]//g'
-msmtp
-pacman -Syyuu
-exit
-top
-curl -s http://checkip.dyndns.org | sed 's/[a-zA-Z/<> :]//g'
-ls
-sudo pacman -Syyuu
-ping morain.net
-exit
-sudo pacman -Syyuu msmtp
-cd ..
-cd 
-cd code/
-ls
-mkdir ipAddressEmail
-cd ipAddressEmail/
-ls
-touch emailIpAddress.sh
-g emailIpAddress.sh
-msmtp
-msmtp --help
-synergyc 192.168.0.3
-g .msmtprc
-ls /etc/ssl/certs/ca-certificates.crt 
-ll /var/log
-ll /var/
-ls
-mkdir log
-ls
-chmod +x emailIpAddress.sh 
-ll
-./emailIpAddress.sh 
-ll /home/morainj/.msmtprc
-chmod 600 /home/morainj/.msmtprc
-ll/home/morainj/.msmtprc
-ll /home/morainj/.msmtprc
-./emailIpAddress.sh 
-crontab -e
-sudo crontab -e
-cd 
-ls
-cd scripts
-ls
-cd ..
-ll
-mv code/ipAddressEmail/emailIpAddress.sh scripts/
-ls scripts
-ls scripts/
-crontab -e
-echo $EDITOR
-g ~/.bashrc
-editor .bashrc
-edit .bashrc
-exec bash
-edit .bashrc
-echo $EDITOR 
-which gvim
-g .bashrc
-gvim -f
-gvim --help
-gvim -f .bashrc
-exec bash
-edit
-vim
-exec bash
-echo $EDITOR 
-edit
-editor
-man edit
-rm /tmp/oldIp 
-crontab -e
-psg cron
-ls /etc/cron.d/0hourly
-cat /etc/cron.d/0hourly
-ls /etc/cron.deny 
-ls /etc/cron.deny
-cat /etc/cron.deny
-ll .inputrc 
-cat .inputrc 
-ls git/Sine-Labore-Nihil/bash/
-la git/Sine-Labore-Nihil/bash/
-ll .bashrc
-cat git/Sine-Labore-Nihil/bash/.inputrc 
-rm .inputrc 
-ln ~/git/Sine-Labore-Nihil/bash/.inputrc ./
-ll
-la .inputrc 
-rm .inputrc 
-ln -s git/Sine-Labore-Nihil/bash/.inputrc 
-ll
-la .inputrc 
-cat .inputrc 
-ls scripts/
-ls
-g scripts/emailIpAddress.sh 
-./scripts/emailIpAddress.sh 
-mhwd-kernel -h
-mhwd-kernel -l
-mhwd-kernel -li
-mhwd-kernel -i linux44
-sudo mhwd-kernel -i linux44
-reboot
-mhwd-kernel -i linux44
-mhwd-kernel -li
-cat /etc/default/grub 
-g /etc/default/grub
-sudo g /etc/default/grub
-reboot
-cat /boot/grub/grubenv 
-cat /boot/grub/grub
-cat /etc/default/grub 
-sudo g /etc/default/grub
-sudo update-grub
-reboot
-ls
-exit
-xset -q
-xset +dpms
-xset -q
-ls
-screen
-sudo pacman -S screen
-ls
-cd code/IngressIntel
-ls
-exit
-screen
-exit
-gvim
-exit
-sudo vim /etc/ssh/sshd_config 
-sudo systemctl restart sshd
-sudo systemctl -h
-sudo systemctl reload sshd
-systemctl status sshd.service 
-sudo systemctl reload sshd.service 
-sudo systemctl restart sshd.service 
-exit
-exec bash
-ls
-exit
-exit
-cd code/IngressIntel
-ls
-cd ..
-ll
-ls
-cd ingress
-cd ..
-cd IngressIntel
-ls
-ll
-g intelWatcher.py 
-./intelWatcher.py 
-bg
-ls ~
-ls ~/log
-./intelWatcher.py 
-hhhfg
-fg
-./intelWatcher.py 
-mkdir log
-./intelWatcher.py 
-bg
-ls
-fg
-./intelWatcher.py 
-bg
-ls log/
-cat log/IntelWatcher-1450973815.4071655\).log 
-tail -f log/IntelWatcher-1450973815.4071655\).log
-g log/IntelWatcher-1450973815.4071655\).log
-g
-vim g
-vi log/IntelWatcher-1450973815.4071655\).log
-fg
-./intelWatcher.py 
-screen
-synergyc 192.168.0.3
-ls
-cd scripts/
-ls
-g emailIpAddress.sh 
-exit
-ls
-g
-exec bash
-cat .bashrc
-vi .bashrc
-exec bash
-vi .bashrc
-exec bash
-vi .bashrc
-exec bash
-echo $SESSION_TYPE 
-vim .bashrc
-vi .bashrc
-exec bash
-ls
-cd scripts/
-ls
-cd scripts/
-ls
-g emailIpAddress.sh 
-jobs
-vi emailIpAddress.sh
-cd scripts/
-vi emailIpAddress.sh 
-vim emailIpAddress.sh
-ls
-test -z $test
-echo $?
-test -z $test && true
-test -z $test && true || echo false
-test -z $test && echo true || echo false
-test -z $SHELL && echo true || echo false
-./emailIpAddress.sh 
-synergyc 192.168.0.3
-ping 192.168.0.3
-git status
-cd code/IngressIntel
-ls
-./intelWatcher.py 
-ls
-cd code/IngressIntel
-ls
-cd log/
-ls
-cat IntelWatcher-1451684233.746712.log 
-ls
-sudo pacman -Syyuu
-cat intelWatcher.py 
-tail -f IntelWatcher-1451684233.746712.log
-ls
-cd git/Sine-Labore-Nihil/
-git pull
-git add ~/git/Sine-Labore-Nihil/bash/.bash_history && git commit -m 'History update' && git pull
-g bash/.bash_history
-g ~.bash_history
-g ~/.bash_history
-git add bash/.bash_history && git commit -m "History update." && git pull
-g bash/.bash_history 
-git add bash/.bash_history && git commit -m "History update." && git pull
-git pull
-openbox --reconfigure
-cd code/IngressIntel
-ls
-g IngressTools.py
-sudo dhcpcd -k
-dhcpcd
-systemctl restart dhcpcd
-synergyc 192.168.0.3
-xset -q
-xset +dpms
-xset -q
-python
-tail -f IntelWatcher-1451685559.3856666.log 
-ls
-rm  IntelWatcher-1450995554.8382201.log IntelWatcher-1451684233.746712.log
-synergyc 192.168.0.3
-cd 
-pacman -Syyuu synapse
-sudo pacman -Syyuu synapse
-sudo pacman -Syyuu bc
-sudo pacman -S bc
-sudo pacman -S Devhelp
-sudo pacman -S devhelp
-synergyc -f 192.168.0.3
-bg
-ls
-cd .synergy/
-ls
-cd plugins/
-ls
-cd code/IngressIntel
-ls
-g intelWatcher.py 
-python
-tail -f IntelWatcher-1451746845.877365.log
-tail -f IntelWatcher-1451780758.5571768.log 
-ls
-rm IntelWatcher-1451685559.3856666.log IntelWatcher-1451746845.877365.log IntelWatcher-1451780614.9020588.log IntelWatcher-1451780758.5571768.log
-ls
-tail -f IntelWatcher-1451783638.5827022.log 
-ls
-cat IntelWatcher-1451783638.5827022.log 
-python
-cd code/IngressIntel/log/
-ls
-tail -f IntelWatcher-1451790463.5444798.log
-tail -f IntelWatcher-1451790463.5444798.log 
-ls
-cat IntelWatcher-1452359720.0407658.log
-ssh 
-ssh 108.167.189.74 -p 2222
-ssh 108.167.189.74 -p 2222
-ls .ssh/
-ssh 108.167.189.74 -p 2222
-scp /home/morainj/.ssh/id_rsa.pub 108.167.189.74:2222
-scp /home/morainj/.ssh/id_rsa.pub 108.167.189.74
-scp /home/morainj/.ssh/id_rsa.pub 108.167.189.74:~/
-scp -p 2222 /home/morainj/.ssh/id_rsa.pub 108.167.189.74:~/
-man scp
-scp -P 2222 /home/morainj/.ssh/id_rsa.pub 108.167.189.74:~/
-ssh 108.167.189.74 -p 2222
-alias hostgator="ssh 108.167.189.74 -p 2222"
-hostgator
-ls
-ll
-scp -P 2222 /home/morainj/.bash* 108.167.189.74:~/
-ssh 108.167.189.74 -p 2222
-vim .bashrc
-scp -P 2222 -r /home/morainj/.vim 108.167.189.74:~/
-ssh 108.167.189.74 -p 2222
-scp -P 2222 -r /home/morainj/.vimrc 108.167.189.74:~/
-ssh 108.167.189.74 -p 2222
-scp -P 2222 -r /home/morainj/.inputrc 108.167.189.74:~/
-ssh 108.167.189.74 -p 2222
-ssh -Y 108.167.189.74 -p 2222
-ls
-cd code/IngressIntel
-ls
-touch ingressDatabase.py
-chmod +x ingressDatabase.py 
-g ingressDatabase.py
-python3
-pacman -S python-mysql-connector
-sudo pacman -S python-mysql-connector
-python3
-python
-sudo pacman -S python-mysql-connector
-python
-python2
-python
-pacman -S mysql-python 
-sudo pacman -S mysql-python 
-python
-g intelWatcher.py
-./ingressDatabase.py 
-python -m pdb intelWatcher.py 
-tail -f IntelWatcher-1452359720.0407658.log
-ls
-rm IntelWatcher-1451783638.5827022.log IntelWatcher-1451790463.5444798.log IntelWatcher-1452359720.0407658.log
-ls
-tail -f IntelWatcher-1452359720.0407658.log
-tail -f IntelWatcher-1452407006.0984256.log 
-ls
-python -m pdb intelWatcher.py 
-tail -f IntelWatcher-1452407103.3986742.log
-ls
-rm *
-tail -f IntelWatcher-1452407400.2306514.log 
-rm *
-python
-cd code/IngressIntel
-ls
-python -m pdb intelWatcher.py 
-tail -f IntelWatcher-1452407578.3277004.log 
-rm *
-ls
-python
-tail -f IntelWatcher-1452408693.0142848.log 
-rm *
-tail -f IntelWatcher-1452410452.4291701.log 
-python -m pdb intelWatcher.py 
-rm *
-ls
-g SlackBot.py
-cd code/IngressIntel
-ls
-touch SlackWebhooks.py
-g SlackWebhooks.py
-g SlackBot.py
-tail -f IntelWatcher-1452410557.8214562.log 
-rm *
-tail -f IntelWatcher-1452444462.0084298.log 
-python -m pdb intelWatcher.py 
-ls
-ssh 108.167.189.74 -p 2222
-ls
-python
-ls
-mv ingressDatabase.py IngressDatabase.py
-python
-ssh 108.167.189.74 -p 2222
-python
-tail -f IntelWatcher-1452444597.453241.log
-ls
-tail -f IntelWatcher-1452656920.3893392.log
-rm *
-python -m pdb intelWatcher.py 
-tail -f IntelWatcher-1452657089.2059672.log 
-rm *
-tail -f IntelWatcher-1452657158.535263.log 
-rm *
-cd /mnt/data/
-ll
-chmpd a+rw Dropbox/
-ll
-chmpd a+rw Dropbox/
-chmod a+rw Dropbox/
-ll
-ls Dropbox/
-ll Dropbox/
-ll Dropbox/Ingress
-ll Dropbox/Camera\ Uploads/
-find . -iname .*2015[0-9]{4}_[0-9]{6}.*
-find Dropbox/ -iname .*2015[0-9]{4}_[0-9]{6}.*
-find Dropbox/ -iname *2015[0-9]{4}_[0-9]{6}*
-find Dropbox/ -iname *2015*
-find Dropbox/ -iname "*2015*"
-for file in $(find Dropbox/ -iname "*_2015*"); do cp $file ./; done
-ll
-view score_2015*
-cd /mnt/data/
-ls
-display score_2015*
-display profile_20150711_204721_2.png 
-python -m pdb intelWatcher.py 
-tail -f IntelWatcher-1452752931.7160559.log 
-ls
-rm *
-tail -f IntelWatcher-1452824405.7437878.log 
-rm *
-python -m pdb intelWatcher.py 
-tail -f IntelWatcher-1452849923.8499312.log 
-rm *
-tail -f IntelWatcher-1452849923.8499312.log 
-tail -f IntelWatcher-1452893935.1267965.log
-egrep "has [0-9]+ portals"
-egrep "has [0-9]+ portals" *
-calc
-bc <<< calc 13+118+49+56+42+16+9+28+16
-bc <<< 13+118+49+56+42+16+9+28+16
-cd code/IngressIntel
-ls
-cd code/IngressIntel/log/
-ls
-rm IntelWatcher-1452893935.1267965.log 
-tail - f IntelWatcher-1453018434.91882.log 
-ls
-xset -q
-xset +dpms
-ls
-cd code/IngressIntel
-ls
-g IngressDatabase.py 
-g IngressTools.py
-g intelWatcher.py
-hostgator
-ssh 108.167.189.74 -p 2222
-sudo pacman -Syyuu
-ssh 108.167.189.74 -p 2222
-ls
-cd code/IngressIntel
-ls
-cd ..
-ll
-ls
-cd ingress
-ll
-cd ..
-cd IngressIntel
-ls
-ll
-g IngressDatabase.py 
-mkdir ~/logs
-g intelWatcher.py 
-rmdir ~/logs
-mkdir ~/log/intelWatcher
-python -m pdb intelWatcher.py 
-tail -f IntelWatcher-1453018434.91882.log 
-rmdir ~/logs
-rm *
-ls
-cd 
-cd log/intelWatcher/
-ls
-ll
-g IngressDatabase.py 
-cd code/ingress
-python
-ls
-cd ..
-cd IngressIntel
-ls
-python
-ls /mnt/data/Ingress/
-ls
-cd /mnt/data/
-ls
-cd Ingress/
-ls
-cd Farms/
-ls
-python
-python -m pdb intelWatcher.py 
-tail -f IntelWatcher-1453562651.5149977.log 
-rm *
-ls
-tail -f IntelWatcher-1453695189.2887528.log 
-ssh 108.167.189.74 -p 2222
-sudo amdcccle 
-killall synergyc
-cat .config/openbox/autostart 
-killall conky
-which conky
-conky
-cat .config/openbox/autostart 
-nitrogen --help
-ls Pictures/
-ls Pictures/Wallpapers/
-nitrogen -h
-nitrogen --set-scaled Pictures/Wallpapers/kneeling.jpg 
-ls /mnt/data/Pictures
-ll
-cd Pictures/
-ll
-ll Wallpapers/
-ll
-chown -R morainj *
-sudo chown -R morainj *
-nitrogen --set-scaled Wallpapers/Ds.png 
-ls
-g IngressDatabase.py 
-g addFarms.py
-python -m pdb addFarms.py
-tail -f IntelWatcher-1453695268.9543562.log 
-ls
-cat IntelWatcher-1453695268.9543562.log
-ls
-ls ../../code/IngressIntel/log/
-cat ../../code/IngressIntel/log/IntelWatcher-1454115738.9508262.log 
-tail -f ../../code/IngressIntel/log/IntelWatcher-1454115738.9508262.log
-ls
-python -m pdb addFarms.py
-tail -f addFarms-1454117024.818314.log 
-ls
-cat addFarms-1454118171.746014.log
-tail -f addFarms-1454118171.746014.log
-python -m pdb addFarms.py
-tail -f addFarms-1454118268.2252483.log 
-ls
-tail -f addFarms-1454118752.09178.log
-rm addFarms-145411*
-ls
-rm IntelWatcher-1453695189.2887528.log
-python -m pdb addFarms.py
-tail -f addFarms-1454118985.0893674.log 
-ls
-tail -f addFarms-1454119452.0606024.log
-rm addFarms-145411*
-ls
-python -m pdb addFarms.py
-tail -f addFarms-1454119932.2024586.log 
-rm addFarms-145411*
-ls
-tail -f addFarms-1454121161.8668134.log 
-rm addFarms-145411*
-ls
-rm addFarms-1454121161.8668134.log 
-python -m pdb addFarms.py
-tail -f addFarms-1454177942.8711689.log 
-rm addFarms-1454121161.8668134.log 
-rm addFarms-1454177942.8711689.log 
-tail -f addFarms-1454178472.5948482.log 
-rm addFarms-1454177942.8711689.log 
-rm addFarms-1454178472.5948482.log 
-python -m pdb addFarms.py
-tail -f addFarms-1454178805.3240554.log 
-rm addFarms-1454178805.3240554.log 
-cd /data
-cd /mnt/data/
-cp Music/La\ Pompe\ Jazz/La\ Pompe\ Jazz\ -\ Select\ Tunes\ -\ 06\ Douce\ Ambiance.mp3 Dropbox/
-ls Dropbox/
-mkdir TLG
-rmdir tlg
-rmdir TLG
-cd Dropbox
-mkdir TLG
-cp La\ Pompe\ Jazz\ -\ Select\ Tunes\ -\ 06\ Douce\ Ambiance.mp3 TLG/
-ls
-ls TLG/
-rm La\ Pompe\ Jazz\ -\ Select\ Tunes\ -\ 06\ Douce\ Ambiance.mp3 
-ls TLG/
-tail -f addFarms-1454179493.373907.log 
-rm addFarms-1454179493.373907.log 
-ls
-python -m pdb addFarms.py
-tail -f addFarms-1454181436.9637146.log 
-rm addFarms-1454181436.9637146.log 
-tail -f a
-tail -f addFarms-1454185825.676211.log 
-rm addFarms-1454185825.676211.log 
-python -m pdb addFarms.py
-tail -f addFarms-1454253599.5910695.log 
-rm addFarms-1454253599.5910695.log 
-python -m pdb addFarms.py
-tail -f addFarms-1454253649.2312367.log 
-ls /mnt/data/Ingress/Farms/BrownPalace.txt 
-python
-touch addFarmFromIitcBookmarksFile.py
-chmod +x addFarmFromIitcBookmarksFile.py
-g addFarmFromIitcBookmarksFile.py
-python -m pdb addFarms.py
-tail -f addFarms-1454255350.0620375.log 
-rm addFarms-1454253649.2312367.log addFarms-1454255350.0620375.log
-python
-ls
-python -m pdb addFarms.py
-tail -f addFarms-1454255601.8363075.log 
-tail -f addFarms-1454258212.5208013.log 
-rm a*
-python -m pdb intelWatcher.py 
-tail -f addFarms-1454258502.4317136.log 
-rm addFarms-1454258502.4317136.log 
-ls
-rm IntelWatcher-1453695268.9543562.log 
-tail -f IntelWatcher-1454260889.9028478.log 
-rm IntelWatcher-1454260889.9028478.log 
-python -m pdb intelWatcher.py 
-rm IntelWatcher-1454260971.712625.log 
-rm IntelWatcher-1454261088.0411153.log 
-python -m pdb intelWatcher.py 
-tail -f IntelWatcher-1454261134.2040186.log 
-rm IntelWatcher-1454261134.2040186.log 
-tail -f IntelWatcher-1454261346.5193455.log 
-rm IntelWatcher-1454261346.5193455.log 
-python -m pdb intelWatcher.py 
-tail -f IntelWatcher-1454261524.6971881.log 
-rm IntelWatcher-1454261524.6971881.log 
-tail -f IntelWatcher-1454262016.6554239.log 
-rm IntelWatcher-1454262016.6554239.log 
-python -m pdb intelWatcher.py 
-tail -f IntelWatcher-1454262100.091822.log 
-rm IntelWatcher-1454262100.091822.log 
-tail -f IntelWatcher-1454262100.091822.log 
-ls
-tail -f IntelWatcher-1454262627.8993013.log 
-rm IntelWatcher-1454262627.8993013.log 
-python -m pdb intelWatcher.py 
-tail -f IntelWatcher-1454264188.4907925.log 
-rm IntelWatcher-1454264188.4907925.log 
-ls
-python -m pdb addFarms.py
-python -m pdb intelWatcher.py 
-tail -f IntelWatcher-1454264714.584135.log 
-rm IntelWatcher-1454264714.584135.log 
-sudo pacman -Syyuu
-sudo pacman -S mysql
-users
-mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
-sudo mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
-sudo mysqladmin -u root password 'ariamarco'
-sudo mysql_secure_installation
-systemctl start mysqld
-sudo mysqladmin -u root password 'ariamarco'
-'/usr/bin/mysqladmin' -u root -h linux-desktop password 'ariamarco'
-sudo mysql_secure_installation
-sudo systemctl enable mysqld
-mysql
-mysql -uroot
-mysql -uroot -p
-ls
-ll
-cat config.cfg 
-ll
-cat ingress.py
-ls
-python
-mysql
-mysql -uingress -p
-mysql -uingress -pLongLiveTheResistance
-tail -f IntelWatcher-1454266198.657698.log 
-ls
-python -m pdb addFarms.py
-tail -f addFarms-1454271259.6200976.log 
-rm *
-python -m pdb intelWatcher.py 
-tail -f IntelWatcher-1454271699.3778903.log 
-ls
-rm IntelWatcher-1454271699.3778903.log 
-ls
-tail -f IntelWatcher-1454272550.197513.log 
-rm IntelWatcher-1454272550.197513.log 
-tail -f IntelWatcher-1454272550.197513.log 
-tail -f IntelWatcher-1454272775.8047526.log 
-python -m pdb intelWatcher.py 
-rm IntelWatcher-1454272775.8047526.log 
-mysql
-rm IntelWatcher-1454272857.2598825.log 
-python -m pdb intelWatcher.py 
-tail -f IntelWatcher-1454274391.2460144.log 
-rm IntelWatcher-1454274391.2460144.log 
-tail -f IntelWatcher-1454274
-ls
-tail -f IntelWatcher-1454274933.1011274.log 
-ls
-mysql -uingress -pLongLiveTheResistance
-ls
-ssh 108.167.189.74 -p 2222
-ls
-cd code/IngressIntel
-ls
-./addFarmFromIitcBookmarksFile.py 'Highlands Ranch Civic Center' /mnt/data/Ingress/Farms/HighlandsRanchCivicCenter.txt
-./addFarmFromIitcBookmarksFile.py 'Arvada Center' /mnt/data/Ingress/Farms/ArvadaCenter.txt 
-cat addFarmFromIitcBookmarksFile.py 
-./addFarmFromIitcBookmarksFile.py 'Brown Palace' /mnt/data/Ingress/Farms/BrownPalace.txt 
-./addFarmFromIitcBookmarksFile.py 'Bear Creek Park' /mnt/data/Ingress/Farms/BearCreekPark.txt 
-./addFarmFromIitcBookmarksFile.py 'Elk Ridge Park in Castle Pines' /mnt/data/Ingress/Farms/ElkRidgeParkCastlePines.txt 
-./addFarmFromIitcBookmarksFile.py 'Whispering Pines in Franktown' /mnt/data/Ingress/Farms/WhisperingPinesFranktown.txt 
-./addFarmFromIitcBookmarksFile.py 'Belmar Heritage Center' /mnt/data/Ingress/Farms/BelmarHeritageCenter.txt 
-./addFarmFromIitcBookmarksFile.py 'Belmar Civic Center' /mnt/data/Ingress/Farms/BelmarCivicCenter.txt 
-./addFarmFromIitcBookmarksFile.py 'Lakewood Cultural Center' /mnt/data/Ingress/Farms/LakewoodCulturalCenter.txt 
-./addFarmFromIitcBookmarksFile.py 'Berthoud' /mnt/data/Ingress/Farms/Berthoud.txt 
-./addFarmFromIitcBookmarksFile.py 'Gold Strike Park' /mnt/data/Ingress/Farms/GoldStrikePark.txt 
-./addFarmFromIitcBookmarksFile.py 'Littleton Lite Rail' /mnt/data/Ingress/Farms/LittletonLiteRail.txt 
-./addFarmFromIitcBookmarksFile.py 'Downtown Littleton' /mnt/data/Ingress/Farms/LittletonDowntown.txt 
-./addFarmFromIitcBookmarksFile.py 'Lyons' /mnt/data/Ingress/Farms/Lyons.txt 
-tail -f IntelWatcher-1454275945.8772125.log
-grep -i Arvada IntelWatcher-1454275945.8772125.log 
-cp intelWatcher.py intelWatcherThreaded.py
-g intelWatcherThreaded.py
-./addFarmFromIitcBookmarksFile.py 'Downtown Littleton' /mnt/data/Ingress/Farms/LittletonDowntown.txt 
-./addFarmFromIitcBookmarksFile.py 'Littleton Lite Rail' /mnt/data/Ingress/Farms/LittletonLiteRail.txt 
-ssh 108.167.189.74 -p 2222
-sudo amdcccle 
-killall synergyc
-mysql -uingress -pLongLiveTheResistance
-tail -f IntelWatcher-1454275945.8772125.log
-python -m pdb intelWatcher.py 
-xrandr -q
-xrandr
-xrandr -q
-xrandr --help
-xrandr --output DFP7 --preferred
-xrandr --output DFP6 --mode 3440x1440
-xrandr --output DFP6 --preferred
-cat /etc/X11/xorg.conf
-sudo amdcccle 
-sudo reboot
-xrandr --output DFP6 --preferred
-xrandr -q
-xrandr --output DFP1 --leftof DFP6
-xrandr --output DFP1 --left-of DFP6
-xrandr --output DFP7 --right-of DFP6
-killall synergyc
-xrandr --output DFP7 --left-of DFP6
-xrandr --output DFP1 --right-of DFP6
-g ~/scripts/monitorSetup.sh
-xrandr -q
-xrandr -h
-xrandr --help
-xrandr --output DFP7 --rotate left
-xrandr --output DFP1 --rotate right
-echo $PATH | tr ":" "\n"
-ls scripts/
-chmod a+X scripts/monitorSetup.sh 
-ls scripts/monitorSetup.sh
-ls scripts/
-chmod a+x scripts/monitorSetup.sh 
-ls scripts/
-monitorSetup.sh 
-g .config/openbox/autostart 
-reboot
-g .config/openbox/autostart 
-cd code/IngressIntel
-ls
-cd log/intelWatcher/
-ls
-cd code/IngressIntel
-ls
-g intelWatcherThreaded.py 
-top
-./intelWatcher.py
-./intelWatcherThreaded.py 
-tail -f IntelWatcher-1454708060.6953783.log
-ls
-tail -f IntelWatcher-1454275945.8772125.log
-./intelWatcherThreaded.py 
-tail -f IntelWatcher-1454709955.1051383.log
-ls
-tail -f IntelWatcher-1454708060.6953783.log
-tail -f IntelWatcher-1454710229.1095672.log
-ls
-g IngressTools.py
-./intelWatcherThreaded.py 
-tail -f IntelWatcher-1454710307.2980788.log
-rm IntelWatcher-1454
-rm IntelWatcher-1454*
-tail -f IntelWatcher-1454710916.8880465.log 
-rm IntelWatcher-1454710916.8880465.log 
-python
-xset -q
-xset +dpms
-./intelWatcherThreaded.py 
-tail -f IntelWatcher-1454711188.9952908.log 
-rm IntelWatcher-1454711188.9952908.log 
-./intelWatcherThreaded.py 
-tail -f IntelWatcher-1454773714.8145025.log 
-rm IntelWatcher-1454773714.8145025.log 
-tail -f IntelWatcher-1454773765.8835115.log 
-rm IntelWatcher-1454773765.8835115.log 
-./intelWatcherThreaded.py 
-:126
-./intelWatcherThreaded.py 
-tail -f IntelWatcher-1454774222.8155327.log 
-tail -f IntelWatcher-1454774716.1717107.log 
-./intelWatcherThreaded.py 
-tail -f IntelWatcher-1454774771.9418087.log 
-rm *
-tail -f IntelWatcher-1454774976.5927916.log 
-g GoogleLogin.py
-rm *
-./intelWatcherThreaded.py 
-tail -f IntelWatcher-1454774976.5927916.log 
-ps -aux | grep -i python
-tail -f IntelWatcher-1454775446.7142334.log 
-grep -i level IntelWatcher-1454775446.7142334.log 
-grep -i scanning IntelWatcher-1454775446.7142334.log 
-grep -i detected IntelWatcher-1454775446.7142334.log 
-tail -f IntelWatcher-1454775446.7142334.log 
-rm IntelWatcher-1454775446.7142334.log 
-tail -f IntelWatcher-1454776304.6007917.log 
-./intelWatcherThreaded.py 
-tail -f IntelWatcher-1454776578.3034227.log 
-./intelWatcher.py 
-g intelWatcher.py
-grep -i Scanning IntelWatcher-1454776578.3034227.log | grep -vi portal
-ls
-python -m pdb intelWatcher.py 
-tail -f IntelWatcher-1454776941.1320105.log 
-rm I*
-tail -f IntelWatcher-1454777393.3658757.log 
-rm IntelWatcher-1454777393.3658757.log 
-python -m pdb intelWatcher.py 
-tail -f IntelWatcher-1454777580.7896671.log 
-ls
-tail -f IntelWatcher-1454778109.086308.log
-grep -i Arvada IntelWatcher-1454778109.086308.log 
-python
-cd code/IngressIntel
-ls
-tail -f IntelWatcher-1454778109.086308.log 
-grep -i "Scanning Arvada" IntelWatcher-1454778109.086308.log 
-tail -f IntelWatcher-1454778109.086308.log 
-./intelWatcher.py
-cd code/IngressIntel
-ls
-rm IntelWatcher-1454778109.086308.log IntelWatcher-1454777580.7896671.log
-./intelWatcherThreaded.py
-tail -f IntelWatcher-1454781187.8838139.log 
-rm IntelWatcher-1454781187.8838139.log 
-tail -f IntelWatcher-1454781187.8838139.log 
-tail -f IntelWatcher-1454781305.607062.log 
-rm IntelWatcher-1454781305.607062.log 
-./intelWatcherThreaded.py
-tail -f IntelWatcher-1454781635.9244819.log 
-rm IntelWatcher-1454781635.9244819.log 
-tail -f IntelWatcher-1454781759.9235427.log 
-grep -i "Scanning Arvada" IntelWatcher-1454781759.9235427.log 
-tail -f IntelWatcher-1454781759.9235427.log 
-./intelWatcher.py
-rm IntelWatcher-1454781759.9235427.log 
-ls
-./intelWatcherThreaded.py 
-tail -f IntelWatcher-1454782393.2151055.log 
-mysql -uingress -pLongLiveTheResistance
-g IngressDatabase.py 
-python -m pdb intelWatcherThreaded.py 
-ls
-tail -f IntelWatcher-1454782722.4759786.log 
-tail -f IntelWatcher-1454783811.2779653.log 
-grep -i "Scanning Arvada" IntelWatcher-1454781759.9235427.log 
-grep -i "Scanning Arvada" IntelWatcher-1454783811.2779653.log 
-./intelWatcher.py
-rm *
-ls
-tail -f IntelWatcher-1454788828.8699574.log 
-ls
-grep -i "Scanning Arvada" IntelWatcher-1454788828.8699574.log 
-tail -f IntelWatcher-1454788828.8699574.log 
-ls
-rm IntelWatcher-1454788828.8699574.log 
-./intelWatcher.py
-python -m pdb intelWatcher.py 
-tail -f IntelWatcher-1454865432.265112.log 
-ls
-rm IntelWatcher-1454865432.265112.log 
-rm IntelWatcher-1454866224.0978222.log IntelWatcher-1454866393.5573788.log
-tail -f IntelWatcher-1454866450.7211857.log
-grep -i Adine IntelWatcher-1454866450.7211857.log 
-grep -i Andine IntelWatcher-1454866450.7211857.log 
-./intelWatcher.py
-tail -f IntelWatcher-1454866450.7211857.log
-rm IntelWatcher-1454866450.7211857.log 
-python -m pdb intelWatcherThreaded.py 
-tail -f IntelWatcher-1454871132.7143657.log 
-rm IntelWatcher-1454871132.7143657.log 
-tail -f IntelWatcher-1454871132.7143657.log 
-tail -f IntelWatcher-1454872053.4245214.log 
-rm IntelWatcher-1454872053.4245214.log
-python -m pdb intelWatcherThreaded.py 
-tail -f IntelWatcher-1454872570.983424.log 
-s
-ll
-tail -f IntelWatcher-1454872570.983424.log 
-rm IntelWatcher-1454872570.983424.log 
-tail -f IntelWatcher-1454872570.983424.log 
-./intelWatcher.py
-tail -f IntelWatcher-1454874170.886814.log 
-ls
-tail -f IntelWatcher-1455244769.4373627.log
-ls
-g IntelWatcher-1454874170.886814.log 
-tail -f IntelWatcher-1455244769.4373627.log
-rm *
-ls
-tail -f IntelWatcher-1455486054.9514642.log 
-./intelWatcher.py
-rm *
-tail -f IntelWatcher-1455560706.4633365.log 
-rm *
-ls
-tail IntelWatcher-1455561026.5599258.log 
-tail -f IntelWatcher-1455561026.5599258.log 
-./intelWatcher.py
-cd log/intelWatcher/
-ls
-cat IntelWatcher-1455690640.0085871.log
-tail -f IntelWatcher-1455690640.0085871.log 
-rm *
-ls
-tail -f IntelWatcher-1455691202.254626.log 
-./intelWatcher.py
-ls
-cat IntelWatcher-1455692101.057099.log 
-cd /mnt/data
-chmod -R a+r Dropbox
-ls Dropbox/
-cd Pictures/
-ls
-cd Camera\ Uploads/
-ls
-tail -f IntelWatcher-1455692101.057099.log
-grep -i slack IntelWatcher-1455692101.057099.log 
-grep -i sending IntelWatcher-1455692101.057099.log 
-grep -i message IntelWatcher-1455692101.057099.log 
-tail -f IntelWatcher-1455692101.057099.log
-rm *
-ls
-tail -f IntelWatcher-1456167745.296137.log 
-./intelWatcher.py
-tail -f IntelWatcher-1456167947.9179642.log 
-ls
-rm IntelWatcher-1456167745.296137.log IntelWatcher-1456168466.8103745.log
-ls
-rm IntelWatcher-1456167947.9179642.log 
-./intelWatcher.py
-ls
-tail -f IntelWatcher-1456168491.6664672.log 
-ls
-rm IntelWatcher-1456168491.6664672.log 
-killall synergyc
-exit
-./intelWatcher.py
-tail -f IntelWatcher-1456171810.5207655.log 
-ls
-tail -f IntelWatcher-1456535153.9126582.log
-cd log/intelWatcher/
-cd code/ingress
-cd ../IngressIntel
-ls
-python -m cProfile -o ./profile intelWatcher.py
-cat profile
-python
-ls /code/IngressIntel/profile
-ls ~/code/IngressIntel/profile
-tail -f IntelWatcher-1456535153.9126582.log 
-ls
-python
-cd code/IngressIntel
-ls
-./intelWatcher.py
-tail -f IntelWatcher-1456535776.0147169.log
-rm *
-ls
-killall synergyc
-cd ..
-cd /mnt/data/Ingress/
-ls
-cd Farms/
-ls
-g FairmountParkGolden.txt
-cd ..
-ll
-chmod a+w Farms/
-sudo chmod a+w Farms/
-cd Farms/
-g FairmountParkGolden.txt
-python
-cd ~/code/IngressIntel
-ls
-./addFarmFromIitcBookmarksFile.py 'Fairmount Park, Golden' /mnt/data/Ingress/Farms/FairmountParkGolden.txt
-g addFarmFromIitcBookmarksFile.py 
-./addFarmFromIitcBookmarksFile.py 'Fairmount Park, Golden' /mnt/data/Ingress/Farms/FairmountParkGolden.txt
-tail -f IntelWatcher-1456538121.0349252.log 
-./intelWatcher.py
-tail -f IntelWatcher-1456616858.135805.log 
-rm *
-tail -f IntelWatcher-1456616927.957564.log 
-rm *
-./intelWatcher.py
-ls
-rm IntelWatcher-1456616990.7731538.log
-tail -f IntelWatcher-1456617127.943033.log 
-ls
-./intelWatcher.py
-tail -f IntelWatcher-1456617386.493379.log
-ls
-tail -f IntelWatcher-1456617386.493379.log
-tail -f IntelWatcher-1456617834.8219938.log
-rm IntelWatcher-1456616990.7731538.log
-rm *
-ls
-python -m pdb intelWatcher.py 
-tail -f IntelWatcher-1456618110.8745854.log 
-ls
-tail -f IntelWatcher-1456618772.006777.log
-ls
-cd
-cd git/
-ls
-git clone https://gitlab.com/SchroedingerHepcat/IngressIntelWatcher.git
-ls
-cd IngressIntelWatcher/
-ls
-cp ~/code/IngressIntel/IngressTools.py .
-cp ~/code/IngressIntel/IngressDatabase.py .
-ls /code/IngressIntel/IngressDatabase.py
-ls ~/code/IngressIntel/IngressDatabase.py
-ls ~/code/IngressIntel/
-cp ~/code/IngressIntel/GoogleLogin.py .
-cp ~/code/IngressIntel/SlackBot.py .
-cp ~/code/IngressIntel/intelWatcher.py .
-ls
-git add
-git add .
-git status
-git commit -m "Initial commit."
-git push
-git push -u
-git push master
-git push origin master
-man git push
-git push -u origin master
-cd ~/code
-cd IngressIntel
-ls
-cd ..
-mv IngressIntel IngressIntel.bak.preGit
-ln -s ~/git/IngressIntelWatcher .
-ls
-cd IngressIntelWatcher/
-ls
-pip install pysqlclient
-pacman -Syyuu
-sudo pacman -Syyuu
-pacman -S python-pip
-sudo pacman -S python-pip
-pip install mysqlclient
-sudo pip install mysqlclient
-sudo pip install --upgrade pip
-./intelWatcher.py
-tail -f IntelWatcher-1456619155.6181328.log
-ls
-rm *
-./intelWatcher.py
-python
-ls
-tail -f IntelWatcher-1456688937.1505435.log
-ls
-rm *
-ls
-tail -f IntelWatcher-1456689575.3797143.log
-python -m cProfile -o ./profile2 intelWatcher.py
-ls
-python -m cProfile -o ./profile3 intelWatcher.py
-tail -f IntelWatcher-1456689982.9554017.log
-ls
-python -m cProfile -o ./profile4 intelWatcher.py
-tail -f IntelWatcher-1456695216.2971842.log
-ls
-tail -f IntelWatcher-1456695366.429591.log
-ls
-python -m cProfile -o ./profile4 intelWatcher.py
-tail -f IntelWatcher-1456695540.228575.log
-ls
-tail -f IntelWatcher-1456695712.5417387.log
-ls
-python -m cProfile -o ./profile4 intelWatcher.py
-tail -f IntelWatcher-1456698377.560989.log
-ls
-python -m cProfile -o ./profile5 intelWatcher.py
-tail -f IntelWatcher-1456701194.108267.log
-ls
-cd git/IngressIntelWatcher/
-ls
-git status
-git push
-ls ~/.ssh/id_rsa.pub
-cat ~/.ssh/id_rsa.pub
-exit
-ls .ssh/
-ll .ssh/
-cd .ssh/
-cat id_rsa.pub > authorized_keys
-exit
-cd code/IngressIntel
-ls
-cd code/IngressIntelWatcher/
-ls
-git status
-git config -ls
-git config -l
-git config -e
-git config --global -e
-git push
-git pull
-mysql -uingress -pLongLiveTheResistance
-exit
-git status
-ls
-git status
-cd ..
-ls
-cd IngressIntelWatcher/
-ls
-g intelWatcher.py 
-git status
-git add intelWatcher.py
-git commit -m "Remove old commented out code and minor changes to initial setup."
-git push
-g IngressTools.py 
-python
-g IngressDatabase.py 
-python
-python -m cProfile -o ./profile6 intelWatcher.py
-tail -f IntelWatcher-1457020967.5311532.log
-ls
-cd ..
-ls
-cd 
-cd code/IngressIntelWatcher/
-python -m cProfile -o ./profile7 intelWatcher.py
-tail -f IntelWatcher-1457295553.8033705.log
-ls
-p'ython -m cProfile -o ./profile7 intelWatcher.py
-tail -f IntelWatcher-1457295925.5524611.log
-ls
-diff ../IngressIntel.bak.preGit/intelWatcher.py  ./intelWatcher.py 
-diff ../IngressIntel.bak.preGit/intelWatcher.py ./intelWatcher.py 
-ls ../IngressIntel.bak.preGit/intelWatcher.py 
-ls ../IngressIntel.bak.preGit/
-ll ../IngressIntel.bak.preGit
-ll ../
-cd ..
-ll
-ls IngressIntel.bak.preGit
-ls IngressIntel.bak.preGit/
-ls IngressIntel.bak.preGit/intelWatcher.py 
-diff IngressIntel.bak.preGit/intelWatcher.py IngressIntelWatcher/intelWatcher.py 
-diff IngressIntel.bak.preGit/intelWatcher.py IngressIntelWatcher/IngressDatabase.py 
-diff IngressIntel.bak.preGit/IngressDatabase.py IngressIntelWatcher/IngressDatabase.py 
-mv IngressIntel.bak.preGit/IngressDatabase.py IngressIntelWatcher/IngressDatabase.py 
-python -m cProfile -o ./profile7 intelWatcher.py
-tail -f IntelWatcher-1457296029.508586.log
-ls
-ls
-gvimdiff IngressIntel.bak.preGit/IngressTools.py IngressIntelWatcher/IngressTools.py 
-cd IngressIntelWatcher/
-git status
-git add IngressDatabase.py IngressTools.py intelWatcher.py
-git commit -m "Add initial capability to start scanning the front range area a little every pass."
-tail -f IntelWatcher-1457296359.4082198.log
-ls
-python -m cProfile -o ./profile7 intelWatcher.py
-tail -f IntelWatcher-1457296575.4293826.log
-tail -f IntelWatcher-1457296708.742938.log 
-psg python
-kill 18183
-ls
-tail -f IntelWatcher-1457296910.5603588.log
-psg python
-kill 18693
-python -m pdb intelWatcher.py 
-tail -f IntelWatcher-1457297220.3146226.log 
-ls
-tail -f IntelWatcher-1457298601.1376364.log
-grep -i scanned IntelWatcher-1457298601.1376364.log
-tail -f IntelWatcher-1457298601.1376364.log
-ls
-python -m pdb intelWatcher.py 
-tail -f IntelWatcher-1457300314.4883993.log
-ls
-tail -f IntelWatcher-1457377788.2633774.log
-psg python
-kill 9547
-ls
-ll
-ll -h
-ls
-cd code/IngressIntelWatcher/
-ls
-cd log/intelWatcher/
-ls
-tail -f IntelWatcher-1457418942.0883384.log
-psg python
-kill 14922
-python -m pdb intelWatcher.py 
-tail -f IntelWatcher-1457418942.0883384.log
-g intelWatcher.py 
-ls
-screen
-tail -f IntelWatcher-1457496585.1992154.log
-tail -f IntelWatcher-1457418942.0883384.log
-ls
-cat IntelWatcher-1457496585.1992154.log
-screen -r pts-4.linux-desktop 
-python
-ls
-cd ~/Pictures/
-ls
-cp /mnt/data/Dropbox/Ingress/levelup_20160311_012056_0.png /mnt/data/Pictures/Ingress/
-lsusb
-dmesg
-dmesg | tail -f
-pacman -Syyuu hackrf 
-sudo pacman -Syyuu hackrf 
-hackrf_info
-lsusb
-hackrf_info 
-cd..
-cd ..
-ls
-cd git/
-ls
-git clone git@github.com:SchroedingerHepcat/gps-sdr-sim.git
-cd gps-sdr-sim/
-ls
-gcc gpssim.c -1m -O3 -o gps-sdr-sim
-gcc gpssim.c -lm -O3 -o gps-sdr-sim
-ls
-date
-date --help
-date +Y
-date +%Y
-date +%Y/%m
-date +%Y/%m/%d
-date +%Y/%m/%d,%H:%M
-date +%Y/%m/%d,%H:%M:%s
-date +%Y/%m/%d,%H:%M:%S
-gps-sdr-sim -e /mnt/data/Ingress/brdc0750.16n.Z
-./gps-sdr-sim -e /mnt/data/Ingress/brdc0750.16n.Z
-./gps-sdr-sim -e /mnt/data/Ingress/brdc0750.16n.Z -l 0,0,0
-cd /mnt/data/Ingress/
-ls
-mkdir GPS
-file brdc0750.16n.Z 
-uncompress brdc0750.16n.Z
-ll
-cd ..
-ll
-chown morainj Ingress
-sudo chown morainj Ingress
-cd Ingress/
-ll
-uncompress brdc0750.16n.Z
-ls
-cd ~/git/gps-sdr-sim/
-ls
-./gps-sdr-sim -e /mnt/data/Ingress/brdc0750.16n.Z -l 0,0,0
-./gps-sdr-sim -e /mnt/data/Ingress/brdc0750.16n -l 0,0,0
-./gps-sdr-sim -e /mnt/data/Ingress/brdc0750.16n -l 0,0,0 -t $(date +%Y/%m/%d,%H:%M:%S)
-hackrf_transfer -t gpssim.bin -f 1575420000 -s 2600000 -a 1 -x 0
-bg
-fg
-ll
-ll -h
-./gps-sdr-sim -e /mnt/data/Ingress/brdc0750.16n -l 0,0,0 -t $(date +%Y/%m/%d,%H:%M:%S) -d 20
-hackrf_transfer -t gpssim.bin -f 1575420000 -s 2600000 -a 1 -x 0
-hackrf_transfer --help
-hackrf_transfer -t gpssim.bin -f 1575420000 -s 2600000 -a 1 -x 0 p 1
- ./gps-sdr-sim -e brdc3540.14n -l
- ./gps-sdr-sim -e brdc3540.14n -l 30.286502,120.032669,100 -d 30
-hackrf_transfer -t gpssim.bin -f 1575420000 -s 2600000 -a 1 -x 0 p 1
-hackrf_transfer -t gpssim.bin -f 1575420000 -s 2600000 -a 1 -x 0 p 1 -R
-hackrf_transfer -t gpssim.bin -f 1575420000 -s 2600000 -a 1 -x 0 -p 1 -b 8 -R
- ./gps-sdr-sim -e brdc3540.14n -l 30.286502,120.032669,100 -d 30 -b 8
-hackrf_transfer --help
-hackrf_transfer -t gpssim.bin -f 1575420000 -s 2600000 -a 1 -x 0 -p 1 -R
- ./gps-sdr-sim -e brdc3540.14n -l 30.286502,120.032669,100 -b 8
-hackrf_transfer -t gpssim.bin -f 1575420000 -s 2600000 -a 1 -x 0 -p 1 -R
-hackrf_transfer -t gpssim.bin -f 1575420000 -s 2600000 -a 1 -x 20 -p 1 -R
-hackrf_transfer -t gpssim.bin -f 1575420000 -s 2600000 -a 1 -x 47 -p 1 -R
-./gps-sdr-sim -e /mnt/data/Ingress/brdc0750.16n -l 40,105,5280 -t $(date +%Y/%m/%d,%H:%M:%S) -d 20
-./gps-sdr-sim -e /mnt/data/Ingress/brdc0750.16n -l 40,105,5280 -t $(date +%Y/%m/%d,%H:%M:%S) -d 20 -b 8
-hackrf_transfer -t gpssim.bin -f 1575420000 -s 2600000 -a 1 -x 47 -p 1 -R
-./gps-sdr-sim -e /mnt/data/Ingress/brdc0750.16n -l 40,-105,5280 -t $(date +%Y/%m/%d,%H:%M:%S) -d 20
-hackrf_transfer -t gpssim.bin -f 1575420000 -s 2600000 -a 1 -x 47 -p 1 -R
-./gps-sdr-sim -e /mnt/data/Ingress/brdc0750.16n -l 40,-105,105 -t $(date +%Y/%m/%d,%H:%M:%S) -d 20
-hackrf_transfer -t gpssim.bin -f 1575420000 -s 2600000 -a 1 -x 47 -p 1 -R
-./gps-sdr-sim -e /mnt/data/Ingress/brdc0750.16n -l 40,-105,105 -t $(date +%Y/%m/%d,%H:%M:%S) -d 200
-#./gps-sdr-sim -e /mnt/data/Ingress/brdc0750.16n -l 40,-105,105 -t $(date +%Y/%m/%d,%H:%M:%S) -d 300 
-wget ftp://cddis.gsfc.nasa.gov/gnss/data/daily/2016/077/16n/brdc0750.16n.Z
-wget ftp://cddis.gsfc.nasa.gov/gnss/data/daily/2016/077/16n/brdc0770.16n.Z
-ll
-du
-df
-rm 2078960000
-rm gpssim.bin
-cd /mnt/data/Ingress/
-mkdir gps
-cd gps/
-wget ftp://cddis.gsfc.nasa.gov/gnss/data/daily/2016/077/16n/brdc0770.16n.Z
-uncompress brdc0770.16n.Z 
-ls
-~/git/gps-sdr-sim/gps-sdr-sim -e /mnt/data/Ingress/brdc0770.16n -l 40,-105,105 -t $(date +%Y/%m/%d,%H:%M:%S) -d 200
-echo $(date +%Y/%m/%d,%H:%M:%S)
-~/git/gps-sdr-sim/gps-sdr-sim -e /mnt/data/Ingress/gps/brdc0770.16n -l 40,-105,105 -t $(date +%Y/%m/%d,%H:%M:%S) -d 200
-cd log/
-ls
-ls intelWatcher/
-ll
-cd intelWatcher/
-ll -h
-df
-du -sh /
-cd ..
-du
-du -h
-cd ..
-du -h
-du -h | grep g
-du -h | grep G
-du -h | grep \dG
-du -h | grep \wG
-du -h | grep "\wG"
-du -h | grep "\dG"
-du -h | grep "\wG"
-du -h | grep "\\w.wG"
-du -h | grep "\w.\wG"
-du -h | grep "^\w.\wG"
-du -h | grep "^\w*.\wG"
-du -h /
-du -sh /
-du -sh /*
-ls /
-ll /
-ll /tmp
-ls /srv/
-du -h /srv
-du -sh /* 2>/dev/null
-df
-ll /var
-du -sh /var/*
-cd /var/
-ls
-ls log
-du -sh log/*
-du -sh *
-ls cache/
-cd ..
-ls
-cd home/
-cd morainj/
-du -sh *
-mv .thunderbird /mnt/data/thunderbird
-ln -s /mnt/data/thunderbird .thunderbird
-ll
-df -h
-./intelWatcher.py
-tail -f IntelWatcher-1457496585.1992154.log
-ls
-ll
-rm *
-df -h
-ls
-hackrf_info
-cd /mnt/data/Ingress/gps/
-ls
-hackrf_transfer -t gpssim.bin -f 1575420000 -s 2600000 -a 1 -x 47 -p 1 -R
-hackrf_transfer -t gpssim.bin -f 1575417000 -s 2600000 -a 1 -x 47 -p 1 -R
-hackrf_transfer -t gpssim.bin -f 1575414000 -s 2600000 -a 1 -x 47 -p 1 -R
-hackrf_transfer -t gpssim.bin -f 1575410000 -s 2600000 -a 1 -x 47 -p 1 -R
-wget ftp://cddis.gsfc.nasa.gov/gnss/data/daily/2016/080/16n/brdc0800.16n.Z
-uncompress brdc0800.16n.Z 
-ls
-~/git/gps-sdr-sim/gps-sdr-sim -e /mnt/data/Ingress/gps/brdc0800.16n -l 40,-105,105 -t $(date +%Y/%m/%d,%H:%M:%S) -d 200
-hackrf_transfer -t gpssim.bin -f 1575420000 -s 2600000 -a 1 -x 47 -p 1 -R
-hackrf_transfer -t gpssim.bin -f 1575420000 -s 2600000 -a 0 -x 0 -p 1 -R
-hackrf_transfer -t gpssim.bin -f 1575420000 -s 2600000 -a 1 -x 0 -p 1 -R
-hackrf_transfer -t gpssim.bin -f 1575420000 -s 2600000 -a 1 -x 10 -p 1 -R
-hackrf_transfer -t gpssim.bin -f 1575420000 -s 2600000 -a 1 -x 20 -p 1 -R
-hackrf_transfer -t gpssim.bin -f 1575420000 -s 2600000 -a 1 -x 40 -p 1 -R
-hackrf_transfer -t gpssim.bin -f 1575430000 -s 2600000 -a 1 -x 40 -p 1 -R
-hackrf_transfer -t gpssim.bin -f 1575425000 -s 2600000 -a 1 -x 40 -p 1 -R
-hackrf_transfer -t gpssim.bin -f 1575425000 -s 2600000 -a 1 -x 40 -p 1 -R -b 8
-~/git/gps-sdr-sim/gps-sdr-sim -e /mnt/data/Ingress/gps/brdc0800.16n -l 40,-105,105 -t $(date +%Y/%m/%d,%H:%M:%S) -d 200 -b 8
-ls ~/git/gps-sdr-sim/
-hackrf_info 
-mkdir hackrf
-cd hackrf/
-wget https://github.com/mossmann/hackrf/archive/v2015.07.2.tar.gz
-ls
-tar xvf v2015.07.2.tar.gz 
-ls
-cd hackrf-2015.07.2/
-ls
-cd firmware/
-ls
-cat README 
-cd hackrf_usb/
-ls
-mkdir build
-cd build/
-cmake .. -DBOARD=HACKRF_ONE
-cd..
-cd ..
-ls
-hackrf_transfer -t gpssim.bin -f 1575414000 -s 2600000 -a 1 -x 40 -p 1 -R
-hackrf_transfer -t gpssim.bin -f 1575426000 -s 2600000 -a 1 -x 40 -p 1 -R
-hackrf_transfer -t gpssim.bin -f 1575420000 -s 2600000 -a 1 -x 40 -p 1 -R
-hackrf_transfer -t gpssim.bin -f 1575420000 -s 2600000 -a 1 -x 0 -p 1 -R
-df
-screen -r
-sudo reboot
-tail -f IntelWatcher-1458401247.6266572.log 
-mysql -uingress -pLongLiveTheResistance
-pydoc MySQLdb
-python
-python
-ifconfig
-ethtool 
-ethtool -h 
-ethtool -l
-ethtool -d
-ethtool -h 
-ethtool -h | less
-ip
-ip addr
-ping google.com
-ethtool enp5s0
-ethtool enp5s0 |less
-ethtool enp5s0
-cd code/IngressIntelWatcher/
-ls
-df
-du -sh .
-du -sh ./*
-ls .cache/
-rm -r .cache
-mkdir .cache
-df -h
-du -sh ./*
-du -sh /*
-du -sh /* 2>/dev/null
-du -sh /var/*
-du -sh /var/* 2>/dev/null
-paccache --help
 paccache
 paccache -r
 du -sh
@@ -2430,4 +447,1786 @@ cd git/
 ls
 cd Sine-Labore-Nihil/
 git pull
+git status
+git
+ls
+mkdir git
+cd git/
+ls
+git clone https://github.com/SchroedingerHepcat/Sine-Labore-Nihil.git
+ls
+cd Sine-Labore-Nihil/
+ls
+cat setup.sh 
+chmod +x setup.sh 
+colors
+ll
+ls
+ls vim
+./setup.sh 
+ls
+cd.
+cd ..
+ls
+cd..
+cd ..
+ls
+la scripts
+ls scripts
+ls .vim
+ls .vim/colors/
+vim .bashrc.bak-preSineLaboreNihil 
+ls
+exec vim
+ls
+colors
+vim .bash_aliases 
+vim .i3/config 
+vim .i3/config 
+vim --version
+echo $TERM
+gvim
+pacman install gvim
+pacman -S gvim
+sudo pacman -S gvim
+vim .i3/config 
+gvim .i3/config
+gvim .i3/config
+gvim .vim/colors/distinguished.vim 
+gvim .vim/colors/distinguished.vim 
+grep -r none .vim
+rm .vim/plugin/colorsupport.vim 
+vim .bashrc
+exit
+colors
+exec bash
+colors
+ls
+xrdb -merge .Xresources 
+xrdb -merge ~/.Xresources 
+exit
+ls
+xrdb -merge ~/.Xresources 
+ls
+colors
+ls
+ls -a
+la
+exit
+yaourt -Syyuu pick-color-picker
+yaourt -Syyuu pick-colour-picker
+yaourt -S pick-colour-picker
+pacman -S gcolor2
+sudo pacman -S gcolor2
+gcolor2 
+ls
+xrdb -merge ~/.Xresources 
+ls
+exit
+ls -a
+ll -a
+ls
+pacman -S bash-completion
+sudo pacman -S bash-completion
+exec bash
+ls
+sudo pacman -S lxappearance
+ls
+exit
+sudo pacman -S scrot 
+lxappearance 
+la
+ls .config/gtk-3.0/
+sudo pacman -S thunar
+thunar
+xrandr -q
+xdpyinfo | grep resolution
+xrandr --dpi 276
+xdpyinfo | grep resolution
+xrandr --dpi 276
+xdpyinfo | grep resolution
+xrandr -q
+xrdb -merge ~/.Xresources 
+vim .xinitrc 
+xrandr -q
+echo $GDK_SCALE
+vim .bash_profile 
+vim .bashrc.bak-preSineLaboreNihil 
+vim .dir_colors 
+ls
+feh
+sudo pacman -S feh
+feh --bg-scale ~/Pictures/Wallpapers/the_wheel_of_time_by_thewoollyone-d5eduaf.png 
+ls -l
+vim .Xresources 
+man compton
+grep .xinitrc | compton
+grep .xinitrc | grep -i compton
+grep compton .xinitrc 
+grep -i compton .xinitrc 
+top
+man compton
+which start_conky_maia 
+cat  start_conky_maia
+cat /usr/bin/start_conky_maia 
+ls
+cd scripts/
+ls
+cat /usr/share/conky/conky_maia 
+blurlock
+man blurlock
+blurlock --help
+which blurlock
+cat `which blurlock`
+sudo vim  `which blurlock`
+blurlock
+ls
+cat `which blurlock`
+xautolock --help
+sudo cp /usr/bin/blurlock /usr/bin/wotlock
+sudo vim  /usr/bin/wotlock
+ls
+compton --help
+vim .i3/config 
+sudo vim /usr/bin/blurlock 
+xrandr -q
+xrdb -merge ~/.Xresources 
+exit
+xrdb -merge ~/.Xresources 
+exit
+ls
+exit
+compton --help
+
+vim .Xresources 
+vim ~/.vim/colors/
+xrdb -merge ~/.Xresources 
+exit
+vim
+ls
+vim
+ls
+vim .
+vim .Xresources 
+xrdb -merge ~/.Xresources 
+vim .Xresources 
+killall conky
+exit
+vim .i3/config 
+input
+cat /usr/bin/blurlock 
+import --help
+vim .vim/colors/distinguished.vim 
+exit
+xrandr
+logger --help
+dmesg --help
+cat /sys/class/drm/card0-eDP-1/status
+xrandr
+cat /sys/class/drm/card0-DP-1/status
+ls /sys/class/drm/
+xrandr | grep DP1
+xrandr | grep DP-1
+exit
+ls
+exit
+reload
+ls
+cd git
+cd.
+cd Downloads/
+exit
+wget https://codeload.githup.com/kvalo/ath10k-firmware/zip/master
+ls
+ll
+ls
+unzip ath10k-firmware-master.zip 
+ls
+sudo pacman -S unzip 
+unzip ath10k-firmware-master.zip
+ls
+cd ath10k-firmware-master/
+ls
+sudo mv /lib/firmware/ath10k/QCA6174{,.original}
+ll /lib/firmware/ath10k/
+sudo cp -r QCA6174  /lib/firmware/ath10k/
+ls  /lib/firmware/ath10k/
+reboot
+vim .config/compton.conf 
+dmesg 
+dmesg | grep ath
+ll /usr/lib/firmware/ath10k/
+ll /usr/lib/firmware/ath10k/QCA6174
+ll /usr/lib/firmware/ath10k/QCA6174/hw3.0/
+ll /usr/lib/firmware/ath10k/QCA6174/hw3.0/4.4.1.c1/
+ll /usr/lib/firmware/ath10k/QCA6174.original/
+ll /usr/lib/firmware/ath10k/QCA6174.original/hw3.0/
+cd Downloads/ath10k-firmware-master/QCA6174/
+ls
+cd /usr/lib/firmware/ath10k/QCA6174
+ls
+cd hw3.0/
+ls
+ln -s 4.4.1.c1/firmware-6.bin_RM.4.4.1.c1-00038-QCARMSWP-1 firmware-6.bin
+ls
+sudo ln -s 4.4.1.c1/firmware-6.bin_RM.4.4.1.c1-00038-QCARMSWP-1 firmware-6.bin
+ls
+dmesg | grep ath
+ls
+rm firmware-6.bin 
+sudo rm firmware-6.bin 
+ls
+ln -s firmware-4.bin_WLAN.RM.2.0-00180-QCARMSWPZ-1 firmware-4.bin
+sudo ln -s firmware-4.bin_WLAN.RM.2.0-00180-QCARMSWPZ-1 firmware-4.bin
+ls
+reboot
+ping google.com
+dmesg | grep ath
+cd /usr/lib/firmware/ath10k/QCA6174
+ls
+cd hw3.0/
+ls
+ln -s 4.4.1.c1/firmware-6.bin_RM.4.4.1.c1-00038-QCARMSWP-1 firmware-6.bin
+sudo ln -s 4.4.1.c1/firmware-6.bin_RM.4.4.1.c1-00038-QCARMSWP-1 firmware-6.bin
+ls
+reboot
+cd /usr/lib/firmware/
+ls
+cd ath10k/
+ls
+cd QCA6174
+dmesg | grep ath
+sudo pacman -S linux-firmware 
+sudo pacman-mirrors --fasttrack
+sudo pacman -Syyu
+ls
+cd hw3.0/
+ls
+ll
+yaourt -S linux-firmware-git
+ls
+ll
+reboot
+dmesg | grep ath
+sudo rm /usr/lib/firmware/ath10k/
+sudo rm -r /usr/lib/firmware/ath10k/
+sudo pacman -S linux-firmware 
+dmesg | grep ath10k
+ls /var/log/
+systemctl list
+systemctl --help
+systemctl enable syslog-ng
+systemctl enable syslog-ng@
+systemctl restart syslog-ng@
+sudo systemctl restart syslog-ng@
+sudo systemctl restart syslog-ng
+sudo systemctl restart syslog-ng@ 
+sudo systemctl restart syslog-ng.service
+ls
+ls /var/log/
+ls /var/log/journal/
+ls /var/log/journal/776ee6ff38c848abaf5e2b5ec8aed0f1/system.journal 
+cat  /var/log/journal/776ee6ff38c848abaf5e2b5ec8aed0f1/system.journal
+journalctl
+inxi -Fx
+pacman -Qi networkmanager
+cd git/
+cd git clone https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git
+git clone https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git
+cd linux-firmware/
+ls
+cd ath10k/QCA6174/
+ls
+cd hw3.0/
+ls
+ll
+md5sum firmware-6.bin 
+md5sum /usr/lib/firmware/ath10k/QCA6174/hw3.0/firmware-6.bin 
+cd..
+rm -r /usr/lib/firmware/ath10k/QCA6174
+sudo rm -r /usr/lib/firmware/ath10k/QCA6174
+sudo cp -r QCA6174 /usr/lib/firmware/ath10k/
+reboot
+ping google.com
+nitrogen --help
+nitrogen
+ping google.com
+ifconfig
+iwconfig
+ping google.com
+dmesg
+ls
+top
+ls
+ping Moiraine
+cat /etc/hosts 
+cat /etc/hostname 
+sudo pacman -S thunderbird
+exit
+xwininfo
+xprop 
+xprop | less
+i3status 
+ls /etc/i3status.conf 
+cat  /etc/i3status.conf
+cp  /etc/i3status.conf .i3status.conf
+ls
+man i3status 
+top
+pacman -h
+pacman -R palemoon-bin 
+sudo pacman -R palemoon-bin 
+man date
+i3status
+vim .i3/config 
+vim .i3status.conf 
+vim
+vim .i3status.conf 
+gvim  .i3status.conf
+vim
+vim  .i3status.conf 
+vi .i3status.conf 
+vim  .i3status.conf 
+vim  .i3status.conf 
+
+vim ~/.i3/config 
+sudo pacman -S manjaro-pulse 
+sudo pacman -S pa-applet 
+killall volumeicon 
+paplay /usr/share/sounds/freedesktop/stereo/complete.oga 
+paplay /usr/share/sounds/freedesktop/stereo/bell.oga 
+paplay /usr/share/sounds/freedesktop/stereo/message.oga 
+paplay /usr/share/sounds/freedesktop/stereo/message-new-instant.oga 
+yaourt -S spotify
+spotify
+spotify --force-device-scale-factor=2
+sudo vim /usr/share/applications/spotify.desktop 
+ls
+cd scripts/
+ls
+touch spotify
+vim spotify
+which spotify
+path
+echo $PATH | tr ":" "\n"
+ls
+chmod +x spotify
+which spotify
+spotify
+vim spotify
+spotify
+exit
+sudo pacman -S blueman 
+top
+xset -q
+xset --help
+xset s 600 600
+xset -q
+ping google.com
+xset -q
+xset s 600 600
+xset -q
+top
+sudo pacman -Syyuu
+xdotool --help
+xdotool getmouselocation
+while [1]; do xdotool mousemove 133 559 click 1; done
+ls
+top
+psg -ef | grep xdotool
+psg -ef | bash
+psg -ef | grep bash
+psg -ef | grep sh
+psg -ef | grep urx
+kill 6623
+vim .i3/config 
+while [ 1 ]; do xdotool mousemove 133 559 click 1; done
+echo ${1..10}
+echo {1..10}
+#for i in {1..1078}; do
+; do xdotool mousemove 133 559 click 1; done
+xdotool getmouselocation
+for i in {1..1233}; do xdotool mousemove 714 652 click 1; done
+xdotool getmouselocation
+for i in {1..1000}; do xdotool mousemove 130 521 click 1; done
+for i in {1..250}; do xdotool mousemove 130 521 click 1; done
+for i in {1..400}; do xdotool mousemove 130 521 click 1; done
+ls
+xdg-open Amazon.com\ -\ Order\ 112-7887992-1149057.pdf 
+exit
+ls
+mv Amazon.com\ -\ Order\ 112-7887992-1149057.pdf S8Receipt.pdf
+sudo pacman -S flashplugin
+exit
+exit
+ssh pi@192.168.1.54
+ssh 192.168.1.154
+ssh 192.168.1.54
+ssh pi@192.168.1.54
+sudo vim /etc/hosts
+ls
+cd git/
+ls
+cd . 
+ls
+cd.
+ls
+cat .ssh/
+ls .ssh/
+ssh-keygen
+ls
+ls .ssh/
+cat .ssh/id_rsa.pub 
+cd git
+ls
+git clone git@github.com:SchroedingerHepcat/sonos-avr.git
+ls
+cd sonos-avr/
+git pull
+ls
+vim sonos-avr.py 
+git status
+git diff
+git add sonos-avr.py 
+git commit -m "Fix missing import."
+git config --global user.email "SchroedingerHepcat@gmail.com"
+git config --global user.name "SchroedingerHepcat"
+git commit -m "Fix missing import."
+git push
+ls 
+ 
+sudo pacman -Syyuu
+vim .i3/config 
+exit
+vim sonos-avr.py 
+git add sonos-avr.py 
+git commit -m "Rename playback event variable."
+git push
+which spotify
+spotify
+exit
+ssh pi@192.168.1.54
+ssh pi@Leane
+exit
+ssh root@192.168.1.54
+ssh pi@Leane
+ssh temp@Leane
+ssh pi@Leane
+ssh Leane
+time
+date
+scp .ssh/id_rsa* Leane:~/.ssh
+ssh-copy-id Leane
+ssh Leane
+exit
+cd git/sonos-avr/
+ls
+git remote show origin
+git pull
+git diff
+git status
+git checkout -- sonos-avr.py
+git pull
+exiit
+exit
+ssh Leane
+exit
+vim sonos-avr.py     
+exit
+ls
+cat sonos-avr
+ls
+ls /etc/systemd/system/
+ll  /etc/systemd/system/
+ls
+touch sonos-avr.service
+exit
+ls
+ll /etc/systemd/system/
+exit
+vim  sonos-avr.service
+ls
+git add sonos-avr.service 
+git commit -m "Add systemd service file."
+git push
+ssh Leane
+cd git/sonos-avr/
+git pull
+git status
+ls
+git rm sonos-avr
+git commit -m "Remove init.d script that never worked right."
+git push
+git status
+ls
+vim sonos-avr.py 
+git status
+git add sonos-avr.py 
+git commit -m "Add comments and a logfile."
+git push
+ssh Leane
+cd.
+lsusb
+lspci
+lsusb
+pacman -Syyuu
+sudo pacman -Syyuu
+ls
+cd
+ls
+yaourt -Syyuu
+pacman-optimize 
+sudo pacman-optimize 
+sudo pacman-mirrors 
+sudo pacman-mirrors --fasttrack
+sudo pacman -Syyuu
+reboot
+ls
+cd /etc/
+ls
+sudo pacman -S autofs
+sudo pacman -S fwupd
+fwupdmgr get-devices
+fwupdmgr refresh
+fwupdmgr get-updates 
+fwupdmgr updates
+fwupdmgr update
+fwupdmgr get-devices
+cd 
+cd git/
+git clone httos://github.com/dell/thunderbolt-nvm-linux
+git clone https://github.com/dell/thunderbolt-nvm-linux
+cd thunderbolt-nvm-linux/
+ls
+gcc -o force_dell_tbt force_dell_tbt.c -I /usr/include/efivar/ -lsmbios_c -lefivar
+./force_dell_tbt 1
+sudo ./force_dell_tbt 1
+ll
+sudo ./force_dell_tbt 1
+fwupdmgr get-devices
+sudo fwupd refresh
+sudo fwupdmgr refresh
+sudo fwupdmgr get-updates 
+sudo fwupdmgr update
+xrandr -q
+lsusb
+xrandr -q
+ls /sys/devices/platform/
+lspci
+xrandr -q
+udevadm monitor --property
+ls /sys/bus/thunderbolt/devices/0-0/
+xrandr --help
+xrandr --output DPI-2 --auto
+xrandr --output DP1-2 --auto
+xrandr -q
+xrandr --output DP1-2 --right-of eDP1
+exit
+ls
+xrandr -q | grep CONNECTED
+xrandr -q | grep -i connected
+xrandr -q | grep -i " connected"
+xrandr -q | grep -i " connected" | wc -l
+vim scripts/monitorSetup.sh 
+xrandr --output eDP1 --off 
+chmod +x scripts/monitorSetupLaptop*
+scripts/monitorSetupLaptopOnly.sh 
+scripts/monitorSetupLaptopDocked.sh 
+xrandr
+xrandr --help
+man xrandr
+xrandr
+scripts/monitorSetupLaptopDocked.sh 
+xrandr
+scripts/monitorSetupLaptopDocked.sh 
+scripts/monitorSetupLaptopOnly.sh 
+scripts/monitorSetupLaptopDocked.sh 
+scripts/monitorSetupLaptopOnly.sh 
+scripts/monitorSetupLaptopDocked.sh 
+exit
+echo $DISPLAY 
+chmod +x scripts/monitorHotplug.sh 
+if (xrandr | grep "DP1-2 connected" &> /dev/null); then echo connected; else echo disconnected; fi
+sudo cp  scripts/monitorHotplug.sh /usr/local/bin
+ls  /usr/local/bin
+monitorHotplug.sh 
+cd /etc/udev/rules.d/
+ls
+sudo touch 85-monitorHotplug.rules
+ll /usr/local/bin/
+sudo devadm control --reload 
+sudo udevadm control --reload 
+vim scripts/monitorSetupLaptopOnly.sh
+sudo vim  85-monitorHotplug.rules
+if (xrandr | grep "DP1-2 connected" &> /dev/null); then echo connected; else echo disconnected; fi
+/usr/local/bin/monitorHotplug.sh 
+monitorSetupLaptopOnly.sh 
+monitorSetupLaptopDocked.sh 
+cat scripts/monitorSetupLaptopDocked.sh 
+if (xrandr | grep "DP1-2 connected" &> /dev/null); then echo connected; else echo disconnected; fi
+sudo vim /usr/local/bin/monitorHotplug.sh 
+vim scripts/monitorHotplug.sh 
+cp scripts/monitorSetupLaptopDocked.sh scripts/monitorHotplug.sh 
+vim  scripts/monitorHotplug.sh
+sudo cp scripts/monitorHotplug.sh /usr/local/bin/
+ll /usr/local/bin/
+ /usr/local/bin/monitorHotplug.sh 
+udevadm trigger
+udevadm trigger --action="change" --subsystem-match="drm"
+sudo vim /usr/local/bin/monitorHotplug.sh 
+ /usr/local/bin/monitorHotplug.sh
+sudo vim /usr/local/bin/monitorHotplug.sh 
+ /usr/local/bin/monitorHotplug.sh
+sudo vim /usr/local/bin/monitorHotplug.sh 
+ /usr/local/bin/monitorHotplug.sh
+vim  scripts/monitorHotplug.sh
+sudo vim /usr/local/bin/monitorHotplug.sh 
+scripts/monitorSetupLaptopOnly.sh 
+/usr/local/bin/monitorHotplug.sh
+scripts/monitorSetupLaptopOnly.sh 
+sudo vim /usr/local/bin/monitorHotplug.sh 
+scripts/monitorSetupLaptopOnly.sh 
+/usr/local/bin/monitorHotplug.sh
+scripts/monitorSetupLaptopOnly.sh 
+sudo vim /usr/local/bin/monitorHotplug.sh 
+/usr/local/bin/monitorHotplug.sh
+xrandr
+sudo vim /usr/local/bin/monitorHotplug.sh 
+/usr/local/bin/monitorHotplug.sh
+ls /var/log/
+dmesg
+sudo vim /usr/local/bin/monitorHotplug.sh 
+/usr/local/bin/monitorHotplug.sh
+cat /tmp/monitorHotplug.log 
+/usr/local/bin/monitorHotplug.sh
+cat /tmp/monitorHotplug.log 
+cat /tmp/monitorHotplug.log
+echo $XAUTHORITY 
+udevadm monitor --environment
+echo $XAUTHORITY 
+cat  $XAUTHORITY
+sudo vim /usr/local/bin/monitorHotplug.sh 
+/usr/local/bin/monitorHotplug.sh
+cat /tmp/monitorHotplug.log 
+/usr/local/bin/monitorHotplug.sh
+cat /tmp/monitorHotplug.log 
+/usr/local/bin/monitorHotplug.sh
+cat /tmp/monitorHotplug.log 
+
+
+sudo vim /usr/local/bin/monitorHotplug.sh 
+/usr/local/bin/monitorHotplug.sh
+ls /dev/
+ll /etc/udev/rules.d/
+vim  /etc/udev/rules.d/85-monitorHotplug.rules 
+ll
+clear
+ls
+sudo vim /usr/local/bin/monitorHotplug.sh 
+sudo vim /etc/udev/rules.d/85-monitorHotplug.rules 
+sudo udevadm control --reload 
+udevadm monitor --environment
+ls
+udevadm monitor --environment
+cat /proc/acpi/button/lid/LID0/state 
+nitrogen --help
+nitrogen --restore
+nitrogen
+nitrogen --restore
+ssh Leane
+nitrogen
+ls
+exit
+ls
+tail -f /tmp/monitorHotplug.log 
+exit
+xrandr -q
+cat /usr/local/bin/monitorHotplug.sh 
+sudo vim  /usr/local/bin/monitorHotplug.sh
+cat /etc/udev/rules.d/85-monitorHotplug.rules 
+exit
+ls /etc/autofs/
+ls /etc/autofs/auto.master.d/
+cd /etc/autofs/
+ls
+vim auto.misc 
+sud vim  auto.master
+sudo vim auto.master
+cd /net/
+cd /net/Leane
+sudo systemctl enable autofs
+sudo systemctl start autofs.service
+ls /net
+ls /net/Leane
+ssh 192.168.1.2
+ssh-copy-id 192.168.1.2
+ssh 192.168.1.2
+sudo vim /etc/hosts
+ssh verin
+cd /net/verin
+ls
+cd export/
+ls
+cd data/
+ls
+cd data
+ls data
+ls
+cd.
+cd nfs
+ls
+cd /net/verin/
+ls
+cd export/
+ls
+cd data/
+ls
+cd Backups/laptop-20180308/
+ls
+cd morainj/
+ls
+cd 3dPrinting/
+ls
+cd.
+ls
+cd Downloads/
+ls
+./Repetier-Host-x86_64-2.0.5.AppImage 
+cp -r ../.local/share/RepetierHost/* ~/.local/share/RepetierHost/
+cp Repetier-Host-x86_64-2.0.5.AppImage ~/bin
+ls ~/bin
+cd 
+ls
+mv bin Repetier
+mkdir ~/bin
+cp Repetier bin/
+vim ~/.bashrc
+ls
+mv Repetier bin/
+exec bash
+ssh verin
+Repetier 
+bg
+ls
+xset -q
+vim ~/.i3/config 
+ssh Leane
+vim .xinitrc 
+xset s 600 600
+xset -q
+ls /net/verin/export/data/Backups/laptop-20180308/morainj/
+find  /net/verin/export/data/Backups/laptop-20180308/morainj/ -iname *slic3r*
+cp -r  /net/verin/export/data/Backups/laptop-20180308/morainj/.Slic3rPE/ ./
+find  /net/verin/export/data/Backups/laptop-20180308/morainj/ -iname *slic3r*
+ls
+mv catan_main_harbour_lighthouse_newbase_mag2_fixed_200um\ layers.gcode 3dObjects/
+ls
+cd .Slic3rPE/
+ls
+cd filament/
+ls
+vim 1.75\ PLA\ Cerulean.ini 
+ls
+cd.
+ls
+cd print
+ls
+cd.
+cd printer/
+ls
+vim Prusa.ini 
+ls
+cd.
+ls
+cd print
+ls
+vim Prusa.ini 
+cd.
+vim filament/1.75\ PLA\ Cerulean.ini 
+ls /net/verin/export/data/Backups/laptop-20180308/morainj/
+cd.
+ls
+cd .Slic3rPE/
+ls
+cd 
+ls
+cd 3dObjects/
+ls
+killall Repetier
+top
+psg Rep
+kill 26260
+psg Rep
+kill 26308
+exit
+xdotool getmouselocation
+xdotool --help
+#i=280; while [ $i -gt 0 ]; do xdotool mousemove 133 559 click 1; done
+xdotool getmouselocation
+#i=280; while [ $i -gt 0 ]; do xdotool mousemove 640 620 click 1; ((--i)) done
+i=1
+((--i))
+echo $i
+i=280; while [ $i -gt 0 ]; do xdotool mousemove 640 620 click 1; ((--i)); done
+xdotool getmouselocation
+i=100; while [ $i -gt 0 ]; do xdotool mousemove 83 1380 click 1; ((--i)); done
+xdotool getmouselocation
+i=100; while [ $i -gt 0 ]; do xdotool mousemove 83 1407 click 1; ((--i)); done
+xdotool getmouselocation
+i=100; while [ $i -gt 0 ]; do xdotool mousemove 83 1365 click 1; ((--i)); done
+xdotool getmouselocation
+i=100; while [ $i -gt 0 ]; do xdotool mousemove 83 1446 click 1; ((--i)); done
+xdotool getmouselocation
+i=577; while [ $i -gt 0 ]; do xdotool mousemove 624 619 click 1; ((--i)); done
+i=32; while [ $i -gt 0 ]; do xdotool mousemove 624 619 click 1; ((--i)); done
+i=133; while [ $i -gt 0 ]; do xdotool mousemove 624 619 click 1; ((--i)); done
+i=69; while [ $i -gt 0 ]; do xdotool mousemove 624 619 click 1; ((--i)); done
+i=257; while [ $i -gt 0 ]; do xdotool mousemove 624 619 click 1; ((--i)); done
+i=414; while [ $i -gt 0 ]; do xdotool mousemove 624 619 click 1; ((--i)); done
+#while [ 1 ]; do xdotool mousemove 133 559 click 1; sleep 60; done
+xdotool getmouselocation
+exit
+while [ 1 ]; do i=200; while [ $i -gt 0 ]; do xdotool mousemove 624 619 click 1; ((--i)); done; sleep 60; done
+while [ 1 ]; do xdotool mousemove 637 956 click 1; sleep 60; done
+while [ 1 ]; do i=600; while [ $i -gt 0 ]; do xdotool mousemove 624 619 click 1; ((--i)); done; sleep 60; done
+xdotool getmouselocation
+while [ 1 ]; do i=100; while [ $i -gt 0 ]; do xdotool mousemove 125 549 click 1; ((--i)); done; sleep 60; done
+xdotool getmouselocation
+while [ 1 ]; do i=200; while [ $i -gt 0 ]; do xdotool mousemove 125 549 click 1; ((--i)); done; sleep 60; done
+while [ 1 ]; do i=500; while [ $i -gt 0 ]; do xdotool mousemove 125 549 click 1; ((--i)); done; sleep 60; done
+while [ 1 ]; do i=500; while [ $i -gt 0 ]; do xdotool mousemove 125 549 click 1; ((--i)); done; sleep 30; done
+while [ 1 ]; do xdotool mousemove 59 1049 click 1; sleep 60; done
+xdotool getmouselocation
+while [ 1 ]; do xdotool mousemove 67 1126 click 1; sleep 20; done
+pacman -S grabc
+sudo pacman -S grabc
+cd git/
+ls
+mkdir paperclip-tools
+cd paperclip-tools/
+touch getColor.py
+chmod +X getColor.py 
+vim getColor.py 
+xdotool getmouselocation
+./getColor.py 586 968
+chmod +x getColor.py 
+./getColor.py 586 968
+vim ./getColor.py 
+./getColor.py 586 968
+vim ./getColor.py 
+./getColor.py 586 968
+vim getColor.py 
+./getColor.py 586 968
+vim
+vim getColor.py 
+./getColor.py 586 968
+cd git/paperclip-tools/
+ls
+./getColor.py 
+./getColor.py 0 0
+vim getColor.py 
+./getColor.py 0 0
+sudo pacman -S python3-pip
+sudo pacman -S python-pip
+./getColor.py 0 0
+ll /usr/bin/pip
+sudo pip install PIL
+sudo pip install --upgrade pip
+sudo pip install pil
+sudo pip install pillow
+./getColor.py 0 0
+sudo pip install xlib
+./getColor.py 0 0
+python3
+./getColor.py 0 0
+xdotool getmouselocation
+./getColor.py 578 967
+mv getColor.py shouldClickQuantumComputing.py
+xdotool getmouselocation
+vim shouldClickQuantumComputing.py 
+./shouldClickQuantumComputing.py 
+vim  ./shouldClickQuantumComputing.py
+./shouldClickQuantumComputing.py 
+vim  ./shouldClickQuantumComputing.py
+./shouldClickQuantumComputing.py 
+echo $?
+time ./shouldClickQuantumComputing.py 
+touch quantumComputing.sh
+chmod +x quantumComputing.sh 
+ls
+vim quantumComputing.sh 
+./quantumComputing.sh 
+ls
+vim quantumComputing.sh 
+./quantumComputing.sh 
+top
+xdotool getmouselocation
+vim shouldClickQuantumComputing.py 
+./quantumComputing.sh 
+vim shouldClickQuantumComputing.py 
+vim ./quantumComputing.sh 
+xdotool getmouselocation
+./quantumComputing.sh 
+vim shouldClickQuantumComputing.py 
+vim quantumComputing.sh 
+xdotool getmouselocation
+vim shouldClickQuantumComputing.py 
+./quantumComputing.sh 
+killall quantumComputing.sh
+xdotool getmouselocation
+xdotool getmouselocation | sed -re 's/x:([0-9]+) y:([0-9]+).*/\1 \2/
+xdotool getmouselocation | sed -re 's/x:([0-9]+) y:([0-9]+).*/\1 \2/'
+clicks=97 pos=$(xdotoool getmouselocation) while [ clicks > 0 ]; do xdotool mousemove $pos click 1; done
+clicks=97 pos=$(xdotoool getmouselocation) while [ clicks > 0 ]; do xdotool mousemove $pos click 1; ((--clicks)); done
+clicks=97; pos=$(xdotoool getmouselocation); while [ clicks > 0 ]; do xdotool mousemove $pos click 1; ((--clicks)); done
+clicks=97; pos=$(xdotool getmouselocation); while [ clicks > 0 ]; do xdotool mousemove $pos click 1; ((--clicks)); done
+whi
+top
+killall 998
+kill 998
+ssh Leane
+vim ~/.Slic3rPE/print/Prusa.ini 
+ssh Leane
+clicks=97; pos=$(xdotool getmouselocation | sed -re 's/x:([0-9]+) y:([0-9]+).*/\1 \2/'); while [ clicks > 0 ]; do xdotool mousemove $pos click 1; ((--clicks)); done
+cd git/paperclip-tools/
+ls
+rm 0
+cp quantumComputing.sh click.sh
+vim click.sh 
+./click.sh 10
+vim click.sh 
+./click.sh 10
+./click.sh 98
+./click.sh 400
+./click.sh 42
+./click.sh 500
+./click.sh 1000
+./click.sh 4000
+./click.sh 29
+./click.sh 38
+./click.sh 8000
+./click.sh 5000
+killall click.sh
+./click.sh 500
+./click.sh 1000
+./click.sh 97
+./click.sh 100
+./click.sh 1000
+./click.sh 900
+./click.sh 999
+./click.sh 792
+./click.sh 112
+./click.sh 200
+./click.sh 999
+killall click.sh
+./click.sh 42
+xdotool getmouselocation | sed -re 's/x:([0-9]+) y:([0-9]+).*/\1 \2/
+xdotool getmouselocation | sed -re 's/x:([0-9]+) y:([0-9]+).*/\1 \2/'
+while [ 1 ]; do xdotool mousemove 940 1003 click 1; sleep 20; done
+./click.sh 1000
+./click.sh 50
+./click.sh 92
+./click.sh 302
+./click.sh 72
+./click.sh 432
+./click.sh 500
+./click.sh 400
+./click.sh 900
+./click.sh 500
+./click.sh 300
+./click.sh 2000
+./click.sh 123
+./click.sh 45
+./click.sh 200
+./click.sh 800
+./click.sh 634
+./click.sh 600
+./click.sh 399
+./click.sh 800
+xdotool getmouselocation | sed -re 's/x:([0-9]+) y:([0-9]+).*/\1 \2/'
+./click.sh 70
+./click.sh 2000
+xdotool getmouselocation | sed -re 's/x:([0-9]+) y:([0-9]+).*/\1 \2/'
+killall click.sh
+while [ 1 ]; do xdotool mousemove 2960 665 click 1; sleep 2; done
+xdotool getmouselocation | sed -re 's/x:([0-9]+) y:([0-9]+).*/\1 \2/'
+mv click.sh click1.sh
+xdotool getmouselocation | sed -re 's/x:([0-9]+) y:([0-9]+).*/\1 \2/'
+vim click1.sh 
+cp click1.sh click.sh 
+cp click1.sh click2.sh 
+vim click.sh 
+vim click2.sh
+./click1.sh & && click2.sh &
+./click1.sh &; click2.sh &
+while [ 1 ]; do xdotool mousemove 2960 665 click 1; sleep 2; done
+xdotool getmouselocation | sed -re 's/x:([0-9]+) y:([0-9]+).*/\1 \2/'
+vim click1.sh 
+./click1.sh 100000
+killall click1.sh
+vim click1.sh 
+./click1.sh 100000
+while [ 1 ]; do xdotool mousemove 2960 665 click 1; sleep 2; done
+vim click1.sh 
+./click1.sh 5000
+killall click1.sh
+while [ 1 ]; do xdotool mousemove 2960 665 click 1; sleep 10; done
+./click.sh 788
+while [ 1 ]; do xdotool mousemove 2960 665 click 1; sleep 3; done
+while [ 1 ]; do xdotool mousemove 2960 665 click 1; sleep 1; done
+while [ 1 ]; do xdotool mousemove 2960 665 click 1; sleep 2; done
+while [ 1 ]; do xdotool mousemove 3007 1029 click 1; sleep 20; done
+./click.sh 1024
+killall click.sh
+./click.sh 1023
+./click.sh ((1024 - 142))
+./click.sh (( 1024 - 142 ))
+./click.sh $(( 1024 - 142 ))
+killall click.sh
+./click.sh $(( 1024 - 142 ))
+top
+exit
+exit
+cd Downloads/
+ls
+extract 73409991187.7z 
+mv 73409991187 FFXII-Maps
+cd  FFXII-Maps
+ls
+cd Henne\ Mines/
+ls
+display 15
+xdg-open 15\ -\ Special\ Charter\ Dig.jpg 
+xdg-open 14\ -\ Special\ Charter\ Dig.jpg 
+ssh Leane
+cat /etc/hosts
+sudo pacman -Syyuu
+ssh Leane
+xset -q
+xset s 600 600
+xset -q
+xset -q
+
+vim .Slic3rPE/filament/1.75\ PLA\ Cerulean.ini 
+xdg-open 14\ -\ Special\ Charter\ Shaft.jpg 
+exit
+exit
+exit
+exit
+vim ~/.i3/config 
+udevadm monitor --environment
+cat /etc/udev/rules.d/85-monitorHotplug.rules 
+udevadm monitor --environment
+cat /etc/udev/rules.d/85-monitorHotplug.rules 
+udevadm monitor --environment
+nitrogen --restore
+sudo vim /etc/udev/rules.d/85-monitorHotplug.rules 
+g /usr/local/bin/monitorHotplug.sh 
+sudo g /usr/local/bin/monitorHotplug.sh 
+sudo vim  /usr/local/bin/monitorHotplug.sh
+top
+ls
+ls scripts/
+ll /usr/local/bin/
+ls
+cd Dow
+cd Downloads/
+ls
+mkdir 3dPrinting
+mv Modular_Drawers_2.0.zip 3dPrinting/
+cd 3dPrinting/
+ls
+unzip Modular_Drawers_2.0.zip 
+ls
+mkdir ModularDrawers2.0
+mv * ModularDrawers2.0/
+ls
+cd ModularDrawers2.0/
+ls
+blender
+xset -q
+xset s 600 600
+sudo pacman -Syyuu
+ls
+pacman -S freecad
+sudo pacman -S freecad
+xautolock --help
+xautolock -disable
+psg autolo
+xautolock exit
+xautolock -exit
+psg autolo
+ssh Leane
+ping Leane
+yaourt freecad
+ssh Leane
+exit
+freecad
+sudo pacman -S blender
+vim .Xresources 
+top
+free
+top
+exit
+FreeCAD
+exit
+ping Leane
+top
+vim .Slic3rPE/print/Prusa.ini 
+vim .Slic3rPE/filament/1.75\ PLA\ Black.ini 
+vim .Slic3rPE/print/Prusa.ini 
+vim .Slic3rPE/filament/1.75\ PLA\ Black.ini 
+cp  .Slic3rPE/filament/1.75\ PLA\ Black.ini  .Slic3rPE/filament/1.75_PLA_Transparent.ini
+xset -q
+xset s 600 600
+xset -q
+sudo pacman -S bluez
+sudo pacman -S bluez-utils
+sudo pacman -S blueman-manager blueman-applet
+sudo pacman -S blueman
+pulseaudio -k
+bluetoothctl
+pulseaudio -k
+bluetoothctl
+blueman-applet 
+pulseaudio 
+pa-applet 
+pactl
+pacmd --help
+pacmd play-file /usr/share/sounds/freedesktop/stereo/alarm-clock-elapsed.oga 
+pacmd --help
+pacmd list-sinks
+exit
+ssh Leane
+                                                          /usr/local/bin/monitorHotplug.sh 
+ls
+exit
+killall Repetier
+psg repetier
+killall repetier-host
+killall RepetierHost.exe
+psg repetier
+kill 1935
+exit
+psg repetier
+kill 2207
+exit
+exit
+xset -q
+xset s 600 600
+xset -q
+ssh Leane
+ssh leane
+ping google.com
+ping leane
+cd git/
+ls
+git clone https://github.com/Windower/Lua.git
+cd Lua/
+ls
+cd addons/
+ls
+cd GearSwap/
+ls
+grep -ir job_precast
+grep -ir job_midcast
+grep -ir midcast
+grep -ir job_precast
+grep -ir job_midcast
+grep -ir FastRecast
+grep -ir FC
+grep -ir precast.FC
+grep Debug Mode
+grep -ir "Debug Mode"
+ssh 192.168.1.2
+ping leane
+ssh 192.168.1.54
+ping leane
+ssh 192.168.1.54
+xset -q
+xset s 600 600
+xset -q
+ssh Leane
+ssh 192.168.1.54
+ssh Leane
+ssh 192.168.1.18
+vim /etc/host
+vim /etc/hosts
+clear
+sudo vim /etc/hosts
+ping leane
+ssh leane
+clear
+ls
+sudo pacman -Syyuu
+ssh leane
+exit
+pacman -Syyuu
+sudo pacman -Syyuu
+pactl
+pulseaudio 
+pacmd list-sinks
+xrandr -q
+lsusb
+xrandr -q
+ls
+exit
+ls bin
+ls scripts/
+cat /etc/udev/rules.d/
+cat /etc/udev/rules.d/85-monitorHotplug.rules 
+sudo vim /usr/local/bin/monitorHotplug.sh 
+nitrogen restore
+nitrogen --help
+nitrogen --restore
+sudo vim /usr/local/bin/monitorHotplug.sh 
+ls
+pacmd list-sinks
+pacmd set-default-sink 1
+pacmd set-default-sink 0
+pacmd list-sinks
+paplay /usr/share/sounds/freedesktop/stereo/message-new-instant.oga 
+ls
+paplay /usr/share/sounds/freedesktop/stereo/message-new-instant.oga 
+exit
+groups
+gpasswd -a morainj uucp
+sudo gpasswd -a morainj uucp
+sudo gpasswd -a morainj lock
+groups
+su -
+groups
+ls /dev/tty
+ll  /dev/tty
+ll  /dev/tts
+ls /var/lock/lockdev
+sudo pacman -S arduino arduino-docs 
+lsusb
+ll /dev/ttyACM0 
+arduino
+echo $DISPLAY
+exit
+su - morainj
+echo $DISPLAY
+export DISPLAY=:0
+sudo pacman -S arduino-avr-core 
+arduino
+cd .vim/
+ls
+mkdir autoload
+cd autoload/
+wget https://raw.githubusercontent.com/tpope/vim-pathogen/master/autoload/pathogen.vim
+ls
+cd..
+cd .vim/autoload/
+ls
+rm pathogen.vim 
+cd.
+mkdir pack
+vim .vimrc 
+cd .vim/autoload/
+wget https://raw.githubusercontent.com/tpope/vim-pathogen/master/autoload/pathogen.vim
+ls
+cat pathogen.vim 
+cd.
+ls
+mkdir bundle
+cd bundle/
+ls
+git clone 
+[ ~/.vim ]
+10:53:10 morainj@Moiraine $ cd bundle/
+git clone https://github.com/stevearc/vim-arduino
+ls
+cd vim-arduino/
+ls
+cd.
+cd
+vim ~/.vimrc 
+vim
+vim /usr/share/arduino/examples/01.Basics/Blink/Blink.ino 
+xset -q
+xset -q
+
+sudo vim /usr/local/bin/monitorHotplug.sh 
+xset s 600 600
+xset -q
+:q
+exit
+ls
+cd git/
+ls
+cd.
+ls
+mkdir code
+cd code/
+ls
+cd.
+cd git/
+ls
+mkdir blinds
+cd blinds/
+git init
+cd.
+cd code/
+ln -s ~/git/blinds/
+cd blinds/
+ls
+touch blinds.ino
+ls /usr/share/arduino/lib/
+ls /usr/share/arduino
+find  /usr/share/arduino -iname servo.h
+find  /usr/include/ -iname servo.h
+arduino
+find /usr/share/arduino/ -iname *.h
+cd.
+find /usr -iname SoftwareSerial.h
+find /usr -iname *Servo*
+arduino --version
+arduino -h
+cd 
+cd Downloads/
+ls
+tar xf arduino-1.8.5-linux64.tar.xz
+ls
+cd arduino-1.8.5/
+ls
+cd lib
+ls
+cd..
+cd libra
+cd arduino-1.8.5/
+ls lib
+cd libraries/
+ls
+cd Servo/
+ls
+cd src/
+ls
+cd..
+cd.
+ls
+ls lib
+cat install.sh 
+ls
+ls /usr/share/arduino/
+ls java/
+ls lib
+ls /usr/share/arduino/lib
+cp -r libraries  /usr/share/arduino
+sudo cp -r libraries  /usr/share/arduino
+FreeCAD
+freecad
+ls /usr/lib/libboost_
+:q
+which FreeCAD
+sudo yaourt -Syyuu
+ls
+cd bin/
+ls
+ll
+cd.
+ll Downloads/
+ll bin
+ll
+ll Downloads/
+chmod +x Downloads/Repetier-Host-x86_64-2.1.3.AppImage 
+cd bin/
+ls
+ln -s ~/Downloads/Repetier-Host-x86_64-2.1.3.AppImage Repetier2
+mv Repetier Repetier.old
+mv Repetier2 Repetier
+ls
+ls /mnt/data
+ls /mnt
+ls ne
+cat /etc/exports
+cat /etc/autofs/
+cat /etc/autofs/auto.master
+cat /etc/autofs/auto.misc 
+cat /etc/autofs/auto.net 
+ls /net/leane
+ls /net/192.168.1.2
+ls /net/192.168.1.2/export/
+ls /net/192.168.1.2/export/data/
+ls /net/192.168.1.2/export/data/3dPrinting/
+top
+vim ~/.i3/config 
+psg rep
+killall 2696
+kill 2696
+Repetier
+Repetier.old 
+top
+cd .Slic3rPE/
+ls
+ls print
+cat print/Prusa\ 
+cat print/Prusa\ .2mm.ini 
+cat printer/Prusa.ini 
+grep -ir gcode *
+cd code/blinds/
+ls
+vim blinds.ino 
+gvim blinds.ino 
+gvim ~/.vimrc 
+gvim blinds.ino 
+ls Documents/
+ls
+cd 3dObjects/
+ls
+cd.
+ls
+cd /net/verin/
+ls
+cd export/data/
+ls
+cd 3dPrinting/
+ls
+cd.
+find . -iname *repaired*
+top
+top
+ssh Leane 
+curl localhost:5001
+curl http://localhost:5001
+curl http://localhost:5001/
+curl http://127.0.0.1:5001/
+curl http://leane:5001/
+curl -H "Authorization: Bearer 486a7d44-2d02-477e-ba70-18f36e2684d0" https://graph-na02-useast1.api.smartthings.com/api/smartapps/installations/e3f02fe4-3878-40a6-a9df-c3dd5a079e7c/home
+curl -H "Authorization: Bearer 7d44-2d02-477e-ba70-18f36e2684d0" https://graph-na02-useast1.api.smartthings.com/api/smartapps/installations/c157aae5-a08a-4bf0-8156-41f6418ec505/home
+curl -H "Authorization: Bearer 486a7d44-2d02-477e-ba70-18f36e2684d0" https://graph-na02-useast1.api.smartthings.com/api/smartapps/installations/c157aae5-a08a-4bf0-8156-41f6418ec505/home
+exit
+hostname leane
+host lean
+host leane
+ping leane
+cat /etc/hosts
+xset -q
+ls
+ssh Leane 
+exit
+sudo pacman -Syyuu
+curl -H "Authorization: Bearer 486a7d44-2d02-477e-ba70-18f36e2684d0" https://graph-na02-useast1.api.smartthings.com/api/smartapps/installations/c157aae5-a08a-4bf0-8156-41f6418ec505/home
+curl -H "Authorization: Bearer 486a7d44-2d02-477e-ba70-18f36e2684d0" https://graph.api.smartthings.com/api/smartapps/endpoints
+curl -H "Authorization: Bearer 486a7d44-2d02-477e-ba70-18f36e2684d0" https://graph-na02-useast1.api.smartthings.com:443/api/smartapps/installations/c157aae5-a08a-4bf0-8156-41f6418ec505/home
+curl -H "Authorization: Bearer 486a7d44-2d02-477e-ba70-18f36e2684d0" https://graph-na02-useast1.api.smartthings.com:443/api/smartapps/installations/c157aae5-a08a-4bf0-8156-41f6418ec505/home | grep Welcome
+curl -H "Authorization: Bearer 486a7d44-2d02-477e-ba70-18f36e2684d0" https://graph-na02-useast1.api.smartthings.com:443/api/smartapps/installations/c157aae5-a08a-4bf0-8156-41f6418ec505/home -v
+curl -H "Authorization: Bearer 486a7d44-2d02-477e-ba70-18f36e2684d0" https://graph.api.smartthings.com/api/smartapps/endpoints
+curl -H "Authorization: Bearer 486a7d44-2d02-477e-ba70-18f36e2684d0" https://graph-na02-useast1.api.smartthings.com:443/api/smartapps/installations/c157aae5-a08a-4bf0-8156-41f6418ec505/home -X GET
+curl -H "Authorization: Bearer 486a7d44-2d02-477e-ba70-18f36e2684d0" https://graph-na02-useast1.api.smartthings.com:443/api/smartapps/installations/c157aae5-a08a-4bf0-8156-41f6418ec505/home -X PUT
+curl -H "Authorization: Bearer 486a7d44-2d02-477e-ba70-18f36e2684d0" https://graph-na02-useast1.api.smartthings.com:443/api/smartapps/installations/c157aae5-a08a-4bf0-8156-41f6418ec505/home -X GET
+curl -H "Authorization: Bearer 486a7d44-2d02-477e-ba70-18f36e2684d0" https://graph.api.smartthings.com/api/smartapps/endpoints
+curl -H "Authorization: Bearer 486a7d44-2d02-477e-ba70-18f36e2684d0" https://graph-na02-useast1.api.smartthings.com:443/api/smartapps/installations/c157aae5-a08a-4bf0-8156-41f6418ec505/home -X GET
+curl -H "Authorization: Bearer 486a7d44-2d02-477e-ba70-18f36e2684d0" https://graph-na02-useast1.api.smartthings.com:443/api/smartapps/installations/c157aae5-a08a-4bf0-8156-41f6418ec505/home
+man curl
+cd Downloads/
+mkdir asusFirmware
+mv FW_RT_AC5300_300438421140.ZIP asusFirmware/
+cd asusFirmware/
+unzip FW_RT_AC5300_300438421140.ZIP 
+ls
+ll
+cd 
+cd git/Sine-Labore-Nihil/
+git pull
+ping leane
+ping 192.168.1.18
+ping 192.168.1.54
+ssh leane
+ssh morain.net
+ssh root@vps145455.vps.ovh.ca
+ls
+ls 3dPrinting/
+ls home/
+ls home/morainj/
+find . -iname *.stl
+ssh morainj@vps145455.vps.ovh.ca
+ssh verin
+cd
+ffmpeg --help | grep activation
+ffmpeg -h | grep activation
+ffmpeg --activation-bytes
+ffmpeg --activation_bytes
+sudo pacman Syyuu
+sudo pacman -Syyuu
+ffmpeg -v
+cd git/
+ls
+git clone https://github.com/inAudible-NG/audible-activator.git
+cd audible-activator/
+ls
+./audible-activator.py 
+pip install requests selenium
+pip install requests
+sudo pip install requests
+pip
+python3 ./audible-activator.py 
+sudo pip3 install selenium
+python
+pacman -S python-pip
+sudo pacman -S python-pip
+pip
+cd.
+cd Dow
+cd Downloads/
+curl https://boostrap.pypa.io/get-pip.py -o get-pip.py
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python ./get-pip.py 
+sudo python ./get-pip.py 
+pip install requests
+pip install selenium
+sudo pip install selenium
+cd ../git/audible-activator/
+ls
+./audible-activator.py 
+head audible-activator.py 
+python2 ../../Downloads/get-pip.py 
+sudo python2 ../../Downloads/get-pip.py 
+type pip
+which pip
+ll `which pip`
+pip -v
+pip -V
+python3 ../../Downloads/get-pip.py 
+sudo python3 ../../Downloads/get-pip.py 
+sudo pip2 install requests
+sudo pip2 install selenium
+./audible-activator.py 
+yaourt -Syyuu
+yaourt -S chromedriver
+chromedriver 
+grep -ir chromedriver *
+which chromedriver 
+vim audible
+ssh verin
+which chromedriver 
+vim audible-activator.py 
+pacman -S chromium
+sudo pacman -S chromium
+./audible-activator.py 
+chromedriver
+./audible-activator.py 
+echo $PATH
+ls /usr/bin/chromedriver 
+python2
+top
+yaourt -S google-chrome
+./audible-activator.py 
+ls /usr/bin/chromedriver
+ln -s  /usr/bin/chromedriver .
+ls
+./audible-activator.py 
+ls /net/192.168.1.2/export/data/Audiobooks/Audible/
+ffplay -activation_bytes 2b6d2001  /net/192.168.1.2/export/data/Audiobooks/Audible/TheGirlwiththeDragonTattooPart1TheMillenniumTrilogyBook1_ep6_rednekcol.aax 
+exit
+exit
+ffmpeg -activation_bytes 2b6d2001 -i  /net/192.168.1.2/export/data/Audiobooks/Audible/TheGirlwiththeDragonTattooPart1TheMillenniumTrilogyBook1_ep6_rednekcol.aax -vn -c:a copy ./TheGirlWithTheDragonTatooPart1.m4b
+ll
+ffplay ./TheGirlWithTheDragonTatooPart1.m4b 
+xset -q
+ls
+mv TheGirlWithTheDragonTatooPart1.m4b /net/verin/export/data/Audiobooks/
+ls
+cd /net/verin/export/data/Audiobooks/
+ls
+ffmpeg -activation_bytes 2b6d2001 -i  Audible/Oathbringer_ep6_FH_bk0NCnqyDYk4ktlKY8W8MO-boUnENm48j3jyix3NQ1sR_i0zmOKo6kG1D3Q.aax -vn -c:a copy ./Oathbringer.mp4
+ls
+ffplay Oathbringer.mp4 
+ls /mnt
+lsusb
+dmesg | tail
+ls /dev
+ls /dev/sd*
+ls /dev/media0 
+ll
+ll /dev
+mkdir /mnt/usb
+sudo mkdir /mnt/usb
+lsblk -f
+lsusb
+dmesg | tail
+lsusb
+reboot
+ssh verin
+ssh Leane 
+ssh leane
+ssh leane
+ssh Leane 
+dmesg
+lsusb
+dmesg
+ssh verin
+ssh verin
+iperf
+sudo pacman -S iperf
+iperf -c Verin -d
+ifconfig
+ethtool
+sudo pacman -S ethtool
+sudo pacman -S ifconfig
+ethtool
+ethtool -h
+sudo pacman -S net-tools
+ifconfig
+iperf -c Verin -d
+iperf -c 192.168.1.3 -d
+iperf -c Verin -d
+ping google.com
+ifconfig
+ethtool wlp58s0
+ethtool enp9s0u1u2
+ethtool wlp58s0
+ifconfig
+iperf -c Verin -d
+ping google.com
+iperf -c Verin -d
+ssh verin
+ssh verin
+sudo pacman -Syyuu
+yaourt -Syyuu
+yaourt --help
+exit
+sudo pacman-mirrors --fasttrack
+sudo pacman -Syyu
+ls
+top
+ls
+exit
+clear
+ls
+top
+sudo pacman -Syu
+shutdown
+shutdown -t now
+yaourt -Syyuau
+ssh verin 
+ssh verin
+pacman -Syyuu chromium
+sudo pacman -Syyuu chromium
+google-chrome-stable 
+sudo pacman -Syyuu
+xe
+xeb
+xev
+sudo pacman -Syyuu
+sudo pip install speedtest-cli
+speedtest-cli 
+ip addr
+iperf -c 192.168.0.3
+iperf -c 192.168.0.3 -d
+iperf -c 192.168.0.3
+speedtest-cli 
+iperf -c 192.168.0.3
+ping -c 10 192.168.0.1
+iperf -c 192.168.0.7
+ip link show 
+iperf -c 192.168.2.2
+iperf -c 10.0.0.64
+speedtest-cli 
+iperf -c 110.0.0.229
+iperf -c 10.0.0.229
+ping 10.0.0.229
+iperf -c 10.0.0.229
+speedtest-cli 
+lsblk
+lsusb
+lsblk
+lsusub
+lsusb
+iperf -c 192.168.0.3 -d
+cd /tmp/mozilla_morainj0/
+ls
+mv ubuntu-18.04.1-desktop-amd64.iso ~/Downloads/
+ls /dev/sd*
+ls /dev
+lsusb
+df
+ls /mnt
+ls /mnt/usb/
+dmesg
+ls /dev/sd*
+lsblk
+dmesg
+lsblk -f
+pacman -S unetbootin
+sudo pacman -S unetbootin
+yaourt -S unetbootin
+unetbootin
+reboot
+la
+lsusb
+lsblk
+dmesg
+lsusb
+lsblk
+sudo umount /dev/sda1
+sudo dd bs=4M if=~/Downloads/ubuntu-18.04.1-desktop-amd64.iso of=/dev/sda conv=fdatasync
+lsblk
+sudo dd bs=4M if=~/Downloads/ubuntu-18.04.1-desktop-amd64.iso of=/dev/sda conv=fdatasync status=progress
+sync
+eject /dev/sda
+sudo eject /dev/sda
+ls /dev/sda 
+speedtest-cli 
+cd /etc/udev/rules.d/
+ls
+cat 85-monitorHotplug.rules 
+ll
+cat /usr/local/bin/monitorHotplug.sh 
+exit
+iperf -c 192.168.0.104
+pacman -Syyuu
+exit
+sudo pacman -Syyuu
+ssh verin
+ssh Leane 
+sudo pacman -Syyuu
+ssh leane 
+l
+cd git/audible-activator/
+ls
+./audible-activator.py 
+ls
+cat /etc/udev/rules.d/85-monitorHotplug.rules 
+/usr/local/bin/monitorHotplug.sh 
+ls
+exit
+ls /opt/
+cd Downloads/
+ls
+ll
+arduino
+ssh -vvv
+man ssh
+exit
+ll .
+ll -a
+vim
+cd .vim
+ls
+cd bundle/
+ls
+cd..
+ls
+ssh morain.asuscomm.com
+calc 177/25.4
+exit
+bc
+man bc
+bc
+cd git/
+ls
+pacman -S google-earth
+sudo pacman -S google-earth
+sudo yaourt -S google-earth-pro
+yaourt -S google-earth-pro
+pacman -Syyuu
+g ~/.i3/config 
+cd Sine-Labore-Nihil/
+ls
+git pull
+git status
+git diff
+colors
 git status

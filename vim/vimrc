@@ -3,6 +3,9 @@ if filereadable("/etc/vimrc")
    source /etc/vimrc
 endif
 
+" Pathogen
+execute pathogen#infect()
+
 " Show line numbers
 set number
 
@@ -10,7 +13,7 @@ set number
 set lines=40
 
 " Set default font
-set guifont=Monospace\ 13
+set guifont=Monospace\ 8
 
 " Set default colorscheme
 colorscheme distinguished
@@ -24,6 +27,12 @@ set softtabstop=3
 set shiftwidth=3
 set expandtab
 
+" Easier movement
+noremap <C-h> <C-w>h
+noremap <C-j> <C-w>j
+noremap <C-k> <C-w>k
+noremap <C-l> <C-w>l
+
 " Set up copy, cut, and paste with ctrl-c, ctrl-x, ctrl-v respectively
 "nmap <C-V> "+gP
 imap <C-V> <ESC><C-V>i
@@ -35,3 +44,17 @@ syntax on
 
 au BufRead * let &numberwidth = float2nr(log10(line("$"))) + 2
           \| let &columns = &numberwidth + 80
+
+" Handle utf
+if has("multi_byte")
+   if &termencoding == ""
+      let &termencoding = &encoding
+   endif
+   set encoding=utf-8
+   setglobal fileencoding=utf-8
+   set fileencodings=ucs-bom,utf-8,latin1
+endif
+
+" Arduino stuff
+let g:arduino_dir = '/usr/share/arduino'
+
