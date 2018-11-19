@@ -2230,3 +2230,8 @@ git status
 git diff
 colors
 git status
+git add bash/bash_aliases bash/bash_history  bash/bashrc  vim/colors/distinguished.vim vim/plugin/colorsupport.vim vim/vimrc
+git commit -m "Updates"
+git pull
+git status
+git commit -m "Updates" && git pull
