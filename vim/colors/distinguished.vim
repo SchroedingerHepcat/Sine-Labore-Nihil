@@ -24,6 +24,7 @@
 		for [group, group_colors] in items(a:color_dict)
 			exec 'hi ' . group
 				\ . ' ctermfg=' . (group_colors[0] == '' ? 'NONE' :       group_colors[0])
+				\ . ' ctermbg=' . (group_colors[1] == '' ? 'NONE' :       group_colors[1])
 				\ . '   cterm=' . (group_colors[2] == '' ? 'NONE' :       group_colors[2])
 				\
 				\ . '   guifg=' . (group_colors[3] == '' ? 'NONE' : '#' . group_colors[3])
@@ -36,7 +37,7 @@
 "	   | Highlight group                |  CTFG |  CTBG |    CTAttributes | || |   GUIFG |    GUIBG |   GUIAttributes |
 "	   |--------------------------------|-------|-------|-----------------| || |---------|----------|-----------------|
 call s:ColorDictParser({
-	\   'Normal'                      : [    231,     16,               '',      'ffffff',  '',               '']
+	\   'Normal'                      : [    231,     16,               '',      'ffffff',  '000000',               '']
 	\ , 'Visual'                      : [    240,    253,               '',      '585858',  'dadada',               '']
 	\
 	\ , 'Cursor'                      : [     '',     '',               '',      'ffffff',  'dd4010',               '']
@@ -101,6 +102,7 @@ call s:ColorDictParser({
 	\ , 'Title'                       : [    231,     '',               '',      'ffffff',        '',               '']
 	\ , 'Delimiter'                   : [    246,     '',               '',      '949494',        '',               '']
 	\ , 'StorageClass'                : [    187,     '',               '',      'd7d7af',        '',               '']
+	\ , 'Operator'                    : [    180,     '',               '',      'd7af87',        '',               '']
 	\
 	\ , 'TODO'                        : [    228,     94,           'bold',      'ffff87',  '875f00',           'bold']
 	\
