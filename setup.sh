@@ -35,6 +35,9 @@ fi
 if [ -e $HOME/.tmux.conf ]; then
    mv $HOME/.tmux.conf $HOME/.tmux.conf.bak-preSineLaboreNihil
 fi
+if [ -e $HOME/.i3status.conf ]; then
+   mv $HOME/.i3status.conf $HOME/.i3status.conf.bak-preSineLaboreNihil
+fi
 
 # Link environment
 ln -s $HOME/git/Sine-Labore-Nihil/bash/bashrc $HOME/.bashrc
@@ -46,3 +49,9 @@ ln -s $HOME/git/Sine-Labore-Nihil/vim/vimrc $HOME/.vimrc
 ln -s $HOME/git/Sine-Labore-Nihil/scripts $HOME/scripts
 ln -s $HOME/git/Sine-Labore-Nihil/python/pythonrc $HOME/.pythonrc
 ln -s $HOME/git/Sine-Labore-Nihil/tmux/tmux.conf $HOME/.tmux.conf
+ln -s $HOME/git/Sine-Labore-Nihil/i3/i3status.conf $HOME/.i3status.conf
+
+if [ ! -d $HOME/.i3 ]; then
+    mkdir $HOME/.i3
+fi
+ln -s $HOME/git/Sine-Labore-Nihil/i3/i3config $HOME/.i3/config
