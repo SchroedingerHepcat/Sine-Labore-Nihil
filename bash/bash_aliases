@@ -71,13 +71,13 @@ function colors() {
 			seq0="${vals:+\e[${vals}m}"
 			printf "  %-9s" "${seq0:-(default)}"
 			printf " ${seq0}TEXT\e[m"
-			printf " \e[${vals:+${vals+$vals;}}1mBOLD\e[m"
+			printf " \e[${vals:+${vals+$vals;}}1mBOLD\e[m\n"
 		done
 		echo; echo
 	done
+}
 
 alias psg &> /dev/null && unalias psg
-
 function psg()
 {
     ps -ef | grep -i "$1" | grep -v "grep"
