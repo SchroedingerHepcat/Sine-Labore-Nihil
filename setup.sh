@@ -7,36 +7,42 @@ if [ ! -e $HOME/git/Sine-Labore-Nihil ]; then
              $HOME/git/Sine-Labore-Nihil
 fi
 
+installTime=$(date +%Y%m%d-%H%M%S)
+
+
 # Back up environment
 if [ -e $HOME/.bashrc ]; then
-   mv $HOME/.bashrc $HOME/.bashrc.bak-preSineLaboreNihil
+   mv $HOME/.bashrc $HOME/.bashrc.bak-preSineLaboreNihil-$installTime
 fi
 if [ -e $HOME/.bash_aliases ]; then
-   mv $HOME/.bash_aliases $HOME/.bash_aliases.bak-preSineLaboreNihil
+   mv $HOME/.bash_aliases $HOME/.bash_aliases.bak-preSineLaboreNihil-$installTime
 fi
 if [ -e $HOME/.bash_logout ]; then
-   mv $HOME/.bash_logout $HOME/.bash_logout.bak-preSineLaboreNihil
+   mv $HOME/.bash_logout $HOME/.bash_logout.bak-preSineLaboreNihil-$installTime
 fi
 if [ -e $HOME/.inputrc ]; then
-   mv $HOME/.inputrc $HOME/.inputrc.bak-preSineLaboreNihil
+   mv $HOME/.inputrc $HOME/.inputrc.bak-preSineLaboreNihil-$installTime
 fi
 if [ -e $HOME/.vimrc ]; then
-   mv $HOME/.vimrc $HOME/.vimrc.bak-preSineLaboreNihil
+   mv $HOME/.vimrc $HOME/.vimrc.bak-preSineLaboreNihil-$installTime
 fi
 if [ -e $HOME/.vim ]; then
-   mv $HOME/.vim $HOME/.vim.bak-preSineLaboreNihil
+   mv $HOME/.vim $HOME/.vim.bak-preSineLaboreNihil-$installTime
 fi
 if [ -e $HOME/scripts ]; then
-   mv $HOME/scripts $HOME/scripts.bak-preSineLaboreNihil
+   mv $HOME/scripts $HOME/scripts.bak-preSineLaboreNihil-$installTime
 fi
 if [ -e $HOME/.pythonrc ]; then
-   mv $HOME/.pythonrc $HOME/.pythonrc.bak-preSineLaboreNihil
+   mv $HOME/.pythonrc $HOME/.pythonrc.bak-preSineLaboreNihil-$installTime
 fi
 if [ -e $HOME/.tmux.conf ]; then
-   mv $HOME/.tmux.conf $HOME/.tmux.conf.bak-preSineLaboreNihil
+   mv $HOME/.tmux.conf $HOME/.tmux.conf.bak-preSineLaboreNihil-$installTime
 fi
 if [ -e $HOME/.i3status.conf ]; then
-   mv $HOME/.i3status.conf $HOME/.i3status.conf.bak-preSineLaboreNihil
+   mv $HOME/.i3status.conf $HOME/.i3status.conf.bak-preSineLaboreNihil-$installTime
+fi
+if [ -e $HOME/.i3/config ]; then
+   mv $HOME/.i3/config $HOME/.i3/config-preSineLaboreNihil-$installTime
 fi
 
 # Link environment
