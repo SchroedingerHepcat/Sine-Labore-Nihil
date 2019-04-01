@@ -19,10 +19,11 @@ augroup numberToggle
 augroup END
 
 " Appearance
+colorscheme distinguished
+let g:preferredWidth = 80
 set nowrap
 set t_Co=256
-set colorcolumn=80
-colorscheme distinguished
+let &colorcolumn = g:preferredWidth + 1
 if has("gui_running")
    " Set font in gvim
    set guifont=DejaVu\ Sans\ Mono\ 9
@@ -34,7 +35,7 @@ if has("gui_running")
    set guioptions-=R
    set guioptions-=l
    set guioptions-=L
-   
+
    " Window geometry
    "set lines=108
    "set lines=93
@@ -64,7 +65,7 @@ set indentkeys-=0#
 "noremap <C-l> <C-w>l
 
 " Wrap text at 80 characters using whitespace as delimiter
-set tw=80
+let &tw = g:preferredWidth
 set formatoptions+=t
 
 " Disable backup and swp files
@@ -83,9 +84,10 @@ if has("gui_running")
 endif
 
 " Set up pathogen
-"execute pathogen#infect()
+execute pathogen#infect()
 
 let g:suppressResize = 0
+let g:suppressWindowResize = 0
 "command! -nargs=0 OpenFile execute ':call EclimOpen()"
 
 " Define the Silent command
@@ -200,7 +202,7 @@ function! CalculateIdealWindowSize()
       let newWindow = -1
       let lastWindow = winnr()
       while lastWindow != newWindow
-         let windowSize += 121 + &numberwidth
+         let windowSize += g:preferredWidth + 1 + &numberwidth
          let lastWindow = winnr()
          wincmd l
          let newWindow = winnr()
@@ -213,7 +215,7 @@ function! CalculateIdealWindowSize()
    catch
       let &eventignore = oldEventIgnore
       execute currentWindow . 'wincmd w'
-      return 120 + &numberwidth
+      return g:preferredWidth + &numberwidth
    endtry
 endfunction
 
@@ -221,29 +223,31 @@ endfunction
 " on splits, i.e. it can be smaller than the max size if fewer splites are
 " open but it will never be larger than the max size
 function! ResizeWindow()
-   let currentWIndow = winnr()
-   let maxColumns = 300
-   let idealColumns = CalculateIdealWindowSize()
-   let newColumns = float2nr(min([maxColumns, idealColumns]))
-   if has("gui_running")
-      "let &columns = new Columns
-      "set lines=108
-      "set lines-93
-   elseif exists('$TMUX')
-      let deltaColumns = newColumns - str2float(&columns)
-      let direction = "-L "
-      if deltaColumns < 0
-         let cmd = "Silent tmux resize-pane " . direction . string(float2nr(deltaColumns))
-         execute cmd
-      endif
+    if g:suppressWindowResize == 0
+       let currentWindow = winnr()
+       let maxColumns = 300
+       let idealColumns = CalculateIdealWindowSize()
+       let newColumns = float2nr(min([maxColumns, idealColumns]))
+       if has("gui_running")
+          let &columns = newColumns
+          "set lines=108
+          "set lines=93
+       elseif exists('$TMUX')
+          let deltaColumns = newColumns - str2float(&columns)
+          let direction = "-L "
+          if deltaColumns < 0
+             let cmd = "Silent tmux resize-pane " . direction . string(float2nr(deltaColumns))
+             execute cmd
+          endif
+       endif
+       execute currentWindow . 'wincmd w'
    endif
-   execute currentWindow . 'wincmd w'
 endfunction
 
 function! ResizeSplit()
    call ResizeWindow()
-   let nColumns = 120 + &numberwidth
-   if nColumns != str2float(&colunms)
+   let nColumns = g:preferredWidth + &numberwidth
+   if nColumns != str2float(&columns)
       execute "vertical resize " . float2nr(nColumns)
    endif
 endfunction
@@ -333,14 +337,22 @@ noremap <C-H> <C-w>H
 noremap <C-J> <C-w>J
 noremap <C-K> <C-w>K
 noremap <C-L> <C-w>L
-noremap <C-h> :call MoveLeft()<CR>
-noremap <C-j> :call MoveDown()<CR>
-noremap <C-k> :call MoveUp()<CR>
-noremap <C-l> :call MoveRight()<CR>
-inoremap <C-h> <C-\><C-O>:call MoveLeft()<CR>
-inoremap <C-j> <C-\><C-O>:call MoveDown()<CR>
-inoremap <C-k> <C-\><C-O>:call MoveUp()<CR>
-inoremap <C-l> <C-\><C-O>:call MoveRight()<CR>
+"noremap <C-h> :call MoveLeft()<CR>
+"noremap <C-j> :call MoveDown()<CR>
+"noremap <C-k> :call MoveUp()<CR>
+"noremap <C-l> :call MoveRight()<CR>
+noremap <T-F1> :call MoveLeft()<CR>
+noremap <T-F2> :call MoveDown()<CR>
+noremap <T-F3> :call MoveUp()<CR>
+noremap <T-F4> :call MoveRight()<CR>
+noremap <T-C-F1> :call MoveLeft()<CR>
+noremap <T-C-F2> :call MoveDown()<CR>
+noremap <T-C-F3> :call MoveUp()<CR>
+noremap <T-C-F4> :call MoveRight()<CR>
+"inoremap <C-h> <C-\><C-O>:call MoveLeft()<CR>
+"inoremap <C-j> <C-\><C-O>:call MoveDown()<CR>
+"inoremap <C-k> <C-\><C-O>:call MoveUp()<CR>
+"inoremap <C-l> <C-\><C-O>:call MoveRight()<CR>
 noremap <C-F1> :call MoveLeft()<CR>
 noremap <C-F2> :call MoveDown()<CR>
 noremap <C-F3> :call MoveUp()<CR>
@@ -399,6 +411,10 @@ augroup vimrc_autocmds
     autocmd BufLeave * normal zR
 augroup END
 
+augroup resize_autocmds
+    au BufRead * call ResizeSplits()
+augroup END
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Handle filetypes correctly
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -410,8 +426,6 @@ augroup END
 filetype plugin indent on
 syntax on
 
-au BufRead * let &numberwidth = float2nr(log10(line("$"))) + 2
-          \| let &columns = &numberwidth + 80
 
 " Handle utf
 if has("multi_byte")

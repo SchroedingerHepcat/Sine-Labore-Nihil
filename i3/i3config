@@ -76,10 +76,14 @@ bindsym $mod+Ctrl+x --release exec --no-startup-id xkill
 
 # change focus
 focus_follows_mouse no
-bindsym Ctrl+h focus left
-bindsym Ctrl+j focus down
-bindsym Ctrl+k focus up
-bindsym Ctrl+l focus right
+bindsym Ctrl+h --release exec ~/scripts/i3-vim-tmux-movement.sh left
+bindsym Ctrl+j --release exec ~/scripts/i3-vim-tmux-movement.sh down
+bindsym Ctrl+k --release exec ~/scripts/i3-vim-tmux-movement.sh up
+bindsym Ctrl+l --release exec ~/scripts/i3-vim-tmux-movement.sh right
+#bindsym Ctrl+h focus left
+#bindsym Ctrl+j focus down
+#bindsym Ctrl+k focus up
+#bindsym Ctrl+l focus right
 
 # move focused window
 bindsym Ctrl+Shift+h move left
