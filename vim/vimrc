@@ -4,7 +4,9 @@ if filereadable("/etc/vimrc")
 endif
 
 " Pathogen
-execute pathogen#infect()
+if v:version < 800
+    execute pathogen#infect()
+endif
 
 " Remap leader keys
 let mapleader = "\<Space>"
@@ -58,12 +60,6 @@ set softtabstop=4
 set cinkeys-=0#
 set indentkeys-=0#
 
-" Easier movement
-"noremap <C-h> <C-w>h
-"noremap <C-j> <C-w>j
-"noremap <C-k> <C-w>k
-"noremap <C-l> <C-w>l
-
 " Wrap text at 80 characters using whitespace as delimiter
 let &tw = g:preferredWidth
 set formatoptions+=t
@@ -82,9 +78,6 @@ runtime ftplugin/man.vim
 if has("gui_running")
    nnoremap K :<C-U>exe "Man" v:count "<C-R><C-W>"<CR>
 endif
-
-" Set up pathogen
-execute pathogen#infect()
 
 let g:suppressResize = 0
 let g:suppressWindowResize = 0
@@ -333,10 +326,22 @@ noremap <Leader>j <C-f>
 noremap <Leader>k <C-b>
 
 " Switch windows
-noremap <C-H> <C-w>H
-noremap <C-J> <C-w>J
-noremap <C-K> <C-w>K
-noremap <C-L> <C-w>L
+" If nothing is intercepting these, then vim should just handle them
+" The first four don't work in the terminal, but do in gvim
+" The problem is that the terminal does not send different codes for C-H and
+" C-S-H.
+" Note: The <C-S-H> versions must be first, or else in the terminal, C-H will
+" move the window, not switch the window.
+noremap <C-S-H> <C-w>H
+noremap <C-S-J> <C-w>J
+noremap <C-S-K> <C-w>K
+noremap <C-S-L> <C-w>L
+noremap <C-H> <C-w>h
+noremap <C-J> <C-w>j
+noremap <C-K> <C-w>k
+noremap <C-L> <C-w>l
+
+" These mappings allow vim to work nicely with TMUX and i3
 "noremap <C-h> :call MoveLeft()<CR>
 "noremap <C-j> :call MoveDown()<CR>
 "noremap <C-k> :call MoveUp()<CR>
@@ -363,6 +368,7 @@ inoremap <C-F3> <C-\><C-O>:call MoveUp()<CR>
 inoremap <C-F4> <C-\><C-O>:call MoveRight()<CR>
 
 " Move windows
+" TODO: figure out how to make these work with PuTTY
 noremap <C-Left> <C-w>H
 noremap <C-Down> <C-w>J
 noremap <C-Up> <C-w>K
