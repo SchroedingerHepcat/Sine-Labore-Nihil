@@ -10,10 +10,15 @@ esac
 
 # If not a tmux or screen session, enter a tmux or screen session
 # tmux is preferred over screen
-if [[ ! -n "$TMUX" ]] && [[ -e /usr/bin/tmux ]]; then
-    exec /usr/bin/tmux -2
-elif [[ ! -n "$STY" ]] && [[ -e /usr/bin/screen ]]; then
-    exec /usr/bin/screen
+if [[ ! -n "$TMUX" ]]; then
+    if [[ -e /usr/bin/tmux ]]; then
+        exec /usr/bin/tmux -2
+    elif [[ ! -n "$STY" ]]; then
+       if [[ -e /usr/bin/screen ]]; then
+            exec /usr/bin/screen
+       fi
+   fi
+
 fi
 
 # Store the current X display as the latest display
@@ -162,7 +167,11 @@ export PATH=$PATH:/sbin
 export PATH=$PATH:/usr/sbin
 
 # Define terminal as 256 color xterm
-export TERM=xterm-256color
+if [[ -n "$TMUX" ]]; then
+    export TERM=tmux-256color
+else
+    export TERM=xterm-256color
+fi
 
 # Define python startup file
 if [[ -r $HOME/.pythonrc ]]; then
