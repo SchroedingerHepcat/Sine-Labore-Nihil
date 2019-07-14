@@ -10,15 +10,10 @@ esac
 
 # If not a tmux or screen session, enter a tmux or screen session
 # tmux is preferred over screen
-if [[ ! -n "$TMUX" ]]; then
-    if [[ -e /usr/bin/tmux ]]; then
-        exec /usr/bin/tmux -2
-    elif [[ ! -n "$STY" ]]; then
-       if [[ -e /usr/bin/screen ]]; then
-            exec /usr/bin/screen
-       fi
-   fi
-
+if [[ ! -n "$TMUX" ]] && which tmux &> /dev/null; then
+    exec tmux -2
+elif [[ ! -n "$STY" ]] && which screen &> /dev/null; then
+    exec screen
 fi
 
 # Store the current X display as the latest display

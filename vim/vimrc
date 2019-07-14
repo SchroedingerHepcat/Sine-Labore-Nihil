@@ -1,10 +1,12 @@
 " Source whatever system settings there are
 if filereadable("/etc/vimrc")
-   source /etc/vimrc
+    source /etc/vimrc
 endif
 
 " Pathogen
-execute pathogen#infect()
+if v:version < 800
+    execute pathogen#infect()
+endif
 
 " Remap leader keys
 let mapleader = "\<Space>"
@@ -25,23 +27,23 @@ set nowrap
 set t_Co=256
 let &colorcolumn = g:preferredWidth + 1
 if has("gui_running")
-   " Set font in gvim
-   set guifont=DejaVu\ Sans\ Mono\ 9
+    " Set font in gvim
+    set guifont=DejaVu\ Sans\ Mono\ 9
 
-   " Remove menubar and toolbar
-   set guioptions-=T
-   set guioptions-=m
-   set guioptions-=r
-   set guioptions-=R
-   set guioptions-=l
-   set guioptions-=L
+    " Remove menubar and toolbar
+    set guioptions-=T
+    set guioptions-=m
+    set guioptions-=r
+    set guioptions-=R
+    set guioptions-=l
+    set guioptions-=L
 
-   " Window geometry
-   "set lines=108
-   "set lines=93
+    " Window geometry
+    "set lines=108
+    "set lines=93
 else
-   " Mouse support in terminal
-   set mouse=a
+    " Mouse support in terminal
+    set mouse=a
 endif
 
 " Enable status line all the time
@@ -57,12 +59,6 @@ set softtabstop=4
 
 set cinkeys-=0#
 set indentkeys-=0#
-
-" Easier movement
-"noremap <C-h> <C-w>h
-"noremap <C-j> <C-w>j
-"noremap <C-k> <C-w>k
-"noremap <C-l> <C-w>l
 
 " Wrap text at 80 characters using whitespace as delimiter
 let &tw = g:preferredWidth
@@ -83,9 +79,6 @@ if has("gui_running")
    nnoremap K :<C-U>exe "Man" v:count "<C-R><C-W>"<CR>
 endif
 
-" Set up pathogen
-execute pathogen#infect()
-
 let g:suppressResize = 0
 let g:suppressWindowResize = 0
 "command! -nargs=0 OpenFile execute ':call EclimOpen()"
@@ -96,127 +89,127 @@ command! -nargs=1 Silent execute ':silent !' . <q-args> | execute ':redraw!'
 
 " Movement functions to allow tmux and i3 integration
 function! MoveLeft()
-   let originalWindow = winnr()
-   wincmd h
-   let newWindow = winnr()
-   if originalWindow == newWindow
-      if has("gui_running")
-         Silent i3-msg focus left
-      else
-         Silent tmux select-pane -L
-      endif
-   endif
+    let originalWindow = winnr()
+    wincmd h
+    let newWindow = winnr()
+    if originalWindow == newWindow
+        if has("gui_running")
+            Silent i3-msg focus left
+        elseif exists('$TMUX')
+            Silent tmux select-pane -L
+        endif
+    endif
 endfunction
 
 function! MoveDown()
-   let originalWindow = winnr()
-   wincmd j
-   let newWindow = winnr()
-   if originalWindow == newWindow
-      if has("gui_running")
-         Silent i3-msg focus down
-      else
-         Silent tmux select-pane -D
-      endif
-   endif
+    let originalWindow = winnr()
+    wincmd j
+    let newWindow = winnr()
+    if originalWindow == newWindow
+        if has("gui_running")
+            Silent i3-msg focus down
+        elseif exists('$TMUX')
+            Silent tmux select-pane -D
+        endif
+    endif
 endfunction
 
 function! MoveUp()
-   let originalWindow = winnr()
-   wincmd k
-   let newWindow = winnr()
-   if originalWindow == newWindow
-      if has("gui_running")
-         Silent i3-msg focus up
-      else
-         Silent tmux select-pane -U
-      endif
-   endif
+    let originalWindow = winnr()
+    wincmd k
+    let newWindow = winnr()
+    if originalWindow == newWindow
+        if has("gui_running")
+            Silent i3-msg focus up
+        elseif exists('$TMUX')
+            Silent tmux select-pane -U
+        endif
+    endif
 endfunction
 
 function! MoveRight()
-   let originalWindow = winnr()
-   wincmd l
-   let newWindow = winnr()
-   if originalWindow == newWindow
-      if has("gui_running")
-         Silent i3-msg focus right
-      else
-         Silent tmux select-pane -R
-      endif
-   endif
+    let originalWindow = winnr()
+    wincmd l
+    let newWindow = winnr()
+    if originalWindow == newWindow
+        if has("gui_running")
+            Silent i3-msg focus right
+        else
+            Silent tmux select-pane -R
+        endif
+    endif
 endfunction
 
 function! GoToFurthestLeftWindow()
-   let newWindow = -1
-   let lastWindow = winnr()
-   while lastWindow != newWindow
-      let lastWindow = winnr()
-      wincmd h
-      let newWindow = winnr()
-   endwhile
+    let newWindow = -1
+    let lastWindow = winnr()
+    while lastWindow != newWindow
+        let lastWindow = winnr()
+        wincmd h
+        let newWindow = winnr()
+    endwhile
 endfunction
 
 function! CountVerticalSplits()
-   let oldEventIgnore = &eventignore
-   try
-      set eventignore=all
-      let currentWindow = winnr()
-      call GoToFurthestLeftWindow()
-      let newWindow = -1
-      let lastWindow = winnr()
-      let windowCount = 0
-      while lastWindow != newWindow
-         let windowCount += 1
-         let lastWindow = winnr()
-         wincmd l
-         let newWindow = winnr()
-      endwhile
-      execute currentWindow . 'wincmd w'
-      let &eventignore = oldEventIgnore
-      return windowCount
-   catch
-      let &eventignore = oldEventIgnore
-      return -1
-   endtry
+    let oldEventIgnore = &eventignore
+    try
+        set eventignore=all
+        let currentWindow = winnr()
+        call GoToFurthestLeftWindow()
+        let newWindow = -1
+        let lastWindow = winnr()
+        let windowCount = 0
+        while lastWindow != newWindow
+            let windowCount += 1
+            let lastWindow = winnr()
+            wincmd l
+            let newWindow = winnr()
+        endwhile
+        execute currentWindow . 'wincmd w'
+        let &eventignore = oldEventIgnore
+        return windowCount
+    catch
+        let &eventignore = oldEventIgnore
+        return -1
+    endtry
 endfunction
 
 " Function to count the number of splits I have open
 function! CountSplits()
-   let currentWindow = winnr()
-   let windowCount = 0
-   windo let windowCount += 1
-   execute currentWindow . 'wincmd w'
-   return windowCount
+    let currentWindow = winnr()
+    let windowCount = 0
+    windo let windowCount += 1
+    execute currentWindow . 'wincmd w'
+    return windowCount
 endfunction
 
 " Function to calculate the ideal width of the screen based on the number of
 " splits
 " Note: this assumes that every split is vertical
 function! CalculateIdealWindowSize()
-   let oldEventIgnore = &eventignore
-   let currentWindow = winnr()
-   try
-      let windowSize = 0
-      call GoToFurthestLeftWindow()
-      let newWindow = -1
-      let lastWindow = winnr()
-      while lastWindow != newWindow
-         let windowSize += g:preferredWidth + 1 + &numberwidth
-         let lastWindow = winnr()
-         wincmd l
-         let newWindow = winnr()
-      endwhile
-      let windowSize -= 1
+    let oldEventIgnore = &eventignore
+    let currentWindow = winnr()
+    try
+        let windowSize = 0
+        call GoToFurthestLeftWindow()
+        let newWindow = -1
+        let lastWindow = winnr()
+        while lastWindow != newWindow
+            let windowSize += g:preferredWidth + 1 + &numberwidth
+            let lastWindow = winnr()
+            wincmd l
+            let newWindow = winnr()
+        endwhile
+        let windowSize -= 1
 
-      execute currentWindow . 'wincmd w'
-      let &eventignore = oldEventIgnore
-      return windowSize
-   catch
-      let &eventignore = oldEventIgnore
-      execute currentWindow . 'wincmd w'
-      return g:preferredWidth + &numberwidth
-   endtry
+        execute currentWindow . 'wincmd w'
+        let &eventignore = oldEventIgnore
+        return windowSize
+    catch
+       let &eventignore = oldEventIgnore
+       execute currentWindow . 'wincmd w'
+       return g:preferredWidth + &numberwidth
+    endtry
 endfunction
 
 " Resize window based on the max size for the window and the ideal size based
@@ -224,69 +217,69 @@ endfunction
 " open but it will never be larger than the max size
 function! ResizeWindow()
     if g:suppressWindowResize == 0
-       let currentWindow = winnr()
-       let maxColumns = 300
-       let idealColumns = CalculateIdealWindowSize()
-       let newColumns = float2nr(min([maxColumns, idealColumns]))
-       if has("gui_running")
-          let &columns = newColumns
-          "set lines=108
-          "set lines=93
-       elseif exists('$TMUX')
-          let deltaColumns = newColumns - str2float(&columns)
-          let direction = "-L "
-          if deltaColumns < 0
-             let cmd = "Silent tmux resize-pane " . direction . string(float2nr(deltaColumns))
-             execute cmd
-          endif
-       endif
-       execute currentWindow . 'wincmd w'
-   endif
+        let currentWindow = winnr()
+        let maxColumns = 300
+        let idealColumns = CalculateIdealWindowSize()
+        let newColumns = float2nr(min([maxColumns, idealColumns]))
+        if has("gui_running")
+            let &columns = newColumns
+            "set lines=108
+            "set lines=93
+        elseif exists('$TMUX')
+            let deltaColumns = newColumns - str2float(&columns)
+            let direction = "-L "
+            if deltaColumns < 0
+                let cmd = "Silent tmux resize-pane " . direction . string(float2nr(deltaColumns))
+                execute cmd
+            endif
+        endif
+        execute currentWindow . 'wincmd w'
+    endif
 endfunction
 
 function! ResizeSplit()
-   call ResizeWindow()
-   let nColumns = g:preferredWidth + &numberwidth
-   if nColumns != str2float(&columns)
-      execute "vertical resize " . float2nr(nColumns)
-   endif
+    call ResizeWindow()
+    let nColumns = g:preferredWidth + &numberwidth
+    if nColumns != str2float(&columns)
+        execute "vertical resize " . float2nr(nColumns)
+    endif
 endfunction
 
 function! ResizeSplits()
-   if g:suppressResize != 1
-      let oldEventIgnore = &eventignore
-      let currentWindow = winnr()
-      try
-         call GoToFurthestLeftWindow()
-         let newWindow = -1
-         let lastWindow = winnr()
-         while lastWindow != newWindow
-            call ResizeSplit()
+    if g:suppressResize != 1
+        let oldEventIgnore = &eventignore
+        let currentWindow = winnr()
+        try
+            call GoToFurthestLeftWindow()
+            let newWindow = -1
             let lastWindow = winnr()
-            wincmd l
-            let newWindow = winnr()
-         endwhile
-      catch
-      endtry
+            while lastWindow != newWindow
+                call ResizeSplit()
+                let lastWindow = winnr()
+                wincmd l
+                let newWindow = winnr()
+            endwhile
+        catch
+        endtry
 
-      execute currentWindow . 'wincmd w'
-      redraw!
-      let &eventignore = oldEventIgnore
-   endif
+        execute currentWindow . 'wincmd w'
+        redraw!
+        let &eventignore = oldEventIgnore
+    endif
 endfunction
 
 function! EclimOpen()
-   let g:suppressResize = 1
-   try
-      LocateFile
-      let g:suppressResize = 0
-   catch
-      let g:suppressResize = 0
-   endtry
+    let g:suppressResize = 1
+    try
+        LocateFile
+        let g:suppressResize = 0
+    catch
+        let g:suppressResize = 0
+    endtry
 endfunction
 
 if has("gui_running")
-   "call ResizeWindow()
+    "call ResizeWindow()
 endif
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -333,14 +326,26 @@ noremap <Leader>j <C-f>
 noremap <Leader>k <C-b>
 
 " Switch windows
-noremap <C-H> <C-w>H
-noremap <C-J> <C-w>J
-noremap <C-K> <C-w>K
-noremap <C-L> <C-w>L
-"noremap <C-h> :call MoveLeft()<CR>
-"noremap <C-j> :call MoveDown()<CR>
-"noremap <C-k> :call MoveUp()<CR>
-"noremap <C-l> :call MoveRight()<CR>
+" If nothing is intercepting these, then vim should just handle them
+" The first four don't work in the terminal, but do in gvim
+" The problem is that the terminal does not send different codes for C-H and
+" C-S-H.
+" Note: The <C-S-H> versions must be first, or else in the terminal, C-H will
+" move the window, not switch the window.
+"oremap <C-S-H> <C-w>H
+"oremap <C-S-J> <C-w>J
+"oremap <C-S-K> <C-w>K
+"oremap <C-S-L> <C-w>L
+"oremap <C-H> <C-w>h
+"oremap <C-J> <C-w>j
+"oremap <C-K> <C-w>k
+"noremap <C-L> <C-w>l
+
+" These mappings allow vim to work nicely with TMUX and i3
+noremap <C-h> :call MoveLeft()<CR>
+noremap <C-j> :call MoveDown()<CR>
+noremap <C-k> :call MoveUp()<CR>
+noremap <C-l> :call MoveRight()<CR>
 noremap <T-F1> :call MoveLeft()<CR>
 noremap <T-F2> :call MoveDown()<CR>
 noremap <T-F3> :call MoveUp()<CR>
@@ -363,6 +368,7 @@ inoremap <C-F3> <C-\><C-O>:call MoveUp()<CR>
 inoremap <C-F4> <C-\><C-O>:call MoveRight()<CR>
 
 " Move windows
+" TODO: figure out how to make these work with PuTTY
 noremap <C-Left> <C-w>H
 noremap <C-Down> <C-w>J
 noremap <C-Up> <C-w>K
@@ -429,12 +435,12 @@ syntax on
 
 " Handle utf
 if has("multi_byte")
-   if &termencoding == ""
-      let &termencoding = &encoding
-   endif
-   set encoding=utf-8
-   setglobal fileencoding=utf-8
-   set fileencodings=ucs-bom,utf-8,latin1
+    if &termencoding == ""
+        let &termencoding = &encoding
+    endif
+    set encoding=utf-8
+    setglobal fileencoding=utf-8
+    set fileencodings=ucs-bom,utf-8,latin1
 endif
 
 " Arduino stuff
