@@ -11,7 +11,8 @@ if [ -f $tmpEmailFile ]; then
 fi
 
 while [ -z $currentIpAddress ]; do
-    currentIpAddress=$(curl -s http://checkip.dyndns.org | sed 's/[a-zA-Z/<> :]//g')
+   currentIpAddress=$(curl -s http://checkip.dyndns.org | sed 's/[a-zA-Z/<> :]//g')
+   #currentIpAddress=$(dig +short myip.opendns.com @resolver1.opendns.com)
 done
 lastIpAddress=$(cat $oldIpFile)
 
