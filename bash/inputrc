@@ -14,3 +14,8 @@ set keymap vi-insert
 "\e[A": history-search-backward
 "\e.": yank-last-arg
 "\e_": yank-last-arg
+
+# Completion
+Tab: complete
+"\201": menu-complete
+"\e[23~": "\201"
