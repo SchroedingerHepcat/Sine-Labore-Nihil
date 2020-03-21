@@ -417,9 +417,9 @@ augroup vimrc_autocmds
     autocmd BufLeave * normal zR
 augroup END
 
-augroup resize_autocmds
-    au BufRead * call ResizeSplits()
-augroup END
+"augroup resize_autocmds
+"    au BufRead * call ResizeSplits()
+"augroup END
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Handle filetypes correctly
