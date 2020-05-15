@@ -19,7 +19,7 @@ alias cd.....='cd ../../../../..'
 alias path='echo $PATH | tr ":" "\n"'
 alias ldpath='echo $LD_LIBRARY_PATH | tr ":" "\n"'
 alias pypath='echo $PYTHONPATH | tr ":" "\n"'
-alias ssh='ssh -Y'
+alias ssh='ssh -X'
 alias todo=task
 
 function gvim ()
