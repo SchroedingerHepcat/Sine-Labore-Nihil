@@ -179,6 +179,9 @@ fi
 export EDITOR="/usr/bin/vim"
 #export EDITOR="/usr/bin/gvim -f"
 
+# Specify my browser
+export BROWSER=/usr/bin/firefox
+
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
@@ -189,3 +192,4 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
