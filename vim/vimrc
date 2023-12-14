@@ -28,7 +28,7 @@ set t_Co=256
 let &colorcolumn = g:preferredWidth + 1
 if has("gui_running")
     " Set font in gvim
-    set guifont=DejaVu\ Sans\ Mono\ 9
+    set guifont=DejaVu\ Sans\ Mono\ 11
 
     " Remove menubar and toolbar
     set guioptions-=T
@@ -430,8 +430,10 @@ augroup vimrc_filetypes
     autocmd BufNewFile,BufRead *.kml set filetype=xml
 augroup END
 filetype plugin indent on
+filetype plugin on
 syntax on
 
+set nocompatible
 
 " Handle utf
 if has("multi_byte")
@@ -478,3 +480,22 @@ function! HiName()
 endfunction
 
 "au BufRead * let &numberwidth = float2nr(log10(line("$"))) + 2
+
+" Handle keypad escape values
+"inoremap <Esc>0q 1
+"inoremap <Esc>0r 2
+"inoremap <Esc>0s 3
+"inoremap <Esc>0t 4
+"inoremap <Esc>0u 5
+"inoremap <Esc>0v 6
+"inoremap <Esc>0w 7
+"inoremap <Esc>0x 8
+"inoremap <Esc>0y 9
+"inoremap <Esc>0p 0
+"inoremap <Esc>0n .
+"inoremap <Esc>0Q /
+"inoremap <Esc>0R *
+"inoremap <Esc>0l +
+"inoremap <Esc>0S -
+"inoremap <Esc>0M <Enter>
+
