@@ -1,3 +1,7 @@
 #! /bin/bash
 
-/usr/bin/spotify --force-device-scale-factor=2 $@
+if [ $(hostname) == "Alanna" ]; then
+    /usr/bin/spotify
+else
+    /usr/bin/spotify --force-device-scale-factor=2 $@
+fi

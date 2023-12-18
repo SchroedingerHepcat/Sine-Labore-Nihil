@@ -3,7 +3,7 @@
 #xmodmap -e "keycode 118 = Home"
 #xmodmap -e "keycode 110 = End"
 #xmodmap -e "keycode 115 = Insert"
-xmodmap -e "keycode 77 = BackSpace"
+#xmodmap -e "keycode 77 = BackSpace"
 xmodmap -e "keycode 90 = KP_0"
 xmodmap -e "keycode 87 = KP_1"
 xmodmap -e "keycode 88 = KP_2"
