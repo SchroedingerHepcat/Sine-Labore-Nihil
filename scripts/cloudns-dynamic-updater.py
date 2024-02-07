@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 import sys
 from pathlib import Path
 with open(Path.home() / ".cloudns") as f:
