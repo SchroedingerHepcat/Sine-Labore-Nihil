@@ -171,6 +171,12 @@ call s:ColorDictParser({
 hi link htmlTag            xmlTag
 hi link htmlTagName        xmlTagName
 hi link htmlEndTag         xmlEndTag
+hi link htmlH1             Statement
+hi link htmlH2             Identifier
+hi link htmlH3             Type
+hi link htmlH4             Special
+hi link htmlH5             PreProc
+hi link htmlH6             Constant
 
 hi link phpCommentTitle    vimCommentTitle
 hi link phpDocTags         vimCommentString
