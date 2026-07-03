@@ -47,11 +47,11 @@ else
   esac
 fi
 
-if which host > /dev/null 2>&1; then
-    if [ "$SESSION_TYPE" != "remote/ssh" ]; then
-        host +local:root > /dev/null 2>&1
-    fi
-fi
+#if which host > /dev/null 2>&1; then
+#    if [ "$SESSION_TYPE" != "remote/ssh" ]; then
+#        host +local:root > /dev/null 2>&1
+#    fi
+#fi
 
 # Use vi mode for commandline
 set -o vi
@@ -180,7 +180,7 @@ export EDITOR="/usr/bin/vim"
 #export EDITOR="/usr/bin/gvim -f"
 
 # Specify my browser
-export BROWSER=/usr/bin/google-chrome-stable
+export BROWSER=/usr/bin/brave
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
